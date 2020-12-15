@@ -99,11 +99,11 @@
 [v _RTC RTC `(v  1 e 1 0 ]
 "109
 [v _SensorTemperatura SensorTemperatura `(v  1 e 1 0 ]
-"164
+"162
 [v _SensorMovimiento SensorMovimiento `(v  1 e 1 0 ]
-"231
+"229
 [v _SensorLuz SensorLuz `(v  1 e 1 0 ]
-"262
+"260
 [v _RTC_Read_Clock RTC_Read_Clock `(v  1 e 1 0 ]
 "28 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\LCD_20x4.c
 [v _LCD_Init LCD_Init `(v  1 e 1 0 ]
@@ -520,23 +520,23 @@
 "109
 [v _SensorTemperatura SensorTemperatura `(v  1 e 1 0 ]
 {
-"150
-[v SensorTemperatura@i_902 i `i  1 a 2 80 ]
-"134
+"143
+[v SensorTemperatura@i_901 i `i  1 a 2 80 ]
+"127
 [v SensorTemperatura@i i `i  1 a 2 78 ]
-"149
+"142
 [v SensorTemperatura@buffer_TX2 buffer_TX2 `[21]uc  1 a 21 47 ]
-"133
+"126
 [v SensorTemperatura@buffer_TX1 buffer_TX1 `[23]uc  1 a 23 24 ]
 "110
 [v SensorTemperatura@Temperature Temperature `[10]uc  1 a 10 68 ]
 "111
 [v SensorTemperatura@celsius celsius `f  1 a 4 82 ]
-"131
+"124
 [v SensorTemperatura@F3715 F3715 `[23]uc  1 s 23 F3715 ]
-"147
+"140
 [v SensorTemperatura@F3718 F3718 `[21]uc  1 s 21 F3718 ]
-"157
+"155
 } 0
 "4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\memset.c
 [v _memset memset `(*.39v  1 e 2 0 ]
@@ -574,32 +574,32 @@
 [v LCD_Custom_Char@loc loc `uc  1 a 1 9 ]
 "105
 } 0
-"164 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+"162 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
 [v _SensorMovimiento SensorMovimiento `(v  1 e 1 0 ]
 {
-"213
+"211
 [v SensorMovimiento@i_933 i `i  1 a 2 84 ]
-"196
+"194
 [v SensorMovimiento@i_928 i `i  1 a 2 82 ]
-"179
+"177
 [v SensorMovimiento@i i `i  1 a 2 80 ]
-"212
-[v SensorMovimiento@buffer_TX7 buffer_TX7 `[20]uc  1 a 20 40 ]
-"195
-[v SensorMovimiento@buffer_TX6 buffer_TX6 `[20]uc  1 a 20 20 ]
-"178
-[v SensorMovimiento@buffer_TX5 buffer_TX5 `[20]uc  1 a 20 0 ]
-"172
-[v SensorMovimiento@buf buf `[20]uc  1 a 20 60 ]
-"171
-[v SensorMovimiento@F3722 F3722 `[20]uc  1 s 20 F3722 ]
-"176
-[v SensorMovimiento@F3724 F3724 `[20]uc  1 s 20 F3724 ]
-"193
-[v SensorMovimiento@F3727 F3727 `[20]uc  1 s 20 F3727 ]
 "210
+[v SensorMovimiento@buffer_TX7 buffer_TX7 `[20]uc  1 a 20 40 ]
+"193
+[v SensorMovimiento@buffer_TX6 buffer_TX6 `[20]uc  1 a 20 20 ]
+"176
+[v SensorMovimiento@buffer_TX5 buffer_TX5 `[20]uc  1 a 20 0 ]
+"170
+[v SensorMovimiento@buf buf `[20]uc  1 a 20 60 ]
+"169
+[v SensorMovimiento@F3722 F3722 `[20]uc  1 s 20 F3722 ]
+"174
+[v SensorMovimiento@F3724 F3724 `[20]uc  1 s 20 F3724 ]
+"191
+[v SensorMovimiento@F3727 F3727 `[20]uc  1 s 20 F3727 ]
+"208
 [v SensorMovimiento@F3730 F3730 `[20]uc  1 s 20 F3730 ]
-"224
+"222
 } 0
 "3 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strcat.c
 [v _strcat strcat `(*.39uc  1 e 2 0 ]
@@ -620,24 +620,24 @@
 [v strcpy@src src `*.25Cuc  1 p 2 6 ]
 "9
 } 0
-"231 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+"229 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
 [v _SensorLuz SensorLuz `(v  1 e 1 0 ]
 {
-"253
-[v SensorLuz@i_950 i `i  1 a 2 37 ]
-"242
-[v SensorLuz@i i `i  1 a 2 35 ]
-"252
-[v SensorLuz@buffer_TX4 buffer_TX4 `[15]uc  1 a 15 16 ]
-"241
-[v SensorLuz@buffer_TX3 buffer_TX3 `[16]uc  1 a 16 0 ]
-"233
-[v SensorLuz@val val `f  1 a 4 31 ]
-"240
-[v SensorLuz@F3735 F3735 `[16]uc  1 s 16 F3735 ]
 "251
+[v SensorLuz@i_950 i `i  1 a 2 37 ]
+"240
+[v SensorLuz@i i `i  1 a 2 35 ]
+"250
+[v SensorLuz@buffer_TX4 buffer_TX4 `[15]uc  1 a 15 16 ]
+"239
+[v SensorLuz@buffer_TX3 buffer_TX3 `[16]uc  1 a 16 0 ]
+"231
+[v SensorLuz@val val `f  1 a 4 31 ]
+"238
+[v SensorLuz@F3735 F3735 `[16]uc  1 s 16 F3735 ]
+"249
 [v SensorLuz@F3738 F3738 `[15]uc  1 s 15 F3738 ]
-"260
+"258
 } 0
 "10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\xxtofl.c
 [v ___xxtofl __xxtofl `(d  1 e 4 0 ]
@@ -908,13 +908,13 @@
 {
 "9
 } 0
-"262 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+"260 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
 [v _RTC_Read_Clock RTC_Read_Clock `(v  1 e 1 0 ]
 {
 [v RTC_Read_Clock@read_clock_address read_clock_address `uc  1 a 1 wreg ]
 [v RTC_Read_Clock@read_clock_address read_clock_address `uc  1 a 1 wreg ]
 [v RTC_Read_Clock@read_clock_address read_clock_address `uc  1 a 1 3 ]
-"269
+"267
 } 0
 "81 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X/I2C_Master_File_3.h
 [v _I2C_Start I2C_Start `(uc  1 e 1 0 ]
