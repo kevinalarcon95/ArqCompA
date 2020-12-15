@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V2.31 build 20201012212115 
-                                                                                               Tue Dec 15 10:52:21 2020
+                                                                                               Tue Dec 15 11:41:32 2020
 
 Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1 
      1                           	processor	18F4550
@@ -314,53 +314,53 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    300  002AEC  6F                 	db	111
    301  002AED  0D                 	db	13
    302  002AEE  00                 	db	0
-   303  0000                     _PORTEbits	set	3972
-   304  0000                     _PORTAbits	set	3968
-   305  0000                     _TRISAbits	set	3986
-   306  0000                     _TXREG	set	4013
-   307  0000                     _TRISBbits	set	3987
-   308  0000                     _SPBRG	set	4015
-   309  0000                     _RCSTAbits	set	4011
-   310  0000                     _BAUDCONbits	set	4024
-   311  0000                     _TXSTAbits	set	4012
-   312  0000                     _TRISCbits	set	3988
-   313  0000                     _OSCCON	set	4051
-   314  0000                     _SSPCON2bits	set	4037
-   315  0000                     _SSPADD	set	4040
-   316  0000                     _SSPCON2	set	4037
-   317  0000                     _SSPCON1	set	4038
-   318  0000                     _SSPSTAT	set	4039
-   319  0000                     _SSPBUF	set	4041
-   320  0000                     _SSPSTATbits	set	4039
-   321  0000                     _LATD	set	3980
-   322  0000                     _TRISD	set	3989
-   323  0000                     _TRISE	set	3990
-   324  0000                     _ADCON0bits	set	4034
-   325  0000                     _ADRESL	set	4035
-   326  0000                     _ADRESH	set	4036
-   327  0000                     _ADCON2	set	4032
-   328  0000                     _ADCON1	set	4033
-   329  0000                     _ADCON0	set	4034
-   330  0000                     _TRISA	set	3986
-   331  0000                     _LATC2	set	31834
-   332  0000                     _LATC1	set	31833
-   333  0000                     _LATC0	set	31832
-   334  0000                     _LATB3	set	31827
-   335  0000                     _LATB2	set	31826
-   336  0000                     _ACKEN	set	32300
-   337  0000                     _ACKDT	set	32301
-   338  0000                     _PEN	set	32298
-   339  0000                     _RSEN	set	32297
-   340  0000                     _ACKSTAT	set	32302
-   341  0000                     _SSPIF	set	31987
-   342  0000                     _SSPIE	set	31979
-   343  0000                     _TRISB1	set	31897
-   344  0000                     _TRISB0	set	31896
-   345  0000                     _RCEN	set	32299
-   346  0000                     _LATE2	set	31850
-   347  0000                     _LATE1	set	31849
-   348  0000                     _GO	set	32273
-   349  0000                     _ADON	set	32272
+   303  0000                     _ADCON0bits	set	4034
+   304  0000                     _ADRESL	set	4035
+   305  0000                     _ADRESH	set	4036
+   306  0000                     _ADCON2	set	4032
+   307  0000                     _ADCON0	set	4034
+   308  0000                     _TRISA	set	3986
+   309  0000                     _PORTEbits	set	3972
+   310  0000                     _PORTAbits	set	3968
+   311  0000                     _TRISAbits	set	3986
+   312  0000                     _TXREG	set	4013
+   313  0000                     _TRISBbits	set	3987
+   314  0000                     _SPBRG	set	4015
+   315  0000                     _RCSTAbits	set	4011
+   316  0000                     _BAUDCONbits	set	4024
+   317  0000                     _TXSTAbits	set	4012
+   318  0000                     _TRISCbits	set	3988
+   319  0000                     _ADCON1	set	4033
+   320  0000                     _OSCCON	set	4051
+   321  0000                     _SSPCON2bits	set	4037
+   322  0000                     _SSPADD	set	4040
+   323  0000                     _SSPCON2	set	4037
+   324  0000                     _SSPCON1	set	4038
+   325  0000                     _SSPSTAT	set	4039
+   326  0000                     _SSPBUF	set	4041
+   327  0000                     _SSPSTATbits	set	4039
+   328  0000                     _LATD	set	3980
+   329  0000                     _TRISD	set	3989
+   330  0000                     _TRISE	set	3990
+   331  0000                     _GO	set	32273
+   332  0000                     _ADON	set	32272
+   333  0000                     _LATC2	set	31834
+   334  0000                     _LATC1	set	31833
+   335  0000                     _LATC0	set	31832
+   336  0000                     _LATB3	set	31827
+   337  0000                     _LATB2	set	31826
+   338  0000                     _ACKEN	set	32300
+   339  0000                     _ACKDT	set	32301
+   340  0000                     _PEN	set	32298
+   341  0000                     _RSEN	set	32297
+   342  0000                     _ACKSTAT	set	32302
+   343  0000                     _SSPIF	set	31987
+   344  0000                     _SSPIE	set	31979
+   345  0000                     _TRISB1	set	31897
+   346  0000                     _TRISB0	set	31896
+   347  0000                     _RCEN	set	32299
+   348  0000                     _LATE2	set	31850
+   349  0000                     _LATE1	set	31849
    350                           
    351                           	psect	smallconst
    352  000800                     __psmallconst:
@@ -714,7 +714,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    700                           
    701                           ; 2 bytes @ 0x23
    702  000083                     	ds	2
-   703  000085                     SensorLuz@i_950:
+   703  000085                     SensorLuz@i_872:
    704                           	callstack 0
    705                           
    706                           ; 2 bytes @ 0x25
@@ -744,21 +744,21 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    730                           
    731                           ; 2 bytes @ 0x4E
    732  0000AE                     	ds	2
-   733  0000B0                     SensorTemperatura@i_901:
+   733  0000B0                     SensorTemperatura@i_823:
    734                           	callstack 0
    735  0000B0                     SensorMovimiento@i:
    736                           	callstack 0
    737                           
    738                           ; 2 bytes @ 0x50
    739  0000B0                     	ds	2
-   740  0000B2                     SensorMovimiento@i_928:
+   740  0000B2                     SensorMovimiento@i_850:
    741                           	callstack 0
    742  0000B2                     SensorTemperatura@celsius:
    743                           	callstack 0
    744                           
    745                           ; 4 bytes @ 0x52
    746  0000B2                     	ds	2
-   747  0000B4                     SensorMovimiento@i_933:
+   747  0000B4                     SensorMovimiento@i_855:
    748                           	callstack 0
    749                           
    750                           ; 2 bytes @ 0x54
@@ -767,15 +767,15 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    753                           	psect	cstackCOMRAM
    754  000001                     __pcstackCOMRAM:
    755                           	callstack 0
-   756  000001                     ?_strlen:
+   756  000001                     ?_ADC_Read:
    757                           	callstack 0
-   758  000001                     ?_isupper:
+   758  000001                     ?_strlen:
    759                           	callstack 0
-   760  000001                     ?_isalpha:
+   760  000001                     ?_isupper:
    761                           	callstack 0
-   762  000001                     ?_islower:
+   762  000001                     ?_isalpha:
    763                           	callstack 0
-   764  000001                     ?_ADC_Read:
+   764  000001                     ?_islower:
    765                           	callstack 0
    766  000001                     ?___fltol:
    767                           	callstack 0
@@ -787,9 +787,9 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    773                           	callstack 0
    774  000001                     I2C_Write@data:
    775                           	callstack 0
-   776  000001                     ADC_Read@channel:
+   776  000001                     MSdelay@val:
    777                           	callstack 0
-   778  000001                     MSdelay@val:
+   778  000001                     ADC_Read@channel:
    779                           	callstack 0
    780  000001                     memset@dest:
    781                           	callstack 0
@@ -824,10 +824,10 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    810                           ; 1 bytes @ 0x1
    811  000002                     	ds	1
    812  000003                     ??_RTC_Read_Clock:
-   813  000003                     ??_isupper:
-   814  000003                     ??_isalpha:
-   815  000003                     ??_islower:
-   816  000003                     ??_ADC_Read:
+   813  000003                     ??_ADC_Read:
+   814  000003                     ??_isupper:
+   815  000003                     ??_isalpha:
+   816  000003                     ??_islower:
    817  000003                     MSdelay@i:
    818                           	callstack 0
    819  000003                     memset@c:
@@ -938,7 +938,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    924                           	callstack 0
    925  00000D                     strcat@dest:
    926                           	callstack 0
-   927  00000D                     _toupper$1604:
+   927  00000D                     _toupper$1609:
    928                           	callstack 0
    929                           
    930                           ; 2 bytes @ 0xC
@@ -1085,12 +1085,12 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1071  00002A                     	ds	4
   1072  00002E                     ___flmul@temp:
   1073                           	callstack 0
-  1074  00002E                     _dtoa$1493:
+  1074  00002E                     _dtoa$1498:
   1075                           	callstack 0
   1076                           
   1077                           ; 2 bytes @ 0x2D
   1078  00002E                     	ds	1
-  1079  00002F                     _xtoa$1504:
+  1079  00002F                     _xtoa$1509:
   1080                           	callstack 0
   1081                           
   1082                           ; 2 bytes @ 0x2E
@@ -1104,7 +1104,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1090                           
   1091                           ; 4 bytes @ 0x2F
   1092  000030                     	ds	1
-  1093  000031                     _xtoa$1505:
+  1093  000031                     _xtoa$1510:
   1094                           	callstack 0
   1095                           
   1096                           ; 2 bytes @ 0x30
@@ -1229,7 +1229,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1215 ;;
   1216 ;; *************** function _main *****************
   1217 ;; Defined at:
-  1218 ;;		line 58 in file "Controler.c"
+  1218 ;;		line 58 in file "Controlador.c"
   1219 ;; Parameters:    Size  Location     Type
   1220 ;;		None
   1221 ;; Auto vars:     Size  Location     Type
@@ -1268,59 +1268,59 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1254  002F84                     _main:
   1255                           	callstack 22
   1256  002F84                     
-  1257                           ;Controler.c: 60:     OSCCON = 0x72;
+  1257                           ;Controlador.c: 60:     OSCCON = 0x72;
   1258  002F84  0E72               	movlw	114
   1259  002F86  6ED3               	movwf	211,c	;volatile
   1260  002F88                     
-  1261                           ;Controler.c: 61:     I2C_Init();
+  1261                           ;Controlador.c: 61:     I2C_Init();
   1262  002F88  ECF4  F018         	call	_I2C_Init	;wreg free
   1263  002F8C                     
-  1264                           ;Controler.c: 62:     LCD_Init();
+  1264                           ;Controlador.c: 62:     LCD_Init();
   1265  002F8C  EC9D  F018         	call	_LCD_Init	;wreg free
   1266  002F90                     
-  1267                           ;Controler.c: 63:     ADC_Init();
+  1267                           ;Controlador.c: 63:     ADC_Init();
   1268  002F90  EC01  F019         	call	_ADC_Init	;wreg free
   1269  002F94                     
-  1270                           ;Controler.c: 64:     ADCON1 = 0x0F;
+  1270                           ;Controlador.c: 64:     ADCON1 = 0x0F;
   1271  002F94  0E0F               	movlw	15
   1272  002F96  6EC1               	movwf	193,c	;volatile
   1273  002F98                     
-  1274                           ;Controler.c: 67:     TRISCbits.RC6 = 0;
+  1274                           ;Controlador.c: 67:     TRISCbits.RC6 = 0;
   1275  002F98  9C94               	bcf	148,6,c	;volatile
   1276  002F9A                     
-  1277                           ;Controler.c: 68:     TXSTAbits.TX9 = 0;
+  1277                           ;Controlador.c: 68:     TXSTAbits.TX9 = 0;
   1278  002F9A  9CAC               	bcf	172,6,c	;volatile
   1279  002F9C                     
-  1280                           ;Controler.c: 69:     TXSTAbits.TXEN = 1;
+  1280                           ;Controlador.c: 69:     TXSTAbits.TXEN = 1;
   1281  002F9C  8AAC               	bsf	172,5,c	;volatile
   1282  002F9E                     
-  1283                           ;Controler.c: 70:     TXSTAbits.SYNC = 0;
+  1283                           ;Controlador.c: 70:     TXSTAbits.SYNC = 0;
   1284  002F9E  98AC               	bcf	172,4,c	;volatile
   1285  002FA0                     
-  1286                           ;Controler.c: 71:     TXSTAbits.BRGH = 0;
+  1286                           ;Controlador.c: 71:     TXSTAbits.BRGH = 0;
   1287  002FA0  94AC               	bcf	172,2,c	;volatile
   1288  002FA2                     
-  1289                           ;Controler.c: 72:     BAUDCONbits.BRG16 = 0;
+  1289                           ;Controlador.c: 72:     BAUDCONbits.BRG16 = 0;
   1290  002FA2  96B8               	bcf	184,3,c	;volatile
   1291  002FA4                     
-  1292                           ;Controler.c: 73:     RCSTAbits.SPEN = 1;
+  1292                           ;Controlador.c: 73:     RCSTAbits.SPEN = 1;
   1293  002FA4  8EAB               	bsf	171,7,c	;volatile
   1294  002FA6                     
-  1295                           ;Controler.c: 74:     SPBRG = (unsigned char) (((8000000 / 9600) / 64) - 1);
+  1295                           ;Controlador.c: 74:     SPBRG = (unsigned char) (((8000000 / 9600) / 64) - 1);
   1296  002FA6  0E0C               	movlw	12
   1297  002FA8  6EAF               	movwf	175,c	;volatile
   1298  002FAA                     l3746:
   1299                           
-  1300                           ;Controler.c: 78:         RTC();
+  1300                           ;Controlador.c: 78:         RTC();
   1301  002FAA  EC78  F015         	call	_RTC	;wreg free
   1302  002FAE                     
-  1303                           ;Controler.c: 79:         SensorTemperatura();
+  1303                           ;Controlador.c: 79:         SensorTemperatura();
   1304  002FAE  EC82  F00C         	call	_SensorTemperatura	;wreg free
   1305  002FB2                     
-  1306                           ;Controler.c: 80:         SensorMovimiento();
+  1306                           ;Controlador.c: 80:         SensorMovimiento();
   1307  002FB2  ECC9  F00D         	call	_SensorMovimiento	;wreg free
   1308  002FB6                     
-  1309                           ;Controler.c: 81:         SensorLuz();
+  1309                           ;Controlador.c: 81:         SensorLuz();
   1310  002FB6  ECA5  F00F         	call	_SensorLuz	;wreg free
   1311  002FBA  EFD5  F017         	goto	l3746
   1312  002FBE  EF00  F000         	goto	start
@@ -1329,7 +1329,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1315                           
   1316 ;; *************** function _SensorTemperatura *****************
   1317 ;; Defined at:
-  1318 ;;		line 109 in file "Controler.c"
+  1318 ;;		line 109 in file "Controlador.c"
   1319 ;; Parameters:    Size  Location     Type
   1320 ;;		None
   1321 ;; Auto vars:     Size  Location     Type
@@ -1379,14 +1379,14 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1365  001904                     _SensorTemperatura:
   1366                           	callstack 22
   1367  001904                     
-  1368                           ;Controler.c: 110:     char Temperature[10];;Controler.c: 111:     float celsius;;Contro
-      +                          ler.c: 112:     TRISBbits.RB2 = 0;
+  1368                           ;Controlador.c: 110:     char Temperature[10];;Controlador.c: 111:     float celsius;;Co
+      +                          ntrolador.c: 112:     TRISBbits.RB2 = 0;
   1369  001904  9493               	bcf	147,2,c	;volatile
   1370                           
-  1371                           ;Controler.c: 113:     TRISBbits.RB3 = 0;
+  1371                           ;Controlador.c: 113:     TRISBbits.RB3 = 0;
   1372  001906  9693               	bcf	147,3,c	;volatile
   1373  001908                     
-  1374                           ;Controler.c: 115:     LCD_String_xy(2, 0, "Temp: ");
+  1374                           ;Controlador.c: 115:     LCD_String_xy(2, 0, "Temp: ");
   1375  001908  0E00               	movlw	0
   1376  00190A  6E0A               	movwf	LCD_String_xy@pos^0,c
   1377  00190C  0E4A               	movlw	low STR_4
@@ -1396,7 +1396,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1381  001914  0E02               	movlw	2
   1382  001916  ECC4  F015         	call	_LCD_String_xy
   1383  00191A                     
-  1384                           ;Controler.c: 116:     celsius = (ADC_Read(0)*4.88);
+  1384                           ;Controlador.c: 116:     celsius = (ADC_Read(0)*4.88);
   1385  00191A  0E00               	movlw	0
   1386  00191C  6E02               	movwf	(ADC_Read@channel+1)^0,c
   1387  00191E  0E00               	movlw	0
@@ -1429,7 +1429,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1414  00196A  C019  F0B4         	movff	?___flmul+2,SensorTemperatura@celsius+2
   1415  00196E  C01A  F0B5         	movff	?___flmul+3,SensorTemperatura@celsius+3
   1416  001972                     
-  1417                           ;Controler.c: 117:     celsius = (celsius / 10.00);
+  1417                           ;Controlador.c: 117:     celsius = (celsius / 10.00);
   1418  001972  C0B2  F030         	movff	SensorTemperatura@celsius,___fldiv@b
   1419  001976  C0B3  F031         	movff	SensorTemperatura@celsius+1,___fldiv@b+1
   1420  00197A  C0B4  F032         	movff	SensorTemperatura@celsius+2,___fldiv@b+2
@@ -1448,7 +1448,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1433  00199E  C032  F0B4         	movff	?___fldiv+2,SensorTemperatura@celsius+2
   1434  0019A2  C033  F0B5         	movff	?___fldiv+3,SensorTemperatura@celsius+3
   1435  0019A6                     
-  1436                           ;Controler.c: 118:     sprintf(Temperature, "%d%cC ", (int) celsius, 0xdf);
+  1436                           ;Controlador.c: 118:     sprintf(Temperature, "%d%cC ", (int) celsius, 0xdf);
   1437  0019A6  0EA4               	movlw	low SensorTemperatura@Temperature
   1438  0019A8  0100               	movlb	0	; () banked
   1439  0019AA  6F66               	movwf	sprintf@s& (0+255),b
@@ -1472,7 +1472,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1457  0019DC  6F6C               	movwf	(?_sprintf+6)& (0+255),b
   1458  0019DE  ECCB  F016         	call	_sprintf	;wreg free
   1459  0019E2                     
-  1460                           ;Controler.c: 119:     LCD_String_xy(2, 6, Temperature);
+  1460                           ;Controlador.c: 119:     LCD_String_xy(2, 6, Temperature);
   1461  0019E2  0E06               	movlw	6
   1462  0019E4  6E0A               	movwf	LCD_String_xy@pos^0,c
   1463  0019E6  0EA4               	movlw	low SensorTemperatura@Temperature
@@ -1482,7 +1482,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1467  0019EE  0E02               	movlw	2
   1468  0019F0  ECC4  F015         	call	_LCD_String_xy
   1469  0019F4                     
-  1470                           ;Controler.c: 120:     memset(Temperature, 0, 10);
+  1470                           ;Controlador.c: 120:     memset(Temperature, 0, 10);
   1471  0019F4  0EA4               	movlw	low SensorTemperatura@Temperature
   1472  0019F6  6E01               	movwf	memset@dest^0,c
   1473  0019F8  0E00               	movlw	high SensorTemperatura@Temperature
@@ -1497,7 +1497,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1482  001A0A  6E05               	movwf	memset@n^0,c
   1483  001A0C  EC36  F011         	call	_memset	;wreg free
   1484  001A10                     
-  1485                           ;Controler.c: 122:     if (celsius >= 20 && celsius <= 25) {
+  1485                           ;Controlador.c: 122:     if (celsius >= 20 && celsius <= 25) {
   1486  001A10  C0B2  F001         	movff	SensorTemperatura@celsius,___flge@ff1
   1487  001A14  C0B3  F002         	movff	SensorTemperatura@celsius+1,___flge@ff1+1
   1488  001A18  C0B4  F003         	movff	SensorTemperatura@celsius+2,___flge@ff1+2
@@ -1515,7 +1515,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1500  001A36  EF1F  F00D         	goto	u3861
   1501  001A3A  EF21  F00D         	goto	u3860
   1502  001A3E                     u3861:
-  1503  001A3E  EF82  F00D         	goto	l295
+  1503  001A3E  EF82  F00D         	goto	l268
   1504  001A42                     u3860:
   1505  001A42  0E00               	movlw	0
   1506  001A44  6E01               	movwf	___flge@ff1^0,c
@@ -1534,16 +1534,16 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1519  001A68  EF38  F00D         	goto	u3871
   1520  001A6C  EF3A  F00D         	goto	u3870
   1521  001A70                     u3871:
-  1522  001A70  EF82  F00D         	goto	l295
+  1522  001A70  EF82  F00D         	goto	l268
   1523  001A74                     u3870:
   1524  001A74                     
-  1525                           ;Controler.c: 123:         LATB2 = 1;
+  1525                           ;Controlador.c: 123:         LATB2 = 1;
   1526  001A74  848A               	bsf	3978,2,c	;volatile
   1527                           
-  1528                           ;Controler.c: 124:         LATB3 = 0;
+  1528                           ;Controlador.c: 124:         LATB3 = 0;
   1529  001A76  968A               	bcf	3978,3,c	;volatile
   1530  001A78                     
-  1531                           ;Controler.c: 126:         char buffer_TX1[] = "Calefaccion encendida\r";
+  1531                           ;Controlador.c: 126:         char buffer_TX1[] = "Calefaccion encendida\r";
   1532  001A78  EE21  F000         	lfsr	2,SensorTemperatura@F3715
   1533  001A7C  EE10  F078         	lfsr	1,SensorTemperatura@buffer_TX1
   1534  001A80  0E16               	movlw	22
@@ -1552,23 +1552,23 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1537  001A86  06E8               	decf	wreg,f,c
   1538  001A88  E2FC               	bc	u3881
   1539  001A8A                     
-  1540                           ;Controler.c: 127:         for (int i = 0; i < 25; i++) {
+  1540                           ;Controlador.c: 127:         for (int i = 0; i < 25; i++) {
   1541  001A8A  0E00               	movlw	0
   1542  001A8C  0100               	movlb	0	; () banked
   1543  001A8E  6FAF               	movwf	(SensorTemperatura@i+1)& (0+255),b
   1544  001A90  0E00               	movlw	0
   1545  001A92  6FAE               	movwf	SensorTemperatura@i& (0+255),b
-  1546  001A94                     l300:
+  1546  001A94                     l273:
   1547                           
-  1548                           ;Controler.c: 128:             while (!TXSTAbits.TRMT) {
+  1548                           ;Controlador.c: 128:             while (!TXSTAbits.TRMT) {
   1549  001A94  A2AC               	btfss	172,1,c	;volatile
   1550  001A96  EF4F  F00D         	goto	u3891
   1551  001A9A  EF51  F00D         	goto	u3890
   1552  001A9E                     u3891:
-  1553  001A9E  EF4A  F00D         	goto	l300
+  1553  001A9E  EF4A  F00D         	goto	l273
   1554  001AA2                     u3890:
   1555  001AA2                     
-  1556                           ;Controler.c: 130:             TXREG = buffer_TX1[i];
+  1556                           ;Controlador.c: 130:             TXREG = buffer_TX1[i];
   1557  001AA2  0E78               	movlw	low SensorTemperatura@buffer_TX1
   1558  001AA4  0100               	movlb	0	; () banked
   1559  001AA6  25AE               	addwf	SensorTemperatura@i& (0+255),w,b
@@ -1580,7 +1580,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1565  001AB2  6EAD               	movwf	173,c	;volatile
   1566  001AB4                     
   1567                           ; BSR set to: 0
-  1568                           ;Controler.c: 131:         }
+  1568                           ;Controlador.c: 131:         }
   1569  001AB4  4BAE               	infsnz	SensorTemperatura@i& (0+255),f,b
   1570  001AB6  2BAF               	incf	(SensorTemperatura@i+1)& (0+255),f,b
   1571  001AB8                     
@@ -1595,11 +1595,11 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1580  001AC8  EF68  F00D         	goto	u3901
   1581  001ACC  EF6A  F00D         	goto	u3900
   1582  001AD0                     u3901:
-  1583  001AD0  EF4A  F00D         	goto	l300
+  1583  001AD0  EF4A  F00D         	goto	l273
   1584  001AD4                     u3900:
   1585  001AD4                     
   1586                           ; BSR set to: 0
-  1587                           ;Controler.c: 133:         LCD_String_xy(2,13,"Cal: ");
+  1587                           ;Controlador.c: 133:         LCD_String_xy(2,13,"Cal: ");
   1588  001AD4  0E0D               	movlw	13
   1589  001AD6  6E0A               	movwf	LCD_String_xy@pos^0,c
   1590  001AD8  0E6D               	movlw	low STR_6
@@ -1609,7 +1609,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1594  001AE0  0E02               	movlw	2
   1595  001AE2  ECC4  F015         	call	_LCD_String_xy
   1596  001AE6                     
-  1597                           ;Controler.c: 134:         LCD_Custom_Char(0,character1);
+  1597                           ;Controlador.c: 134:         LCD_Custom_Char(0,character1);
   1598  001AE6  0EEA               	movlw	low _character1
   1599  001AE8  6E08               	movwf	LCD_Custom_Char@msg^0,c
   1600  001AEA  0E00               	movlw	high _character1
@@ -1617,25 +1617,25 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1602  001AEE  0E00               	movlw	0
   1603  001AF0  EC19  F017         	call	_LCD_Custom_Char
   1604  001AF4                     
-  1605                           ;Controler.c: 135:         LCD_Command(0xc0|(17));
+  1605                           ;Controlador.c: 135:         LCD_Command(0xc0|(17));
   1606  001AF4  0ED1               	movlw	209
   1607  001AF6  ECE6  F018         	call	_LCD_Command
   1608  001AFA                     
-  1609                           ;Controler.c: 136:         LCD_Char(0);
+  1609                           ;Controlador.c: 136:         LCD_Char(0);
   1610  001AFA  0E00               	movlw	0
   1611  001AFC  ECD8  F018         	call	_LCD_Char
   1612                           
-  1613                           ;Controler.c: 138:     } else {
-  1614  001B00  EFC8  F00D         	goto	l311
-  1615  001B04                     l295:
+  1613                           ;Controlador.c: 138:     } else {
+  1614  001B00  EFC8  F00D         	goto	l284
+  1615  001B04                     l268:
   1616                           
-  1617                           ;Controler.c: 139:         LATB2 = 0;
+  1617                           ;Controlador.c: 139:         LATB2 = 0;
   1618  001B04  948A               	bcf	3978,2,c	;volatile
   1619                           
-  1620                           ;Controler.c: 140:         LATB3 = 1;
+  1620                           ;Controlador.c: 140:         LATB3 = 1;
   1621  001B06  868A               	bsf	3978,3,c	;volatile
   1622  001B08                     
-  1623                           ;Controler.c: 142:         char buffer_TX2[] = "Calefaccion apagada\r";
+  1623                           ;Controlador.c: 142:         char buffer_TX2[] = "Calefaccion apagada\r";
   1624  001B08  EE21  F017         	lfsr	2,SensorTemperatura@F3718
   1625  001B0C  EE10  F08F         	lfsr	1,SensorTemperatura@buffer_TX2
   1626  001B10  0E14               	movlw	20
@@ -1644,54 +1644,54 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1629  001B16  06E8               	decf	wreg,f,c
   1630  001B18  E2FC               	bc	u3911
   1631  001B1A                     
-  1632                           ;Controler.c: 143:         for (int i = 0; i < 21; i++) {
+  1632                           ;Controlador.c: 143:         for (int i = 0; i < 21; i++) {
   1633  001B1A  0E00               	movlw	0
   1634  001B1C  0100               	movlb	0	; () banked
-  1635  001B1E  6FB1               	movwf	(SensorTemperatura@i_901+1)& (0+255),b
+  1635  001B1E  6FB1               	movwf	(SensorTemperatura@i_823+1)& (0+255),b
   1636  001B20  0E00               	movlw	0
-  1637  001B22  6FB0               	movwf	SensorTemperatura@i_901& (0+255),b
-  1638  001B24                     l308:
+  1637  001B22  6FB0               	movwf	SensorTemperatura@i_823& (0+255),b
+  1638  001B24                     l281:
   1639                           
-  1640                           ;Controler.c: 144:             while (!TXSTAbits.TRMT) {
+  1640                           ;Controlador.c: 144:             while (!TXSTAbits.TRMT) {
   1641  001B24  A2AC               	btfss	172,1,c	;volatile
   1642  001B26  EF97  F00D         	goto	u3921
   1643  001B2A  EF99  F00D         	goto	u3920
   1644  001B2E                     u3921:
-  1645  001B2E  EF92  F00D         	goto	l308
+  1645  001B2E  EF92  F00D         	goto	l281
   1646  001B32                     u3920:
   1647  001B32                     
-  1648                           ;Controler.c: 146:             TXREG = buffer_TX2[i];
+  1648                           ;Controlador.c: 146:             TXREG = buffer_TX2[i];
   1649  001B32  0E8F               	movlw	low SensorTemperatura@buffer_TX2
   1650  001B34  0100               	movlb	0	; () banked
-  1651  001B36  25B0               	addwf	SensorTemperatura@i_901& (0+255),w,b
+  1651  001B36  25B0               	addwf	SensorTemperatura@i_823& (0+255),w,b
   1652  001B38  6ED9               	movwf	fsr2l,c
   1653  001B3A  0E00               	movlw	high SensorTemperatura@buffer_TX2
-  1654  001B3C  21B1               	addwfc	(SensorTemperatura@i_901+1)& (0+255),w,b
+  1654  001B3C  21B1               	addwfc	(SensorTemperatura@i_823+1)& (0+255),w,b
   1655  001B3E  6EDA               	movwf	fsr2h,c
   1656  001B40  50DF               	movf	indf2,w,c
   1657  001B42  6EAD               	movwf	173,c	;volatile
   1658  001B44                     
   1659                           ; BSR set to: 0
-  1660                           ;Controler.c: 147:         }
-  1661  001B44  4BB0               	infsnz	SensorTemperatura@i_901& (0+255),f,b
-  1662  001B46  2BB1               	incf	(SensorTemperatura@i_901+1)& (0+255),f,b
+  1660                           ;Controlador.c: 147:         }
+  1661  001B44  4BB0               	infsnz	SensorTemperatura@i_823& (0+255),f,b
+  1662  001B46  2BB1               	incf	(SensorTemperatura@i_823+1)& (0+255),f,b
   1663  001B48                     
   1664                           ; BSR set to: 0
-  1665  001B48  BFB1               	btfsc	(SensorTemperatura@i_901+1)& (0+255),7,b
+  1665  001B48  BFB1               	btfsc	(SensorTemperatura@i_823+1)& (0+255),7,b
   1666  001B4A  EFB0  F00D         	goto	u3931
-  1667  001B4E  51B1               	movf	(SensorTemperatura@i_901+1)& (0+255),w,b
+  1667  001B4E  51B1               	movf	(SensorTemperatura@i_823+1)& (0+255),w,b
   1668  001B50  E109               	bnz	u3930
   1669  001B52  0E15               	movlw	21
-  1670  001B54  5DB0               	subwf	SensorTemperatura@i_901& (0+255),w,b
+  1670  001B54  5DB0               	subwf	SensorTemperatura@i_823& (0+255),w,b
   1671  001B56  A0D8               	btfss	status,0,c
   1672  001B58  EFB0  F00D         	goto	u3931
   1673  001B5C  EFB2  F00D         	goto	u3930
   1674  001B60                     u3931:
-  1675  001B60  EF92  F00D         	goto	l308
+  1675  001B60  EF92  F00D         	goto	l281
   1676  001B64                     u3930:
   1677  001B64                     
   1678                           ; BSR set to: 0
-  1679                           ;Controler.c: 149:         LCD_String_xy(2,13,"Cal: ");
+  1679                           ;Controlador.c: 149:         LCD_String_xy(2,13,"Cal: ");
   1680  001B64  0E0D               	movlw	13
   1681  001B66  6E0A               	movwf	LCD_String_xy@pos^0,c
   1682  001B68  0E6D               	movlw	low STR_6
@@ -1701,7 +1701,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1686  001B70  0E02               	movlw	2
   1687  001B72  ECC4  F015         	call	_LCD_String_xy
   1688  001B76                     
-  1689                           ;Controler.c: 150:         LCD_Custom_Char(0,character2);
+  1689                           ;Controlador.c: 150:         LCD_Custom_Char(0,character2);
   1690  001B76  0EE2               	movlw	low _character2
   1691  001B78  6E08               	movwf	LCD_Custom_Char@msg^0,c
   1692  001B7A  0E00               	movlw	high _character2
@@ -1709,14 +1709,14 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1694  001B7E  0E00               	movlw	0
   1695  001B80  EC19  F017         	call	_LCD_Custom_Char
   1696  001B84                     
-  1697                           ;Controler.c: 151:         LCD_Command(0xc0|(17));
+  1697                           ;Controlador.c: 151:         LCD_Command(0xc0|(17));
   1698  001B84  0ED1               	movlw	209
   1699  001B86  ECE6  F018         	call	_LCD_Command
   1700  001B8A                     
-  1701                           ;Controler.c: 152:         LCD_Char(0);
+  1701                           ;Controlador.c: 152:         LCD_Char(0);
   1702  001B8A  0E00               	movlw	0
   1703  001B8C  ECD8  F018         	call	_LCD_Char
-  1704  001B90                     l311:
+  1704  001B90                     l284:
   1705  001B90  0012               	return		;funcret
   1706  001B92                     __end_of_SensorTemperatura:
   1707                           	callstack 0
@@ -2134,11 +2134,11 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
       +                          96: {;LCD_20x4.c: 97:     unsigned char i;;LCD_20x4.c: 98:     if(loc<8)
   2119  002E34  0E08               	movlw	8
   2120  002E36  600A               	cpfslt	LCD_Custom_Char@loc^0,c
-  2121  002E38  EF20  F017         	goto	u3141
-  2122  002E3C  EF22  F017         	goto	u3140
-  2123  002E40                     u3141:
-  2124  002E40  EF3C  F017         	goto	l77
-  2125  002E44                     u3140:
+  2121  002E38  EF20  F017         	goto	u3071
+  2122  002E3C  EF22  F017         	goto	u3070
+  2123  002E40                     u3071:
+  2124  002E40  EF3C  F017         	goto	l50
+  2125  002E44                     u3070:
   2126  002E44                     
   2127                           ;LCD_20x4.c: 99:     {;LCD_20x4.c: 100:      LCD_Command(0x40+(loc*8));
   2128  002E44  500A               	movf	LCD_Custom_Char@loc^0,w,c
@@ -2150,7 +2150,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2134                           ;LCD_20x4.c: 101:        for(i=0;i<8;i++)
   2135  002E50  0E00               	movlw	0
   2136  002E52  6E0B               	movwf	LCD_Custom_Char@i^0,c
-  2137  002E54                     l3046:
+  2137  002E54                     l3038:
   2138                           
   2139                           ;LCD_20x4.c: 102:            LCD_Char(msg[i]);
   2140  002E54  500B               	movf	LCD_Custom_Char@i^0,w,c
@@ -2164,19 +2164,19 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2148  002E66  2A0B               	incf	LCD_Custom_Char@i^0,f,c
   2149  002E68  0E07               	movlw	7
   2150  002E6A  640B               	cpfsgt	LCD_Custom_Char@i^0,c
-  2151  002E6C  EF3A  F017         	goto	u3151
-  2152  002E70  EF3C  F017         	goto	u3150
-  2153  002E74                     u3151:
-  2154  002E74  EF2A  F017         	goto	l3046
-  2155  002E78                     u3150:
-  2156  002E78                     l77:
+  2151  002E6C  EF3A  F017         	goto	u3081
+  2152  002E70  EF3C  F017         	goto	u3080
+  2153  002E74                     u3081:
+  2154  002E74  EF2A  F017         	goto	l3038
+  2155  002E78                     u3080:
+  2156  002E78                     l50:
   2157  002E78  0012               	return		;funcret
   2158  002E7A                     __end_of_LCD_Custom_Char:
   2159                           	callstack 0
   2160                           
   2161 ;; *************** function _SensorMovimiento *****************
   2162 ;; Defined at:
-  2163 ;;		line 162 in file "Controler.c"
+  2163 ;;		line 162 in file "Controlador.c"
   2164 ;; Parameters:    Size  Location     Type
   2165 ;;		None
   2166 ;; Auto vars:     Size  Location     Type
@@ -2218,29 +2218,29 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2202  001B92                     _SensorMovimiento:
   2203                           	callstack 26
   2204  001B92                     
-  2205                           ;Controler.c: 163:     ADCON1 = 0x0F;
+  2205                           ;Controlador.c: 163:     ADCON1 = 0x0F;
   2206  001B92  0E0F               	movlw	15
   2207  001B94  6EC1               	movwf	193,c	;volatile
   2208  001B96                     
-  2209                           ;Controler.c: 164:     TRISAbits.RA2 = 1;
+  2209                           ;Controlador.c: 164:     TRISAbits.RA2 = 1;
   2210  001B96  8492               	bsf	146,2,c	;volatile
   2211  001B98                     
-  2212                           ;Controler.c: 165:     TRISAbits.RA3 = 1;
+  2212                           ;Controlador.c: 165:     TRISAbits.RA3 = 1;
   2213  001B98  8692               	bsf	146,3,c	;volatile
   2214  001B9A                     
-  2215                           ;Controler.c: 166:     TRISAbits.RA4 = 1;
+  2215                           ;Controlador.c: 166:     TRISAbits.RA4 = 1;
   2216  001B9A  8892               	bsf	146,4,c	;volatile
   2217  001B9C                     
-  2218                           ;Controler.c: 167:     TRISCbits.RC0 = 0;
+  2218                           ;Controlador.c: 167:     TRISCbits.RC0 = 0;
   2219  001B9C  9094               	bcf	148,0,c	;volatile
   2220  001B9E                     
-  2221                           ;Controler.c: 168:     TRISCbits.RC1 = 0;
+  2221                           ;Controlador.c: 168:     TRISCbits.RC1 = 0;
   2222  001B9E  9294               	bcf	148,1,c	;volatile
   2223  001BA0                     
-  2224                           ;Controler.c: 169:     TRISCbits.RC2 = 0;
+  2224                           ;Controlador.c: 169:     TRISCbits.RC2 = 0;
   2225  001BA0  9494               	bcf	148,2,c	;volatile
   2226  001BA2                     
-  2227                           ;Controler.c: 170:     char buf[20] = "0";
+  2227                           ;Controlador.c: 170:     char buf[20] = "0";
   2228  001BA2  EE21  F068         	lfsr	2,SensorMovimiento@F3722
   2229  001BA6  EE10  F09C         	lfsr	1,SensorMovimiento@buf
   2230  001BAA  0E13               	movlw	19
@@ -2249,18 +2249,18 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2233  001BB0  06E8               	decf	wreg,f,c
   2234  001BB2  E2FC               	bc	u3941
   2235  001BB4                     
-  2236                           ;Controler.c: 172:     if (PORTAbits.RA2) {
+  2236                           ;Controlador.c: 172:     if (PORTAbits.RA2) {
   2237  001BB4  A480               	btfss	128,2,c	;volatile
   2238  001BB6  EFDF  F00D         	goto	u3951
   2239  001BBA  EFE1  F00D         	goto	u3950
   2240  001BBE                     u3951:
-  2241  001BBE  EF1C  F00E         	goto	l316
+  2241  001BBE  EF1C  F00E         	goto	l289
   2242  001BC2                     u3950:
   2243  001BC2                     
-  2244                           ;Controler.c: 173:         LATC0 = 1;
+  2244                           ;Controlador.c: 173:         LATC0 = 1;
   2245  001BC2  808B               	bsf	3979,0,c	;volatile
   2246  001BC4                     
-  2247                           ;Controler.c: 174:         strcpy(buf,"1:ON  ");
+  2247                           ;Controlador.c: 174:         strcpy(buf,"1:ON  ");
   2248  001BC4  0E9C               	movlw	low SensorMovimiento@buf
   2249  001BC6  6E05               	movwf	strcpy@dest^0,c
   2250  001BC8  0E00               	movlw	high SensorMovimiento@buf
@@ -2271,7 +2271,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2255  001BD2  6E08               	movwf	(strcpy@src+1)^0,c
   2256  001BD4  EC82  F017         	call	_strcpy	;wreg free
   2257  001BD8                     
-  2258                           ;Controler.c: 176:         char buffer_TX5[] = "Presencia en la H1\r";
+  2258                           ;Controlador.c: 176:         char buffer_TX5[] = "Presencia en la H1\r";
   2259  001BD8  EE21  F054         	lfsr	2,SensorMovimiento@F3724
   2260  001BDC  EE10  F060         	lfsr	1,SensorMovimiento@buffer_TX5
   2261  001BE0  0E13               	movlw	19
@@ -2280,23 +2280,23 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2264  001BE6  06E8               	decf	wreg,f,c
   2265  001BE8  E2FC               	bc	u3961
   2266  001BEA                     
-  2267                           ;Controler.c: 177:         for (int i = 0; i < 20; i++) {
+  2267                           ;Controlador.c: 177:         for (int i = 0; i < 20; i++) {
   2268  001BEA  0E00               	movlw	0
   2269  001BEC  0100               	movlb	0	; () banked
   2270  001BEE  6FB1               	movwf	(SensorMovimiento@i+1)& (0+255),b
   2271  001BF0  0E00               	movlw	0
   2272  001BF2  6FB0               	movwf	SensorMovimiento@i& (0+255),b
-  2273  001BF4                     l321:
+  2273  001BF4                     l294:
   2274                           
-  2275                           ;Controler.c: 178:             while (!TXSTAbits.TRMT) {
+  2275                           ;Controlador.c: 178:             while (!TXSTAbits.TRMT) {
   2276  001BF4  A2AC               	btfss	172,1,c	;volatile
   2277  001BF6  EFFF  F00D         	goto	u3971
   2278  001BFA  EF01  F00E         	goto	u3970
   2279  001BFE                     u3971:
-  2280  001BFE  EFFA  F00D         	goto	l321
+  2280  001BFE  EFFA  F00D         	goto	l294
   2281  001C02                     u3970:
   2282  001C02                     
-  2283                           ;Controler.c: 180:             TXREG = buffer_TX5[i];
+  2283                           ;Controlador.c: 180:             TXREG = buffer_TX5[i];
   2284  001C02  0E60               	movlw	low SensorMovimiento@buffer_TX5
   2285  001C04  0100               	movlb	0	; () banked
   2286  001C06  25B0               	addwf	SensorMovimiento@i& (0+255),w,b
@@ -2308,7 +2308,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2292  001C12  6EAD               	movwf	173,c	;volatile
   2293  001C14                     
   2294                           ; BSR set to: 0
-  2295                           ;Controler.c: 181:         }
+  2295                           ;Controlador.c: 181:         }
   2296  001C14  4BB0               	infsnz	SensorMovimiento@i& (0+255),f,b
   2297  001C16  2BB1               	incf	(SensorMovimiento@i+1)& (0+255),f,b
   2298  001C18                     
@@ -2323,15 +2323,15 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2307  001C28  EF18  F00E         	goto	u3981
   2308  001C2C  EF1A  F00E         	goto	u3980
   2309  001C30                     u3981:
-  2310  001C30  EFFA  F00D         	goto	l321
+  2310  001C30  EFFA  F00D         	goto	l294
   2311  001C34                     u3980:
   2312  001C34  EF27  F00E         	goto	l3622
-  2313  001C38                     l316:
+  2313  001C38                     l289:
   2314                           
-  2315                           ;Controler.c: 184:         LATC0 = 0;
+  2315                           ;Controlador.c: 184:         LATC0 = 0;
   2316  001C38  908B               	bcf	3979,0,c	;volatile
   2317  001C3A                     
-  2318                           ;Controler.c: 185:         strcpy(buf,"1:OFF ");
+  2318                           ;Controlador.c: 185:         strcpy(buf,"1:OFF ");
   2319  001C3A  0E9C               	movlw	low SensorMovimiento@buf
   2320  001C3C  6E05               	movwf	strcpy@dest^0,c
   2321  001C3E  0E00               	movlw	high SensorMovimiento@buf
@@ -2343,18 +2343,18 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2327  001C4A  EC82  F017         	call	_strcpy	;wreg free
   2328  001C4E                     l3622:
   2329                           
-  2330                           ;Controler.c: 189:     if (PORTAbits.RA3) {
+  2330                           ;Controlador.c: 189:     if (PORTAbits.RA3) {
   2331  001C4E  A680               	btfss	128,3,c	;volatile
   2332  001C50  EF2C  F00E         	goto	u3991
   2333  001C54  EF2E  F00E         	goto	u3990
   2334  001C58                     u3991:
-  2335  001C58  EF69  F00E         	goto	l325
+  2335  001C58  EF69  F00E         	goto	l298
   2336  001C5C                     u3990:
   2337  001C5C                     
-  2338                           ;Controler.c: 190:         LATC1 = 1;
+  2338                           ;Controlador.c: 190:         LATC1 = 1;
   2339  001C5C  828B               	bsf	3979,1,c	;volatile
   2340  001C5E                     
-  2341                           ;Controler.c: 191:         strcat(buf,"2:ON  ");
+  2341                           ;Controlador.c: 191:         strcat(buf,"2:ON  ");
   2342  001C5E  0E9C               	movlw	low SensorMovimiento@buf
   2343  001C60  6E0D               	movwf	strcat@dest^0,c
   2344  001C62  0E00               	movlw	high SensorMovimiento@buf
@@ -2365,7 +2365,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2349  001C6C  6E10               	movwf	(strcat@src+1)^0,c
   2350  001C6E  ECB4  F018         	call	_strcat	;wreg free
   2351  001C72                     
-  2352                           ;Controler.c: 193:         char buffer_TX6[] = "Presencia en la H2\r";
+  2352                           ;Controlador.c: 193:         char buffer_TX6[] = "Presencia en la H2\r";
   2353  001C72  EE21  F040         	lfsr	2,SensorMovimiento@F3727
   2354  001C76  EE10  F074         	lfsr	1,SensorMovimiento@buffer_TX6
   2355  001C7A  0E13               	movlw	19
@@ -2374,58 +2374,58 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2358  001C80  06E8               	decf	wreg,f,c
   2359  001C82  E2FC               	bc	u4001
   2360  001C84                     
-  2361                           ;Controler.c: 194:         for (int i = 0; i < 20; i++) {
+  2361                           ;Controlador.c: 194:         for (int i = 0; i < 20; i++) {
   2362  001C84  0E00               	movlw	0
   2363  001C86  0100               	movlb	0	; () banked
-  2364  001C88  6FB3               	movwf	(SensorMovimiento@i_928+1)& (0+255),b
+  2364  001C88  6FB3               	movwf	(SensorMovimiento@i_850+1)& (0+255),b
   2365  001C8A  0E00               	movlw	0
-  2366  001C8C  6FB2               	movwf	SensorMovimiento@i_928& (0+255),b
-  2367  001C8E                     l330:
+  2366  001C8C  6FB2               	movwf	SensorMovimiento@i_850& (0+255),b
+  2367  001C8E                     l303:
   2368                           
-  2369                           ;Controler.c: 195:             while (!TXSTAbits.TRMT) {
+  2369                           ;Controlador.c: 195:             while (!TXSTAbits.TRMT) {
   2370  001C8E  A2AC               	btfss	172,1,c	;volatile
   2371  001C90  EF4C  F00E         	goto	u4011
   2372  001C94  EF4E  F00E         	goto	u4010
   2373  001C98                     u4011:
-  2374  001C98  EF47  F00E         	goto	l330
+  2374  001C98  EF47  F00E         	goto	l303
   2375  001C9C                     u4010:
   2376  001C9C                     
-  2377                           ;Controler.c: 197:             TXREG = buffer_TX6[i];
+  2377                           ;Controlador.c: 197:             TXREG = buffer_TX6[i];
   2378  001C9C  0E74               	movlw	low SensorMovimiento@buffer_TX6
   2379  001C9E  0100               	movlb	0	; () banked
-  2380  001CA0  25B2               	addwf	SensorMovimiento@i_928& (0+255),w,b
+  2380  001CA0  25B2               	addwf	SensorMovimiento@i_850& (0+255),w,b
   2381  001CA2  6ED9               	movwf	fsr2l,c
   2382  001CA4  0E00               	movlw	high SensorMovimiento@buffer_TX6
-  2383  001CA6  21B3               	addwfc	(SensorMovimiento@i_928+1)& (0+255),w,b
+  2383  001CA6  21B3               	addwfc	(SensorMovimiento@i_850+1)& (0+255),w,b
   2384  001CA8  6EDA               	movwf	fsr2h,c
   2385  001CAA  50DF               	movf	indf2,w,c
   2386  001CAC  6EAD               	movwf	173,c	;volatile
   2387  001CAE                     
   2388                           ; BSR set to: 0
-  2389                           ;Controler.c: 198:         }
-  2390  001CAE  4BB2               	infsnz	SensorMovimiento@i_928& (0+255),f,b
-  2391  001CB0  2BB3               	incf	(SensorMovimiento@i_928+1)& (0+255),f,b
+  2389                           ;Controlador.c: 198:         }
+  2390  001CAE  4BB2               	infsnz	SensorMovimiento@i_850& (0+255),f,b
+  2391  001CB0  2BB3               	incf	(SensorMovimiento@i_850+1)& (0+255),f,b
   2392  001CB2                     
   2393                           ; BSR set to: 0
-  2394  001CB2  BFB3               	btfsc	(SensorMovimiento@i_928+1)& (0+255),7,b
+  2394  001CB2  BFB3               	btfsc	(SensorMovimiento@i_850+1)& (0+255),7,b
   2395  001CB4  EF65  F00E         	goto	u4021
-  2396  001CB8  51B3               	movf	(SensorMovimiento@i_928+1)& (0+255),w,b
+  2396  001CB8  51B3               	movf	(SensorMovimiento@i_850+1)& (0+255),w,b
   2397  001CBA  E109               	bnz	u4020
   2398  001CBC  0E14               	movlw	20
-  2399  001CBE  5DB2               	subwf	SensorMovimiento@i_928& (0+255),w,b
+  2399  001CBE  5DB2               	subwf	SensorMovimiento@i_850& (0+255),w,b
   2400  001CC0  A0D8               	btfss	status,0,c
   2401  001CC2  EF65  F00E         	goto	u4021
   2402  001CC6  EF67  F00E         	goto	u4020
   2403  001CCA                     u4021:
-  2404  001CCA  EF47  F00E         	goto	l330
+  2404  001CCA  EF47  F00E         	goto	l303
   2405  001CCE                     u4020:
   2406  001CCE  EF74  F00E         	goto	l3644
-  2407  001CD2                     l325:
+  2407  001CD2                     l298:
   2408                           
-  2409                           ;Controler.c: 201:         LATC1 = 0;
+  2409                           ;Controlador.c: 201:         LATC1 = 0;
   2410  001CD2  928B               	bcf	3979,1,c	;volatile
   2411  001CD4                     
-  2412                           ;Controler.c: 202:         strcat(buf,"2:OFF ");
+  2412                           ;Controlador.c: 202:         strcat(buf,"2:OFF ");
   2413  001CD4  0E9C               	movlw	low SensorMovimiento@buf
   2414  001CD6  6E0D               	movwf	strcat@dest^0,c
   2415  001CD8  0E00               	movlw	high SensorMovimiento@buf
@@ -2437,18 +2437,18 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2421  001CE4  ECB4  F018         	call	_strcat	;wreg free
   2422  001CE8                     l3644:
   2423                           
-  2424                           ;Controler.c: 206:     if (PORTAbits.RA4) {
+  2424                           ;Controlador.c: 206:     if (PORTAbits.RA4) {
   2425  001CE8  A880               	btfss	128,4,c	;volatile
   2426  001CEA  EF79  F00E         	goto	u4031
   2427  001CEE  EF7B  F00E         	goto	u4030
   2428  001CF2                     u4031:
-  2429  001CF2  EFB6  F00E         	goto	l334
+  2429  001CF2  EFB6  F00E         	goto	l307
   2430  001CF6                     u4030:
   2431  001CF6                     
-  2432                           ;Controler.c: 207:         LATC2 = 1;
+  2432                           ;Controlador.c: 207:         LATC2 = 1;
   2433  001CF6  848B               	bsf	3979,2,c	;volatile
   2434  001CF8                     
-  2435                           ;Controler.c: 208:         strcat(buf,"3:ON  ");
+  2435                           ;Controlador.c: 208:         strcat(buf,"3:ON  ");
   2436  001CF8  0E9C               	movlw	low SensorMovimiento@buf
   2437  001CFA  6E0D               	movwf	strcat@dest^0,c
   2438  001CFC  0E00               	movlw	high SensorMovimiento@buf
@@ -2459,7 +2459,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2443  001D06  6E10               	movwf	(strcat@src+1)^0,c
   2444  001D08  ECB4  F018         	call	_strcat	;wreg free
   2445  001D0C                     
-  2446                           ;Controler.c: 210:         char buffer_TX7[] = "Presencia en la H3\r";
+  2446                           ;Controlador.c: 210:         char buffer_TX7[] = "Presencia en la H3\r";
   2447  001D0C  EE21  F02C         	lfsr	2,SensorMovimiento@F3730
   2448  001D10  EE10  F088         	lfsr	1,SensorMovimiento@buffer_TX7
   2449  001D14  0E13               	movlw	19
@@ -2468,58 +2468,58 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2452  001D1A  06E8               	decf	wreg,f,c
   2453  001D1C  E2FC               	bc	u4041
   2454  001D1E                     
-  2455                           ;Controler.c: 211:         for (int i = 0; i < 20; i++) {
+  2455                           ;Controlador.c: 211:         for (int i = 0; i < 20; i++) {
   2456  001D1E  0E00               	movlw	0
   2457  001D20  0100               	movlb	0	; () banked
-  2458  001D22  6FB5               	movwf	(SensorMovimiento@i_933+1)& (0+255),b
+  2458  001D22  6FB5               	movwf	(SensorMovimiento@i_855+1)& (0+255),b
   2459  001D24  0E00               	movlw	0
-  2460  001D26  6FB4               	movwf	SensorMovimiento@i_933& (0+255),b
-  2461  001D28                     l339:
+  2460  001D26  6FB4               	movwf	SensorMovimiento@i_855& (0+255),b
+  2461  001D28                     l312:
   2462                           
-  2463                           ;Controler.c: 212:             while (!TXSTAbits.TRMT) {
+  2463                           ;Controlador.c: 212:             while (!TXSTAbits.TRMT) {
   2464  001D28  A2AC               	btfss	172,1,c	;volatile
   2465  001D2A  EF99  F00E         	goto	u4051
   2466  001D2E  EF9B  F00E         	goto	u4050
   2467  001D32                     u4051:
-  2468  001D32  EF94  F00E         	goto	l339
+  2468  001D32  EF94  F00E         	goto	l312
   2469  001D36                     u4050:
   2470  001D36                     
-  2471                           ;Controler.c: 214:             TXREG = buffer_TX7[i];
+  2471                           ;Controlador.c: 214:             TXREG = buffer_TX7[i];
   2472  001D36  0E88               	movlw	low SensorMovimiento@buffer_TX7
   2473  001D38  0100               	movlb	0	; () banked
-  2474  001D3A  25B4               	addwf	SensorMovimiento@i_933& (0+255),w,b
+  2474  001D3A  25B4               	addwf	SensorMovimiento@i_855& (0+255),w,b
   2475  001D3C  6ED9               	movwf	fsr2l,c
   2476  001D3E  0E00               	movlw	high SensorMovimiento@buffer_TX7
-  2477  001D40  21B5               	addwfc	(SensorMovimiento@i_933+1)& (0+255),w,b
+  2477  001D40  21B5               	addwfc	(SensorMovimiento@i_855+1)& (0+255),w,b
   2478  001D42  6EDA               	movwf	fsr2h,c
   2479  001D44  50DF               	movf	indf2,w,c
   2480  001D46  6EAD               	movwf	173,c	;volatile
   2481  001D48                     
   2482                           ; BSR set to: 0
-  2483                           ;Controler.c: 215:         }
-  2484  001D48  4BB4               	infsnz	SensorMovimiento@i_933& (0+255),f,b
-  2485  001D4A  2BB5               	incf	(SensorMovimiento@i_933+1)& (0+255),f,b
+  2483                           ;Controlador.c: 215:         }
+  2484  001D48  4BB4               	infsnz	SensorMovimiento@i_855& (0+255),f,b
+  2485  001D4A  2BB5               	incf	(SensorMovimiento@i_855+1)& (0+255),f,b
   2486  001D4C                     
   2487                           ; BSR set to: 0
-  2488  001D4C  BFB5               	btfsc	(SensorMovimiento@i_933+1)& (0+255),7,b
+  2488  001D4C  BFB5               	btfsc	(SensorMovimiento@i_855+1)& (0+255),7,b
   2489  001D4E  EFB2  F00E         	goto	u4061
-  2490  001D52  51B5               	movf	(SensorMovimiento@i_933+1)& (0+255),w,b
+  2490  001D52  51B5               	movf	(SensorMovimiento@i_855+1)& (0+255),w,b
   2491  001D54  E109               	bnz	u4060
   2492  001D56  0E14               	movlw	20
-  2493  001D58  5DB4               	subwf	SensorMovimiento@i_933& (0+255),w,b
+  2493  001D58  5DB4               	subwf	SensorMovimiento@i_855& (0+255),w,b
   2494  001D5A  A0D8               	btfss	status,0,c
   2495  001D5C  EFB2  F00E         	goto	u4061
   2496  001D60  EFB4  F00E         	goto	u4060
   2497  001D64                     u4061:
-  2498  001D64  EF94  F00E         	goto	l339
+  2498  001D64  EF94  F00E         	goto	l312
   2499  001D68                     u4060:
   2500  001D68  EFC1  F00E         	goto	l3666
-  2501  001D6C                     l334:
+  2501  001D6C                     l307:
   2502                           
-  2503                           ;Controler.c: 217:         LATC2 = 0;
+  2503                           ;Controlador.c: 217:         LATC2 = 0;
   2504  001D6C  948B               	bcf	3979,2,c	;volatile
   2505  001D6E                     
-  2506                           ;Controler.c: 218:         strcat(buf,"3:OFF ");
+  2506                           ;Controlador.c: 218:         strcat(buf,"3:OFF ");
   2507  001D6E  0E9C               	movlw	low SensorMovimiento@buf
   2508  001D70  6E0D               	movwf	strcat@dest^0,c
   2509  001D72  0E00               	movlw	high SensorMovimiento@buf
@@ -2531,7 +2531,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2515  001D7E  ECB4  F018         	call	_strcat	;wreg free
   2516  001D82                     l3666:
   2517                           
-  2518                           ;Controler.c: 221:     LCD_String_xy(3,0,buf);
+  2518                           ;Controlador.c: 221:     LCD_String_xy(3,0,buf);
   2519  001D82  0E00               	movlw	0
   2520  001D84  6E0A               	movwf	LCD_String_xy@pos^0,c
   2521  001D86  0E9C               	movlw	low SensorMovimiento@buf
@@ -2674,7 +2674,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2658                           
   2659 ;; *************** function _SensorLuz *****************
   2660 ;; Defined at:
-  2661 ;;		line 229 in file "Controler.c"
+  2661 ;;		line 229 in file "Controlador.c"
   2662 ;; Parameters:    Size  Location     Type
   2663 ;;		None
   2664 ;; Auto vars:     Size  Location     Type
@@ -2718,11 +2718,11 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2702  001F4A                     _SensorLuz:
   2703                           	callstack 26
   2704  001F4A                     
-  2705                           ;Controler.c: 231:     float val;;Controler.c: 232:     LCD_Command(0x40);
+  2705                           ;Controlador.c: 231:     float val;;Controlador.c: 232:     LCD_Command(0x40);
   2706  001F4A  0E40               	movlw	64
   2707  001F4C  ECE6  F018         	call	_LCD_Command
   2708  001F50                     
-  2709                           ;Controler.c: 233:     val = (ADC_Read(1)*5.0) / 1023.0;
+  2709                           ;Controlador.c: 233:     val = (ADC_Read(1)*5.0) / 1023.0;
   2710  001F50  0E00               	movlw	0
   2711  001F52  6E1B               	movwf	___flmul@a^0,c
   2712  001F54  0E00               	movlw	0
@@ -2768,7 +2768,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2752  001FC4  C032  F081         	movff	?___fldiv+2,SensorLuz@val+2
   2753  001FC8  C033  F082         	movff	?___fldiv+3,SensorLuz@val+3
   2754  001FCC                     
-  2755                           ;Controler.c: 235:     if (val > 3) {
+  2755                           ;Controlador.c: 235:     if (val > 3) {
   2756  001FCC  0E00               	movlw	0
   2757  001FCE  6E01               	movwf	___flge@ff1^0,c
   2758  001FD0  0E00               	movlw	0
@@ -2789,7 +2789,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2773  001FFA  EF39  F010         	goto	l3692
   2774  001FFE                     u4070:
   2775  001FFE                     
-  2776                           ;Controler.c: 237:         LCD_String_xy(4, 0, "Cortina Arriba       ");
+  2776                           ;Controlador.c: 237:         LCD_String_xy(4, 0, "Cortina Arriba       ");
   2777  001FFE  0E00               	movlw	0
   2778  002000  6E0A               	movwf	LCD_String_xy@pos^0,c
   2779  002002  0E17               	movlw	low STR_14
@@ -2799,10 +2799,10 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2783  00200A  0E04               	movlw	4
   2784  00200C  ECC4  F015         	call	_LCD_String_xy
   2785  002010                     
-  2786                           ;Controler.c: 238:         PORTEbits.RE0 = 1;
+  2786                           ;Controlador.c: 238:         PORTEbits.RE0 = 1;
   2787  002010  8084               	bsf	132,0,c	;volatile
   2788  002012                     
-  2789                           ;Controler.c: 239:         char buffer_TX3[] = "Cortina arriba\r";
+  2789                           ;Controlador.c: 239:         char buffer_TX3[] = "Cortina arriba\r";
   2790  002012  EE21  F07C         	lfsr	2,SensorLuz@F3735
   2791  002016  EE10  F060         	lfsr	1,SensorLuz@buffer_TX3
   2792  00201A  0E0F               	movlw	15
@@ -2811,23 +2811,23 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2795  002020  06E8               	decf	wreg,f,c
   2796  002022  E2FC               	bc	u4081
   2797  002024                     
-  2798                           ;Controler.c: 240:         for (int i = 0; i < 15; i++) {
+  2798                           ;Controlador.c: 240:         for (int i = 0; i < 15; i++) {
   2799  002024  0E00               	movlw	0
   2800  002026  0100               	movlb	0	; () banked
   2801  002028  6F84               	movwf	(SensorLuz@i+1)& (0+255),b
   2802  00202A  0E00               	movlw	0
   2803  00202C  6F83               	movwf	SensorLuz@i& (0+255),b
-  2804  00202E                     l351:
+  2804  00202E                     l324:
   2805                           
-  2806                           ;Controler.c: 241:             while (!TXSTAbits.TRMT) {
+  2806                           ;Controlador.c: 241:             while (!TXSTAbits.TRMT) {
   2807  00202E  A2AC               	btfss	172,1,c	;volatile
   2808  002030  EF1C  F010         	goto	u4091
   2809  002034  EF1E  F010         	goto	u4090
   2810  002038                     u4091:
-  2811  002038  EF17  F010         	goto	l351
+  2811  002038  EF17  F010         	goto	l324
   2812  00203C                     u4090:
   2813  00203C                     
-  2814                           ;Controler.c: 243:             TXREG = buffer_TX3[i];
+  2814                           ;Controlador.c: 243:             TXREG = buffer_TX3[i];
   2815  00203C  0E60               	movlw	low SensorLuz@buffer_TX3
   2816  00203E  0100               	movlb	0	; () banked
   2817  002040  2583               	addwf	SensorLuz@i& (0+255),w,b
@@ -2839,7 +2839,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2823  00204C  6EAD               	movwf	173,c	;volatile
   2824  00204E                     
   2825                           ; BSR set to: 0
-  2826                           ;Controler.c: 244:         }
+  2826                           ;Controlador.c: 244:         }
   2827  00204E  4B83               	infsnz	SensorLuz@i& (0+255),f,b
   2828  002050  2B84               	incf	(SensorLuz@i+1)& (0+255),f,b
   2829  002052                     
@@ -2854,12 +2854,12 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2838  002062  EF35  F010         	goto	u4101
   2839  002066  EF37  F010         	goto	u4100
   2840  00206A                     u4101:
-  2841  00206A  EF17  F010         	goto	l351
+  2841  00206A  EF17  F010         	goto	l324
   2842  00206E                     u4100:
-  2843  00206E  EF71  F010         	goto	l362
+  2843  00206E  EF71  F010         	goto	l335
   2844  002072                     l3692:
   2845                           
-  2846                           ;Controler.c: 248:         LCD_String_xy(4, 0, "Cortina Abajo        ");
+  2846                           ;Controlador.c: 248:         LCD_String_xy(4, 0, "Cortina Abajo        ");
   2847  002072  0E00               	movlw	0
   2848  002074  6E0A               	movwf	LCD_String_xy@pos^0,c
   2849  002076  0E01               	movlw	low STR_15
@@ -2869,10 +2869,10 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2853  00207E  0E04               	movlw	4
   2854  002080  ECC4  F015         	call	_LCD_String_xy
   2855  002084                     
-  2856                           ;Controler.c: 249:         PORTEbits.RE0 = 0;
+  2856                           ;Controlador.c: 249:         PORTEbits.RE0 = 0;
   2857  002084  9084               	bcf	132,0,c	;volatile
   2858  002086                     
-  2859                           ;Controler.c: 250:         char buffer_TX4[] = "Cortina abajo\r";
+  2859                           ;Controlador.c: 250:         char buffer_TX4[] = "Cortina abajo\r";
   2860  002086  EE21  F08C         	lfsr	2,SensorLuz@F3738
   2861  00208A  EE10  F070         	lfsr	1,SensorLuz@buffer_TX4
   2862  00208E  0E0E               	movlw	14
@@ -2881,52 +2881,52 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2865  002094  06E8               	decf	wreg,f,c
   2866  002096  E2FC               	bc	u4111
   2867  002098                     
-  2868                           ;Controler.c: 251:         for (int i = 0; i < 15; i++) {
+  2868                           ;Controlador.c: 251:         for (int i = 0; i < 15; i++) {
   2869  002098  0E00               	movlw	0
   2870  00209A  0100               	movlb	0	; () banked
-  2871  00209C  6F86               	movwf	(SensorLuz@i_950+1)& (0+255),b
+  2871  00209C  6F86               	movwf	(SensorLuz@i_872+1)& (0+255),b
   2872  00209E  0E00               	movlw	0
-  2873  0020A0  6F85               	movwf	SensorLuz@i_950& (0+255),b
-  2874  0020A2                     l359:
+  2873  0020A0  6F85               	movwf	SensorLuz@i_872& (0+255),b
+  2874  0020A2                     l332:
   2875                           
-  2876                           ;Controler.c: 252:             while (!TXSTAbits.TRMT) {
+  2876                           ;Controlador.c: 252:             while (!TXSTAbits.TRMT) {
   2877  0020A2  A2AC               	btfss	172,1,c	;volatile
   2878  0020A4  EF56  F010         	goto	u4121
   2879  0020A8  EF58  F010         	goto	u4120
   2880  0020AC                     u4121:
-  2881  0020AC  EF51  F010         	goto	l359
+  2881  0020AC  EF51  F010         	goto	l332
   2882  0020B0                     u4120:
   2883  0020B0                     
-  2884                           ;Controler.c: 254:             TXREG = buffer_TX4[i];
+  2884                           ;Controlador.c: 254:             TXREG = buffer_TX4[i];
   2885  0020B0  0E70               	movlw	low SensorLuz@buffer_TX4
   2886  0020B2  0100               	movlb	0	; () banked
-  2887  0020B4  2585               	addwf	SensorLuz@i_950& (0+255),w,b
+  2887  0020B4  2585               	addwf	SensorLuz@i_872& (0+255),w,b
   2888  0020B6  6ED9               	movwf	fsr2l,c
   2889  0020B8  0E00               	movlw	high SensorLuz@buffer_TX4
-  2890  0020BA  2186               	addwfc	(SensorLuz@i_950+1)& (0+255),w,b
+  2890  0020BA  2186               	addwfc	(SensorLuz@i_872+1)& (0+255),w,b
   2891  0020BC  6EDA               	movwf	fsr2h,c
   2892  0020BE  50DF               	movf	indf2,w,c
   2893  0020C0  6EAD               	movwf	173,c	;volatile
   2894  0020C2                     
   2895                           ; BSR set to: 0
-  2896                           ;Controler.c: 255:         }
-  2897  0020C2  4B85               	infsnz	SensorLuz@i_950& (0+255),f,b
-  2898  0020C4  2B86               	incf	(SensorLuz@i_950+1)& (0+255),f,b
+  2896                           ;Controlador.c: 255:         }
+  2897  0020C2  4B85               	infsnz	SensorLuz@i_872& (0+255),f,b
+  2898  0020C4  2B86               	incf	(SensorLuz@i_872+1)& (0+255),f,b
   2899  0020C6                     
   2900                           ; BSR set to: 0
-  2901  0020C6  BF86               	btfsc	(SensorLuz@i_950+1)& (0+255),7,b
+  2901  0020C6  BF86               	btfsc	(SensorLuz@i_872+1)& (0+255),7,b
   2902  0020C8  EF6F  F010         	goto	u4131
-  2903  0020CC  5186               	movf	(SensorLuz@i_950+1)& (0+255),w,b
+  2903  0020CC  5186               	movf	(SensorLuz@i_872+1)& (0+255),w,b
   2904  0020CE  E109               	bnz	u4130
   2905  0020D0  0E0F               	movlw	15
-  2906  0020D2  5D85               	subwf	SensorLuz@i_950& (0+255),w,b
+  2906  0020D2  5D85               	subwf	SensorLuz@i_872& (0+255),w,b
   2907  0020D4  A0D8               	btfss	status,0,c
   2908  0020D6  EF6F  F010         	goto	u4131
   2909  0020DA  EF71  F010         	goto	u4130
   2910  0020DE                     u4131:
-  2911  0020DE  EF51  F010         	goto	l359
+  2911  0020DE  EF51  F010         	goto	l332
   2912  0020E2                     u4130:
-  2913  0020E2                     l362:
+  2913  0020E2                     l335:
   2914                           
   2915                           ; BSR set to: 0
   2916  0020E2  0012               	return		;funcret
@@ -4350,7 +4350,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   4334                           
   4335 ;; *************** function _ADC_Read *****************
   4336 ;; Defined at:
-  4337 ;;		line 32 in file "PIC18F4550_ADC_Source_File.c"
+  4337 ;;		line 32 in file "PIC18F4550_ADC.c"
   4338 ;; Parameters:    Size  Location     Type
   4339 ;;  channel         2    0[COMRAM] int 
   4340 ;; Auto vars:     Size  Location     Type
@@ -4384,9 +4384,9 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   4368  0029B8                     _ADC_Read:
   4369                           	callstack 29
   4370  0029B8                     
-  4371                           ;PIC18F4550_ADC_Source_File.c: 32: int ADC_Read(int channel);PIC18F4550_ADC_Source_File.
-      +                          c: 33: {;PIC18F4550_ADC_Source_File.c: 34:     int digital;;PIC18F4550_ADC_Source_File.c
-      +                          : 35:     ADCON0 =(ADCON0 & 0b11000011)|((channel<<2) & 0b00111100);
+  4371                           ;PIC18F4550_ADC.c: 32: int ADC_Read(int channel);PIC18F4550_ADC.c: 33: {;PIC18F4550_ADC.
+      +                          c: 34:     int digital;;PIC18F4550_ADC.c: 35:     ADCON0 =(ADCON0 & 0b11000011)|((channe
+      +                          l<<2) & 0b00111100);
   4372  0029B8  C001  F003         	movff	ADC_Read@channel,??_ADC_Read
   4373  0029BC  90D8               	bcf	status,0,c
   4374  0029BE  3603               	rlcf	??_ADC_Read^0,f,c
@@ -4399,59 +4399,59 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   4381  0029CC  1003               	iorwf	??_ADC_Read^0,w,c
   4382  0029CE  6EC2               	movwf	194,c	;volatile
   4383                           
-  4384                           ;PIC18F4550_ADC_Source_File.c: 37:     ADCON0 |= ((1<<ADON)|(1<<GO));
+  4384                           ;PIC18F4550_ADC.c: 37:     ADCON0 |= ((1<<ADON)|(1<<GO));
   4385  0029D0  B2C2               	btfsc	4034,1,c	;volatile
-  4386  0029D2  EFED  F014         	goto	u3031
-  4387  0029D6  EFF1  F014         	goto	u3030
-  4388  0029DA                     u3031:
+  4386  0029D2  EFED  F014         	goto	u3101
+  4387  0029D6  EFF1  F014         	goto	u3100
+  4388  0029DA                     u3101:
   4389  0029DA  6A03               	clrf	??_ADC_Read^0,c
   4390  0029DC  2A03               	incf	??_ADC_Read^0,f,c
-  4391  0029DE  EFF2  F014         	goto	u3048
-  4392  0029E2                     u3030:
+  4391  0029DE  EFF2  F014         	goto	u3118
+  4392  0029E2                     u3100:
   4393  0029E2  6A03               	clrf	??_ADC_Read^0,c
-  4394  0029E4                     u3048:
+  4394  0029E4                     u3118:
   4395  0029E4  0E01               	movlw	1
   4396  0029E6  6E04               	movwf	(??_ADC_Read+1)^0,c
   4397  0029E8  2A03               	incf	??_ADC_Read^0,f,c
-  4398  0029EA  EFF9  F014         	goto	u3054
-  4399  0029EE                     u3055:
+  4398  0029EA  EFF9  F014         	goto	u3124
+  4399  0029EE                     u3125:
   4400  0029EE  90D8               	bcf	status,0,c
   4401  0029F0  3604               	rlcf	(??_ADC_Read+1)^0,f,c
-  4402  0029F2                     u3054:
+  4402  0029F2                     u3124:
   4403  0029F2  2E03               	decfsz	??_ADC_Read^0,f,c
-  4404  0029F4  EFF7  F014         	goto	u3055
+  4404  0029F4  EFF7  F014         	goto	u3125
   4405  0029F8  B0C2               	btfsc	4034,0,c	;volatile
-  4406  0029FA  EF01  F015         	goto	u3061
-  4407  0029FE  EF05  F015         	goto	u3060
-  4408  002A02                     u3061:
+  4406  0029FA  EF01  F015         	goto	u3131
+  4407  0029FE  EF05  F015         	goto	u3130
+  4408  002A02                     u3131:
   4409  002A02  6A05               	clrf	(??_ADC_Read+2)^0,c
   4410  002A04  2A05               	incf	(??_ADC_Read+2)^0,f,c
-  4411  002A06  EF06  F015         	goto	u3078
-  4412  002A0A                     u3060:
+  4411  002A06  EF06  F015         	goto	u3148
+  4412  002A0A                     u3130:
   4413  002A0A  6A05               	clrf	(??_ADC_Read+2)^0,c
-  4414  002A0C                     u3078:
+  4414  002A0C                     u3148:
   4415  002A0C  0E01               	movlw	1
   4416  002A0E  6E06               	movwf	(??_ADC_Read+3)^0,c
   4417  002A10  2A05               	incf	(??_ADC_Read+2)^0,f,c
-  4418  002A12  EF0D  F015         	goto	u3084
-  4419  002A16                     u3085:
+  4418  002A12  EF0D  F015         	goto	u3154
+  4419  002A16                     u3155:
   4420  002A16  90D8               	bcf	status,0,c
   4421  002A18  3606               	rlcf	(??_ADC_Read+3)^0,f,c
-  4422  002A1A                     u3084:
+  4422  002A1A                     u3154:
   4423  002A1A  2E05               	decfsz	(??_ADC_Read+2)^0,f,c
-  4424  002A1C  EF0B  F015         	goto	u3085
+  4424  002A1C  EF0B  F015         	goto	u3155
   4425  002A20  5006               	movf	(??_ADC_Read+3)^0,w,c
   4426  002A22  1004               	iorwf	(??_ADC_Read+1)^0,w,c
   4427  002A24  12C2               	iorwf	194,f,c	;volatile
-  4428  002A26                     l24:
+  4428  002A26                     l362:
   4429  002A26  B2C2               	btfsc	194,1,c	;volatile
-  4430  002A28  EF18  F015         	goto	u3091
-  4431  002A2C  EF1A  F015         	goto	u3090
-  4432  002A30                     u3091:
-  4433  002A30  EF13  F015         	goto	l24
-  4434  002A34                     u3090:
+  4430  002A28  EF18  F015         	goto	u3161
+  4431  002A2C  EF1A  F015         	goto	u3160
+  4432  002A30                     u3161:
+  4433  002A30  EF13  F015         	goto	l362
+  4434  002A34                     u3160:
   4435  002A34                     
-  4436                           ;PIC18F4550_ADC_Source_File.c: 39:     digital = (ADRESH*256) | (ADRESL);
+  4436                           ;PIC18F4550_ADC.c: 39:     digital = (ADRESH*256) | (ADRESL);
   4437  002A34  50C3               	movf	195,w,c	;volatile
   4438  002A36  CFC4 F003          	movff	4036,??_ADC_Read	;volatile
   4439  002A3A  6A04               	clrf	(??_ADC_Read+1)^0,c
@@ -4462,7 +4462,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   4444  002A46  5004               	movf	(??_ADC_Read+1)^0,w,c
   4445  002A48  6E08               	movwf	(ADC_Read@digital+1)^0,c
   4446  002A4A                     
-  4447                           ;PIC18F4550_ADC_Source_File.c: 40:     return(digital);
+  4447                           ;PIC18F4550_ADC.c: 40:     return(digital);
   4448  002A4A  C007  F001         	movff	ADC_Read@digital,?_ADC_Read
   4449  002A4E  C008  F002         	movff	ADC_Read@digital+1,?_ADC_Read+1
   4450  002A52  0012               	return		;funcret
@@ -4471,7 +4471,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   4453                           
   4454 ;; *************** function _RTC *****************
   4455 ;; Defined at:
-  4456 ;;		line 89 in file "Controler.c"
+  4456 ;;		line 89 in file "Controlador.c"
   4457 ;; Parameters:    Size  Location     Type
   4458 ;;		None
   4459 ;; Auto vars:     Size  Location     Type
@@ -4509,14 +4509,14 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   4491  002AF0                     _RTC:
   4492                           	callstack 22
   4493  002AF0                     
-  4494                           ;Controler.c: 90:     RTC_Read_Clock(0);
+  4494                           ;Controlador.c: 90:     RTC_Read_Clock(0);
   4495  002AF0  0E00               	movlw	0
   4496  002AF2  EC3D  F017         	call	_RTC_Read_Clock
   4497  002AF6                     
-  4498                           ;Controler.c: 91:     I2C_Stop();
+  4498                           ;Controlador.c: 91:     I2C_Stop();
   4499  002AF6  EC21  F019         	call	_I2C_Stop	;wreg free
   4500  002AFA                     
-  4501                           ;Controler.c: 94:     hour = hour & (0x1f);
+  4501                           ;Controlador.c: 94:     hour = hour & (0x1f);
   4502  002AFA  0E1F               	movlw	31
   4503  002AFC  0100               	movlb	0	; () banked
   4504  002AFE  15BE               	andwf	_hour& (0+255),w,b
@@ -4524,7 +4524,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   4506  002B02  6BBF               	clrf	(_hour+1)& (0+255),b
   4507  002B04                     
   4508                           ; BSR set to: 0
-  4509                           ;Controler.c: 95:     sprintf(secs, "%x ", sec);
+  4509                           ;Controlador.c: 95:     sprintf(secs, "%x ", sec);
   4510  002B04  0ED8               	movlw	low _secs
   4511  002B06  6F66               	movwf	sprintf@s& (0+255),b
   4512  002B08  0E00               	movlw	high _secs
@@ -4537,7 +4537,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   4519  002B18  C0C3  F06B         	movff	_sec+1,?_sprintf+5
   4520  002B1C  ECCB  F016         	call	_sprintf	;wreg free
   4521  002B20                     
-  4522                           ;Controler.c: 96:     sprintf(mins, "%x:", min);
+  4522                           ;Controlador.c: 96:     sprintf(mins, "%x:", min);
   4523  002B20  0ECE               	movlw	low _mins
   4524  002B22  0100               	movlb	0	; () banked
   4525  002B24  6F66               	movwf	sprintf@s& (0+255),b
@@ -4551,7 +4551,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   4533  002B36  C0C1  F06B         	movff	_min+1,?_sprintf+5
   4534  002B3A  ECCB  F016         	call	_sprintf	;wreg free
   4535  002B3E                     
-  4536                           ;Controler.c: 97:     sprintf(hours, "Tim:%x:", hour);
+  4536                           ;Controlador.c: 97:     sprintf(hours, "Tim:%x:", hour);
   4537  002B3E  0EC4               	movlw	low _hours
   4538  002B40  0100               	movlb	0	; () banked
   4539  002B42  6F66               	movwf	sprintf@s& (0+255),b
@@ -4565,7 +4565,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   4547  002B54  C0BF  F06B         	movff	_hour+1,?_sprintf+5
   4548  002B58  ECCB  F016         	call	_sprintf	;wreg free
   4549  002B5C                     
-  4550                           ;Controler.c: 98:     LCD_String_xy(0, 0, hours);
+  4550                           ;Controlador.c: 98:     LCD_String_xy(0, 0, hours);
   4551  002B5C  0E00               	movlw	0
   4552  002B5E  6E0A               	movwf	LCD_String_xy@pos^0,c
   4553  002B60  0EC4               	movlw	low _hours
@@ -4575,14 +4575,14 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   4557  002B68  0E00               	movlw	0
   4558  002B6A  ECC4  F015         	call	_LCD_String_xy
   4559  002B6E                     
-  4560                           ;Controler.c: 99:     LCD_String(mins);
+  4560                           ;Controlador.c: 99:     LCD_String(mins);
   4561  002B6E  0ECE               	movlw	low _mins
   4562  002B70  6E08               	movwf	LCD_String@msg^0,c
   4563  002B72  0E00               	movlw	high _mins
   4564  002B74  6E09               	movwf	(LCD_String@msg+1)^0,c
   4565  002B76  EC9C  F016         	call	_LCD_String	;wreg free
   4566  002B7A                     
-  4567                           ;Controler.c: 100:     LCD_String(secs);
+  4567                           ;Controlador.c: 100:     LCD_String(secs);
   4568  002B7A  0ED8               	movlw	low _secs
   4569  002B7C  6E08               	movwf	LCD_String@msg^0,c
   4570  002B7E  0E00               	movlw	high _secs
@@ -5467,10 +5467,10 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   5395  00172E                     u2690:
   5396  00172E  0E00               	movlw	0
   5397  001730                     u2700:
-  5398  001730  6E2F               	movwf	_xtoa$1504^0,c
-  5399  001732  6A30               	clrf	(_xtoa$1504+1)^0,c
-  5400  001734  502F               	movf	_xtoa$1504^0,w,c
-  5401  001736  1030               	iorwf	(_xtoa$1504+1)^0,w,c
+  5398  001730  6E2F               	movwf	_xtoa$1509^0,c
+  5399  001732  6A30               	clrf	(_xtoa$1509+1)^0,c
+  5400  001734  502F               	movf	_xtoa$1509^0,w,c
+  5401  001736  1030               	iorwf	(_xtoa$1509+1)^0,w,c
   5402  001738  B4D8               	btfsc	status,2,c
   5403  00173A  EFA1  F00B         	goto	u2711
   5404  00173E  EFA3  F00B         	goto	u2710
@@ -5504,10 +5504,10 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   5432  00177A                     u2720:
   5433  00177A  0E00               	movlw	0
   5434  00177C                     u2730:
-  5435  00177C  6E31               	movwf	_xtoa$1505^0,c
-  5436  00177E  6A32               	clrf	(_xtoa$1505+1)^0,c
-  5437  001780  5031               	movf	_xtoa$1505^0,w,c
-  5438  001782  1032               	iorwf	(_xtoa$1505+1)^0,w,c
+  5435  00177C  6E31               	movwf	_xtoa$1510^0,c
+  5436  00177E  6A32               	clrf	(_xtoa$1510+1)^0,c
+  5437  001780  5031               	movf	_xtoa$1510^0,w,c
+  5438  001782  1032               	iorwf	(_xtoa$1510+1)^0,w,c
   5439  001784  B4D8               	btfsc	status,2,c
   5440  001786  EFC7  F00B         	goto	u2741
   5441  00178A  EFC9  F00B         	goto	u2740
@@ -5761,10 +5761,10 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   5681  002D0A                     u2390:
   5682  002D0A  0E00               	movlw	0
   5683  002D0C                     u2400:
-  5684  002D0C  6E0D               	movwf	_toupper$1604^0,c
-  5685  002D0E  6A0E               	clrf	(_toupper$1604+1)^0,c
-  5686  002D10  500D               	movf	_toupper$1604^0,w,c
-  5687  002D12  100E               	iorwf	(_toupper$1604+1)^0,w,c
+  5684  002D0C  6E0D               	movwf	_toupper$1609^0,c
+  5685  002D0E  6A0E               	clrf	(_toupper$1609+1)^0,c
+  5686  002D10  500D               	movf	_toupper$1609^0,w,c
+  5687  002D12  100E               	iorwf	(_toupper$1609+1)^0,w,c
   5688  002D14  B4D8               	btfsc	status,2,c
   5689  002D16  EF8F  F016         	goto	u2411
   5690  002D1A  EF91  F016         	goto	u2410
@@ -6372,15 +6372,15 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   6272  0015D8  EFF4  F00A         	goto	l2776
   6273  0015DC                     u2640:
   6274  0015DC  0E00               	movlw	0
-  6275  0015DE  6E2F               	movwf	(_dtoa$1493+1)^0,c
+  6275  0015DE  6E2F               	movwf	(_dtoa$1498+1)^0,c
   6276  0015E0  0E2B               	movlw	43
-  6277  0015E2  6E2E               	movwf	_dtoa$1493^0,c
+  6277  0015E2  6E2E               	movwf	_dtoa$1498^0,c
   6278  0015E4  EFF8  F00A         	goto	l2778
   6279  0015E8                     l2776:
   6280  0015E8  0E00               	movlw	0
-  6281  0015EA  6E2F               	movwf	(_dtoa$1493+1)^0,c
+  6281  0015EA  6E2F               	movwf	(_dtoa$1498+1)^0,c
   6282  0015EC  0E2D               	movlw	45
-  6283  0015EE  6E2E               	movwf	_dtoa$1493^0,c
+  6283  0015EE  6E2E               	movwf	_dtoa$1498^0,c
   6284  0015F0                     l2778:
   6285  0015F0  0E9B               	movlw	low _dbuf
   6286  0015F2  243E               	addwf	dtoa@i^0,w,c
@@ -6388,7 +6388,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   6288  0015F6  0E01               	movlw	high _dbuf
   6289  0015F8  203F               	addwfc	(dtoa@i+1)^0,w,c
   6290  0015FA  6EDA               	movwf	fsr2h,c
-  6291  0015FC  C02E  FFDF         	movff	_dtoa$1493,indf2
+  6291  0015FC  C02E  FFDF         	movff	_dtoa$1498,indf2
   6292  001600                     l2780:
   6293                           
   6294                           ;C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c: 327:     return p
@@ -7557,7 +7557,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   7431                           
   7432 ;; *************** function _RTC_Read_Clock *****************
   7433 ;; Defined at:
-  7434 ;;		line 260 in file "Controler.c"
+  7434 ;;		line 260 in file "Controlador.c"
   7435 ;; Parameters:    Size  Location     Type
   7436 ;;  read_clock_a    1    wreg     unsigned char 
   7437 ;; Auto vars:     Size  Location     Type
@@ -7598,19 +7598,19 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   7472                           ;RTC_Read_Clock@read_clock_address stored from wreg
   7473  002E7A  6E04               	movwf	RTC_Read_Clock@read_clock_address^0,c
   7474  002E7C                     
-  7475                           ;Controler.c: 261:     I2C_Start(0xD0);
+  7475                           ;Controlador.c: 261:     I2C_Start(0xD0);
   7476  002E7C  0ED0               	movlw	208
   7477  002E7E  EC6F  F018         	call	_I2C_Start
   7478                           
-  7479                           ;Controler.c: 262:     I2C_Write(read_clock_address);
+  7479                           ;Controlador.c: 262:     I2C_Write(read_clock_address);
   7480  002E82  5004               	movf	RTC_Read_Clock@read_clock_address^0,w,c
   7481  002E84  ECC7  F018         	call	_I2C_Write
   7482                           
-  7483                           ;Controler.c: 263:     I2C_Repeated_Start(0xD1);
+  7483                           ;Controlador.c: 263:     I2C_Repeated_Start(0xD1);
   7484  002E88  0ED1               	movlw	209
   7485  002E8A  EC86  F018         	call	_I2C_Repeated_Start
   7486  002E8E                     
-  7487                           ;Controler.c: 264:     sec = I2C_Read(0);
+  7487                           ;Controlador.c: 264:     sec = I2C_Read(0);
   7488  002E8E  0E00               	movlw	0
   7489  002E90  ECFF  F017         	call	_I2C_Read
   7490  002E94  6E03               	movwf	??_RTC_Read_Clock^0,c
@@ -7620,7 +7620,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   7494  002E9C  6BC3               	clrf	(_sec+1)& (0+255),b
   7495  002E9E                     
   7496                           ; BSR set to: 0
-  7497                           ;Controler.c: 265:     min = I2C_Read(0);
+  7497                           ;Controlador.c: 265:     min = I2C_Read(0);
   7498  002E9E  0E00               	movlw	0
   7499  002EA0  ECFF  F017         	call	_I2C_Read
   7500  002EA4  6E03               	movwf	??_RTC_Read_Clock^0,c
@@ -7630,7 +7630,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   7504  002EAC  6BC1               	clrf	(_min+1)& (0+255),b
   7505  002EAE                     
   7506                           ; BSR set to: 0
-  7507                           ;Controler.c: 266:     hour = I2C_Read(1);
+  7507                           ;Controlador.c: 266:     hour = I2C_Read(1);
   7508  002EAE  0E01               	movlw	1
   7509  002EB0  ECFF  F017         	call	_I2C_Read
   7510  002EB4  6E03               	movwf	??_RTC_Read_Clock^0,c
@@ -7687,12 +7687,12 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   7561  0030E0                     
   7562                           ;./I2C_Master_File_3.h: 82:     SSPCON2bits.SEN=1;
   7563  0030E0  80C5               	bsf	197,0,c	;volatile
-  7564  0030E2                     l228:
+  7564  0030E2                     l201:
   7565  0030E2  B0C5               	btfsc	197,0,c	;volatile
   7566  0030E4  EF76  F018         	goto	u2971
   7567  0030E8  EF78  F018         	goto	u2970
   7568  0030EC                     u2971:
-  7569  0030EC  EF71  F018         	goto	l228
+  7569  0030EC  EF71  F018         	goto	l201
   7570  0030F0                     u2970:
   7571  0030F0                     
   7572                           ;./I2C_Master_File_3.h: 84:  SSPIF=0;
@@ -7705,14 +7705,14 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   7579  0030FC                     u2981:
   7580  0030FC  EF82  F018         	goto	l2982
   7581  003100                     u2980:
-  7582  003100  EF85  F018         	goto	l232
+  7582  003100  EF85  F018         	goto	l205
   7583  003104                     l2982:
   7584                           
   7585                           ;./I2C_Master_File_3.h: 87:     return (I2C_Write(slave_write_address));;	Return value o
       +                          f _I2C_Start is never used
   7586  003104  5002               	movf	I2C_Start@slave_write_address^0,w,c
   7587  003106  ECC7  F018         	call	_I2C_Write
-  7588  00310A                     l232:
+  7588  00310A                     l205:
   7589  00310A  0012               	return		;funcret
   7590  00310C                     __end_of_I2C_Start:
   7591                           	callstack 0
@@ -7759,12 +7759,12 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   7632  00310E                     
   7633                           ;./I2C_Master_File_3.h: 91:     RSEN = 1;
   7634  00310E  82C5               	bsf	4037,1,c	;volatile
-  7635  003110                     l235:
+  7635  003110                     l208:
   7636  003110  B2C5               	btfsc	4037,1,c	;volatile
   7637  003112  EF8D  F018         	goto	u2991
   7638  003116  EF8F  F018         	goto	u2990
   7639  00311A                     u2991:
-  7640  00311A  EF88  F018         	goto	l235
+  7640  00311A  EF88  F018         	goto	l208
   7641  00311E                     u2990:
   7642  00311E                     
   7643                           ;./I2C_Master_File_3.h: 93:     SSPIF = 0;
@@ -7777,13 +7777,13 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   7650  00312A                     u3001:
   7651  00312A  EF99  F018         	goto	l2990
   7652  00312E                     u3000:
-  7653  00312E  EF9C  F018         	goto	l239
+  7653  00312E  EF9C  F018         	goto	l212
   7654  003132                     l2990:
   7655                           
   7656                           ;./I2C_Master_File_3.h: 96:     I2C_Write(slave_read_address);
   7657  003132  5002               	movf	I2C_Repeated_Start@slave_read_address^0,w,c
   7658  003134  ECC7  F018         	call	_I2C_Write
-  7659  003138                     l239:
+  7659  003138                     l212:
   7660  003138  0012               	return		;funcret
   7661  00313A                     __end_of_I2C_Repeated_Start:
   7662                           	callstack 0
@@ -7847,12 +7847,12 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   7720  0031A6                     
   7721                           ;./I2C_Master_File_3.h: 114:         return 1;
   7722  0031A6  0E01               	movlw	1
-  7723  0031A8  EFD7  F018         	goto	l252
+  7723  0031A8  EFD7  F018         	goto	l225
   7724  0031AC                     l2878:
   7725                           
   7726                           ;./I2C_Master_File_3.h: 116:         return 2;
   7727  0031AC  0E02               	movlw	2
-  7728  0031AE                     l252:
+  7728  0031AE                     l225:
   7729  0031AE  0012               	return		;funcret
   7730  0031B0                     __end_of_I2C_Write:
   7731                           	callstack 0
@@ -7903,12 +7903,12 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   7776                           ;./I2C_Master_File_3.h: 32:         char buffer;;./I2C_Master_File_3.h: 33:         RCEN
       +                           = 1;
   7777  003000  86C5               	bsf	4037,3,c	;volatile
-  7778  003002                     l200:
+  7778  003002                     l173:
   7779  003002  A0C7               	btfss	199,0,c	;volatile
   7780  003004  EF06  F018         	goto	u2951
   7781  003008  EF08  F018         	goto	u2950
   7782  00300C                     u2951:
-  7783  00300C  EF01  F018         	goto	l200
+  7783  00300C  EF01  F018         	goto	l173
   7784  003010                     u2950:
   7785  003010                     
   7786                           ;./I2C_Master_File_3.h: 36:         buffer = SSPBUF;
@@ -7925,12 +7925,12 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   7797  003024                     
   7798                           ;./I2C_Master_File_3.h: 39:             I2C_Ack();
   7799  003024  EC17  F019         	call	_I2C_Ack	;wreg free
-  7800  003028  EF18  F018         	goto	l204
+  7800  003028  EF18  F018         	goto	l177
   7801  00302C                     l2972:
   7802                           
   7803                           ;./I2C_Master_File_3.h: 41:             I2C_Nack();
   7804  00302C  EC0D  F019         	call	_I2C_Nack	;wreg free
-  7805  003030                     l204:
+  7805  003030                     l177:
   7806                           
   7807                           ;./I2C_Master_File_3.h: 42:         I2C_Ready();
   7808  003030  EC2B  F019         	call	_I2C_Ready	;wreg free
@@ -7976,12 +7976,12 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   7848                           	callstack 0
   7849  003256                     _I2C_Ready:
   7850                           	callstack 27
-  7851  003256                     l211:
+  7851  003256                     l184:
   7852  003256  A69E               	btfss	3998,3,c	;volatile
   7853  003258  EF30  F019         	goto	u2441
   7854  00325C  EF32  F019         	goto	u2440
   7855  003260                     u2441:
-  7856  003260  EF2B  F019         	goto	l211
+  7856  003260  EF2B  F019         	goto	l184
   7857  003264                     u2440:
   7858  003264                     
   7859                           ;./I2C_Master_File_3.h: 61:     SSPIF=0;
@@ -8030,12 +8030,12 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   7902                           
   7903                           ;./I2C_Master_File_3.h: 127:  ACKEN=1;
   7904  00321C  88C5               	bsf	4037,4,c	;volatile
-  7905  00321E                     l262:
+  7905  00321E                     l235:
   7906  00321E  B8C5               	btfsc	4037,4,c	;volatile
   7907  003220  EF14  F019         	goto	u2831
   7908  003224  EF16  F019         	goto	u2830
   7909  003228                     u2831:
-  7910  003228  EF0F  F019         	goto	l262
+  7910  003228  EF0F  F019         	goto	l235
   7911  00322C                     u2830:
   7912  00322C  0012               	return		;funcret
   7913  00322E                     __end_of_I2C_Nack:
@@ -8081,12 +8081,12 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   7953                           
   7954                           ;./I2C_Master_File_3.h: 121:  ACKEN=1;
   7955  003230  88C5               	bsf	4037,4,c	;volatile
-  7956  003232                     l256:
+  7956  003232                     l229:
   7957  003232  B8C5               	btfsc	4037,4,c	;volatile
   7958  003234  EF1E  F019         	goto	u2821
   7959  003238  EF20  F019         	goto	u2820
   7960  00323C                     u2821:
-  7961  00323C  EF19  F019         	goto	l256
+  7961  00323C  EF19  F019         	goto	l229
   7962  003240                     u2820:
   7963  003240  0012               	return		;funcret
   7964  003242                     __end_of_I2C_Ack:
@@ -8144,68 +8144,68 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
       +                          ;LCD_20x4.c: 84:     if (row == 1)
   8016  002B8A  040D               	decf	LCD_String_xy@row^0,w,c
   8017  002B8C  A4D8               	btfss	status,2,c
-  8018  002B8E  EFCB  F015         	goto	u3101
-  8019  002B92  EFCD  F015         	goto	u3100
-  8020  002B96                     u3101:
-  8021  002B96  EFD4  F015         	goto	l3022
-  8022  002B9A                     u3100:
+  8018  002B8E  EFCB  F015         	goto	u3031
+  8019  002B92  EFCD  F015         	goto	u3030
+  8020  002B96                     u3031:
+  8021  002B96  EFD4  F015         	goto	l3014
+  8022  002B9A                     u3030:
   8023  002B9A                     
   8024                           ;LCD_20x4.c: 85:   LCD_Command((pos & 0x0F)|0x80);
   8025  002B9A  500A               	movf	LCD_String_xy@pos^0,w,c
   8026  002B9C  0B0F               	andlw	15
   8027  002B9E  0980               	iorlw	128
   8028  002BA0  ECE6  F018         	call	_LCD_Command
-  8029  002BA4  EF04  F016         	goto	l3034
-  8030  002BA8                     l3022:
+  8029  002BA4  EF04  F016         	goto	l3026
+  8030  002BA8                     l3014:
   8031  002BA8  0E02               	movlw	2
   8032  002BAA  180D               	xorwf	LCD_String_xy@row^0,w,c
   8033  002BAC  A4D8               	btfss	status,2,c
-  8034  002BAE  EFDB  F015         	goto	u3111
-  8035  002BB2  EFDD  F015         	goto	u3110
-  8036  002BB6                     u3111:
-  8037  002BB6  EFE4  F015         	goto	l3026
-  8038  002BBA                     u3110:
+  8034  002BAE  EFDB  F015         	goto	u3041
+  8035  002BB2  EFDD  F015         	goto	u3040
+  8036  002BB6                     u3041:
+  8037  002BB6  EFE4  F015         	goto	l3018
+  8038  002BBA                     u3040:
   8039  002BBA                     
   8040                           ;LCD_20x4.c: 87:   LCD_Command((pos & 0x0F)|0xC0);
   8041  002BBA  500A               	movf	LCD_String_xy@pos^0,w,c
   8042  002BBC  0B0F               	andlw	15
   8043  002BBE  09C0               	iorlw	192
   8044  002BC0  ECE6  F018         	call	_LCD_Command
-  8045  002BC4  EF04  F016         	goto	l3034
-  8046  002BC8                     l3026:
+  8045  002BC4  EF04  F016         	goto	l3026
+  8046  002BC8                     l3018:
   8047  002BC8  0E03               	movlw	3
   8048  002BCA  180D               	xorwf	LCD_String_xy@row^0,w,c
   8049  002BCC  A4D8               	btfss	status,2,c
-  8050  002BCE  EFEB  F015         	goto	u3121
-  8051  002BD2  EFED  F015         	goto	u3120
-  8052  002BD6                     u3121:
-  8053  002BD6  EFF4  F015         	goto	l3030
-  8054  002BDA                     u3120:
+  8050  002BCE  EFEB  F015         	goto	u3051
+  8051  002BD2  EFED  F015         	goto	u3050
+  8052  002BD6                     u3051:
+  8053  002BD6  EFF4  F015         	goto	l3022
+  8054  002BDA                     u3050:
   8055  002BDA                     
   8056                           ;LCD_20x4.c: 89:   LCD_Command((pos & 0x0F)|0x94);
   8057  002BDA  500A               	movf	LCD_String_xy@pos^0,w,c
   8058  002BDC  0B0F               	andlw	15
   8059  002BDE  0994               	iorlw	148
   8060  002BE0  ECE6  F018         	call	_LCD_Command
-  8061  002BE4  EF04  F016         	goto	l3034
-  8062  002BE8                     l3030:
+  8061  002BE4  EF04  F016         	goto	l3026
+  8062  002BE8                     l3022:
   8063  002BE8  0E04               	movlw	4
   8064  002BEA  180D               	xorwf	LCD_String_xy@row^0,w,c
   8065  002BEC  A4D8               	btfss	status,2,c
-  8066  002BEE  EFFB  F015         	goto	u3131
-  8067  002BF2  EFFD  F015         	goto	u3130
-  8068  002BF6                     u3131:
-  8069  002BF6  EF04  F016         	goto	l67
-  8070  002BFA                     u3130:
+  8066  002BEE  EFFB  F015         	goto	u3061
+  8067  002BF2  EFFD  F015         	goto	u3060
+  8068  002BF6                     u3061:
+  8069  002BF6  EF04  F016         	goto	l40
+  8070  002BFA                     u3060:
   8071  002BFA                     
   8072                           ;LCD_20x4.c: 91:   LCD_Command((pos & 0x0F)|0xD4);
   8073  002BFA  500A               	movf	LCD_String_xy@pos^0,w,c
   8074  002BFC  0B0F               	andlw	15
   8075  002BFE  09D4               	iorlw	212
   8076  002C00  ECE6  F018         	call	_LCD_Command
-  8077  002C04  EF04  F016         	goto	l3034
-  8078  002C08                     l67:
-  8079  002C08                     l3034:
+  8077  002C04  EF04  F016         	goto	l3026
+  8078  002C08                     l40:
+  8079  002C08                     l3026:
   8080                           
   8081                           ;LCD_20x4.c: 92:  LCD_String(str);
   8082  002C08  C00B  F008         	movff	LCD_String_xy@str,LCD_String@msg
@@ -8414,13 +8414,13 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   8283  003242                     
   8284                           ;./I2C_Master_File_3.h: 104:     PEN = 1;
   8285  003242  84C5               	bsf	4037,2,c	;volatile
-  8286  003244                     l244:
+  8286  003244                     l217:
   8287  003244  B4C5               	btfsc	4037,2,c	;volatile
-  8288  003246  EF27  F019         	goto	u3161
-  8289  00324A  EF29  F019         	goto	u3160
-  8290  00324E                     u3161:
-  8291  00324E  EF22  F019         	goto	l244
-  8292  003252                     u3160:
+  8288  003246  EF27  F019         	goto	u3091
+  8289  00324A  EF29  F019         	goto	u3090
+  8290  00324E                     u3091:
+  8291  00324E  EF22  F019         	goto	l217
+  8292  003252                     u3090:
   8293  003252                     
   8294                           ;./I2C_Master_File_3.h: 106:     if(!SSPSTATbits.P);
   8295  003252  50C7               	movf	199,w,c	;volatile
@@ -8721,7 +8721,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   8588                           
   8589 ;; *************** function _ADC_Init *****************
   8590 ;; Defined at:
-  8591 ;;		line 22 in file "PIC18F4550_ADC_Source_File.c"
+  8591 ;;		line 22 in file "PIC18F4550_ADC.c"
   8592 ;; Parameters:    Size  Location     Type
   8593 ;;		None
   8594 ;; Auto vars:     Size  Location     Type
@@ -8754,26 +8754,26 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   8621  003202                     _ADC_Init:
   8622                           	callstack 30
   8623  003202                     
-  8624                           ;PIC18F4550_ADC_Source_File.c: 24:     TRISA = 0xff;
+  8624                           ;PIC18F4550_ADC.c: 24:     TRISA = 0xff;
   8625  003202  6892               	setf	146,c	;volatile
   8626  003204                     
-  8627                           ;PIC18F4550_ADC_Source_File.c: 25:     ADCON0 = 0x85;
+  8627                           ;PIC18F4550_ADC.c: 25:     ADCON0 = 0x85;
   8628  003204  0E85               	movlw	133
   8629  003206  6EC2               	movwf	194,c	;volatile
   8630                           
-  8631                           ;PIC18F4550_ADC_Source_File.c: 26:     ADCON1 = 0xC0;
+  8631                           ;PIC18F4550_ADC.c: 26:     ADCON1 = 0xC0;
   8632  003208  0EC0               	movlw	192
   8633  00320A  6EC1               	movwf	193,c	;volatile
   8634                           
-  8635                           ;PIC18F4550_ADC_Source_File.c: 27:     ADCON2 = 0x92;
+  8635                           ;PIC18F4550_ADC.c: 27:     ADCON2 = 0x92;
   8636  00320C  0E92               	movlw	146
   8637  00320E  6EC0               	movwf	192,c	;volatile
   8638                           
-  8639                           ;PIC18F4550_ADC_Source_File.c: 28:     ADRESH = 0;
+  8639                           ;PIC18F4550_ADC.c: 28:     ADRESH = 0;
   8640  003210  0E00               	movlw	0
   8641  003212  6EC4               	movwf	196,c	;volatile
   8642                           
-  8643                           ;PIC18F4550_ADC_Source_File.c: 29:     ADRESL = 0;
+  8643                           ;PIC18F4550_ADC.c: 29:     ADRESL = 0;
   8644  003214  0E00               	movlw	0
   8645  003216  6EC3               	movwf	195,c	;volatile
   8646  003218  0012               	return		;funcret
@@ -9109,7 +9109,7 @@ Pointer List with Targets:
     sprintf@ap	PTR void [1] size(2) Largest target is 2
 		 -> ?_sprintf(BANK0[2]), 
 
-    S1400_IO_FILE$buffer	PTR unsigned char  size(2) Largest target is 10
+    S1405_IO_FILE$buffer	PTR unsigned char  size(2) Largest target is 10
 		 -> SensorTemperatura@Temperature(BANK0[10]), hours(BANK0[10]), mins(BANK0[10]), secs(BANK0[10]), 
 
     f.buffer	PTR unsigned char  size(2) Largest target is 10
@@ -9649,39 +9649,39 @@ CODE                 0      0       0       0        0.0%
 
 
 Microchip Technology PIC18 Macro Assembler V2.31 build 20201012212115 
-Symbol Table                                                                                   Tue Dec 15 10:52:21 2020
+Symbol Table                                                                                   Tue Dec 15 11:41:32 2020
 
                         ___fldiv@aexp 0048                          ___fldiv@bexp 0047  
                   __size_of_I2C_Ready 0012                          ___fldiv@sign 0040  
                   __size_of_I2C_Start 002E                          ?_LCD_Command 0001  
                          _SSPSTATbits 000FC7                    __size_of_I2C_Write 0022  
-                                  l21 3218                                    l24 2A26  
-                                  l27 2A52                                    l52 31E6  
-                                  l61 2D94                                    l46 3166  
-                                  l55 31CA                                    l71 2C14  
-                                  l67 2C08                                    l85 2E30  
-                                  l77 2E78                                    _GO 007E11  
-                         ?_LCD_String 0008                       _LCD_Custom_Char 2E32  
-                                 l200 3002                                   l202 3010  
-                                 l211 3256                                   l204 3030  
-                                 l300 1A94                                   l213 3264  
-                                 l205 3036                                   l214 3266  
-                                 l230 30F0                                   l311 1B90  
-                                 l208 3200                                   l232 310A  
-                                 l321 1BF4                                   l330 1C8E  
-                                 l235 3110                                   l244 3244  
-                                 l252 31AE                                   l228 30E2  
-                                 l316 1C38                                   l308 1B24  
-                                 l237 311E                                   l325 1CD2  
-                                 l246 3252                                   l262 321E  
-                                 l334 1D6C                                   l239 3138  
-                                 l351 202E                                   l343 1D94  
-                                 l248 3254                                   l256 3232  
-                                 l265 322C                                   l362 20E2  
-                                 l259 3240                                   l339 1D28  
-                                 l292 2B86                                   l365 2EBE  
-                                 l359 20A2                                   l295 1B04  
-                                 l633 2708                                   l482 226A  
+                                  l40 2C08                                    l25 31E6  
+                                  l34 2D94                                    l50 2E78  
+                                  l19 3166                                    l28 31CA  
+                                  l44 2C14                                    l58 2E30  
+                                  _GO 007E11                           ?_LCD_String 0008  
+                     _LCD_Custom_Char 2E32                                   l201 30E2  
+                                 l210 311E                                   l203 30F0  
+                                 l212 3138                                   l221 3254  
+                                 l205 310A                                   l303 1C8E  
+                                 l232 3240                                   l208 3110  
+                                 l312 1D28                                   l217 3244  
+                                 l225 31AE                                   l219 3252  
+                                 l235 321E                                   l307 1D6C  
+                                 l332 20A2                                   l324 202E  
+                                 l316 1D94                                   l181 3200  
+                                 l229 3232                                   l173 3002  
+                                 l238 322C                                   l175 3010  
+                                 l335 20E2                                   l184 3256  
+                                 l177 3030                                   l265 2B86  
+                                 l281 1B24                                   l273 1A94  
+                                 l186 3264                                   l178 3036  
+                                 l338 2EBE                                   l362 2A26  
+                                 l187 3266                                   l284 1B90  
+                                 l268 1B04                                   l365 2A52  
+                                 l294 1BF4                                   l359 3218  
+                                 l633 2708                                   l289 1C38  
+                                 l482 226A                                   l298 1CD2  
                                  l638 274E                                   l495 2544  
                                  l665 264A                                   l950 103A  
                                  l952 0E9A                                   l961 0EE0  
@@ -9707,60 +9707,60 @@ Symbol Table                                                                    
                                 l1215 28F0                                  l1223 2F02  
                                 l1143 166A                                  l1136 1628  
                                 l1056 2DE6                                  l3000 2F14  
-                                l1233 318C                                  l1226 3278  
-                                l1250 2D2E                                  l3002 2C78  
-                                l3010 29B8                                  l1171 1344  
-                                l3020 2B9A                                  l1092 297A  
-                                l1164 189E                                  l3004 2C80  
-                                l3012 2A34                                  l3100 23C4  
+                                l1233 318C                                  l3010 2B8A  
+                                l1226 3278                                  l1250 2D2E  
+                                l3002 2C78                                  l1171 1344  
+                                l3020 2BDA                                  l3012 2B9A  
+                                l1092 297A                                  l1164 189E  
+                                l3004 2C80                                  l3100 23C4  
                                 l1245 30DC                                  l1261 306E  
-                                l3030 2BE8                                  l3022 2BA8  
+                                l3022 2BE8                                  l3014 2BA8  
                                 l1094 29B6                                  l1166 1902  
-                                l3006 2C8E                                  l3014 2A4A  
-                                l3110 0CA2                                  l3102 23CA  
+                                l3006 2C8E                                  l3110 0CA2  
+                                l3030 2E44                                  l3102 23CA  
                                 l1191 2F82                                  l1255 2D36  
                                 l1183 2CD0                                  l1239 2F42  
-                                l2240 3202                                  l3032 2BFA  
-                                l3024 2BBA                                  l1184 2CD8  
-                                l3008 2CB4                                  l3200 0ED0  
-                                l3120 0CDE                                  l3112 0CAE  
-                                l3040 2E50                                  l3104 23CE  
-                                l1089 2938                                  l2242 3204  
-                                l3026 2BC8                                  l3034 2C08  
-                                l3018 2B8A                                  l1194 2FFC  
-                                l3210 0F10                                  l3202 0EDE  
-                                l3130 0D0E                                  l3122 0CEE  
-                                l3114 0CBC                                  l3106 3168  
-                                l3050 2E68                                  l2260 31FC  
-                                l3052 3242                                  l3028 2BDA  
-                                l3060 2EAE                                  l1188 2F7A  
+                                l3024 2BFA                                  l3016 2BBA  
+                                l1184 2CD8                                  l3008 2CB4  
+                                l3200 0ED0                                  l3120 0CDE  
+                                l3112 0CAE                                  l3040 2E66  
+                                l3032 2E50                                  l3104 23CE  
+                                l1089 2938                                  l3018 2BC8  
+                                l3026 2C08                                  l3050 2E9E  
+                                l1194 2FFC                                  l3210 0F10  
+                                l3202 0EDE                                  l3130 0D0E  
+                                l3122 0CEE                                  l3114 0CBC  
+                                l3106 3168                                  l3042 2E68  
+                                l2260 3202                                  l2252 31E8  
+                                l3044 3242                                  l3052 2EAE  
+                                l1188 2F7A                                  l3060 2DB8  
                                 l3220 0F82                                  l3212 0F3E  
                                 l3204 0EF0                                  l3140 0D44  
                                 l3132 0D14                                  l3124 0CF0  
                                 l3116 0CBE                                  l3300 09CC  
-                                l3036 2E34                                  l2262 31FE  
-                                l3054 2E7C                                  l3070 2DD4  
-                                l3062 2D96                                  l3230 0FFA  
+                                l3028 2E34                                  l2262 3204  
+                                l2254 31EC                                  l3046 2E7C  
+                                l3062 2DD4                                  l3054 2D96  
+                                l3070 2A4A                                  l3230 0FFA  
                                 l3222 0FAC                                  l3206 0EFE  
                                 l3150 0D84                                  l3142 0D54  
                                 l3134 0D22                                  l3118 0CCE  
                                 l3126 0CF8                                  l3310 0A0E  
-                                l3302 09D8                                  l3046 2E54  
-                                l3038 2E44                                  l2256 31E8  
-                                l3056 2E8E                                  l2520 284C  
-                                l2600 23F4                                  l3064 2DA8  
-                                l3240 1030                                  l3232 1016  
-                                l3216 0F68                                  l3224 0FB0  
-                                l3208 0F02                                  l3152 0D94  
-                                l3160 0DB4                                  l3144 0D56  
-                                l3136 0D24                                  l3128 0D08  
-                                l3320 0A70                                  l3312 0A1E  
-                                l3304 09E6                                  l3048 2E66  
+                                l3302 09D8                                  l3038 2E54  
+                                l2256 31FC                                  l3048 2E8E  
+                                l2520 284C                                  l2600 23F4  
+                                l3056 2DA8                                  l3240 1030  
+                                l3232 1016                                  l3216 0F68  
+                                l3224 0FB0                                  l3208 0F02  
+                                l3152 0D94                                  l3160 0DB4  
+                                l3144 0D56                                  l3136 0D24  
+                                l3128 0D08                                  l3320 0A70  
+                                l3312 0A1E                                  l3304 09E6  
                                 l3400 2546                                  l3080 2296  
-                                l2258 31EC                                  l3058 2E9E  
-                                l2522 2856                                  l2610 2464  
-                                l2602 2414                                  l2530 2EC0  
-                                l3066 2DB0                                  l3234 101A  
+                                l2258 31FE                                  l2522 2856  
+                                l2610 2464                                  l2602 2414  
+                                l2530 2EC0                                  l3058 2DB0  
+                                l3066 29B8                                  l3234 101A  
                                 l3226 0FCA                                  l3218 0F74  
                                 l3170 0DF2                                  l3162 0DC4  
                                 l3154 0D9C                                  l3138 0D34  
@@ -9773,7 +9773,7 @@ Symbol Table                                                                    
                                 l2516 2828                                  l2700 277C  
                                 l2620 24DC                                  l2612 246C  
                                 l2604 2418                                  l2532 2ECC  
-                                l2540 30B4                                  l3068 2DB8  
+                                l2540 30B4                                  l3068 2A34  
                                 l3236 1028                                  l3228 0FE0  
                                 l3180 0E3A                                  l3172 0E02  
                                 l3164 0DC4                                  l3156 0DA0  
@@ -10001,88 +10001,88 @@ Symbol Table                                                                    
                                 u2201 2172                                  u2210 21A0  
                                 u2130 2F02                                  u3010 2F42  
                                 u2211 219C                                  u2131 2EFE  
-                                u3011 2F3E                                  u3100 2B9A  
-                                u2220 21E0                                  u2140 30D0  
-                                u2300 2902                                  u3020 2CD0  
-                                u3101 2B96                                  u2221 21DC  
-                                u2141 30CC                                  u2301 28FE  
-                                u3021 2CCC                                  u3110 2BBA  
+                                u3011 2F3E                                  u2220 21E0  
+                                u2140 30D0                                  u2300 2902  
+                                u3020 2CD0                                  u3100 29E2  
+                                u2221 21DC                                  u2141 30CC  
+                                u2301 28FE                                  u3021 2CCC  
+                                u3101 29DA                                  u3030 2B9A  
                                 u2230 222A                                  u2310 2924  
-                                u2150 3068                                  u3030 29E2  
-                                u3111 2BB6                                  u2231 2226  
-                                u2311 2920                                  u2151 3062  
-                                u3031 29DA                                  u3120 2BDA  
+                                u2150 3068                                  u3031 2B96  
+                                u2231 2226                                  u2311 2920  
+                                u2151 3062                                  u3040 2BBA  
                                 u2240 23F4                                  u2320 297A  
                                 u2160 306A                                  u2400 2D0C  
                                 u3200 2380                                  _LATD 000F8C  
-                                u3121 2BD6                                  u2241 23F0  
+                                u3041 2BB6                                  u2241 23F0  
                                 u2321 2976                                  u4001 1C7C  
-                                u3201 237C                                  u3130 2BFA  
+                                u3201 237C                                  u3050 2BDA  
                                 u2090 283A                                  u2170 20F6  
                                 u2250 2426                                  u2330 298A  
-                                u2410 2D22                                  u4010 1C9C  
-                                u3210 23E0                                  u3131 2BF6  
-                                u2091 2836                                  u2171 20F2  
-                                u2251 2422                                  u2331 2986  
-                                u2411 2D1E                                  u4011 1C98  
+                                u2410 2D22                                  u3130 2A0A  
+                                u4010 1C9C                                  u3210 23E0  
+                                u3051 2BD6                                  u2091 2836  
+                                u2171 20F2                                  u2251 2422  
+                                u2331 2986                                  u2411 2D1E  
+                                u3131 2A02                                  u4011 1C98  
                                 u3211 23DC                                  u2420 2E16  
-                                u2180 2128                                  u2260 2464  
-                                u2340 2F5E                                  u2500 1376  
-                                u3060 2A0A                                  u3300 0E3A  
-                                u3220 0CBC                                  u4100 206E  
-                                u4020 1CCE                                  u3140 2E44  
-                                u2421 2E12                                  u2181 2124  
-                                u2261 2460                                  u2341 2F5A  
-                                u2501 1370                                  u3061 2A02  
-                                u3301 0E36                                  u3221 0CB8  
-                                u4101 206A                                  u4021 1CCA  
-                                u3141 2E40                                  u2430 2E30  
+                                u3060 2BFA                                  u2180 2128  
+                                u2260 2464                                  u2340 2F5E  
+                                u2500 1376                                  u3124 29F2  
+                                u3300 0E3A                                  u3220 0CBC  
+                                u4100 206E                                  u4020 1CCE  
+                                u2421 2E12                                  u3061 2BF6  
+                                u2181 2124                                  u2261 2460  
+                                u2341 2F5A                                  u2501 1370  
+                                u3125 29EE                                  u3301 0E36  
+                                u3221 0CB8                                  u4101 206A  
+                                u4021 1CCA                                  u2430 2E30  
                                 u2270 248E                                  u2510 1378  
-                                u2350 30A0                                  u3054 29F2  
+                                u2350 30A0                                  u3118 29E4  
                                 u3310 0E5C                                  u3230 0CCE  
-                                u4030 1CF6                                  u3150 2E78  
+                                u4030 1CF6                                  u3070 2E44  
                                 u2431 2E2C                                  u2191 2152  
                                 u2271 248A                                  u2351 309A  
-                                u3055 29EE                                  u3311 0E58  
-                                u3231 0CCA                                  u4111 2090  
-                                u4031 1CF2                                  u3151 2E74  
-                                u3160 3252                                  u2440 3264  
+                                u3311 0E58                                  u3231 0CCA  
+                                u4111 2090                                  u4031 1CF2  
+                                u3071 2E40                                  u2440 3264  
                                 u2280 24BC                                  u2600 1592  
                                 u2520 138E                                  u2360 30A2  
-                                u3048 29E4                                  u3400 0F68  
+                                u3160 2A34                                  u3400 0F68  
                                 u3320 0E86                                  u3240 0CDE  
-                                u4120 20B0                                  u3161 324E  
+                                u4120 20B0                                  u3080 2E78  
                                 u2441 3260                                  u2281 24B8  
                                 u2601 158E                                  u2521 138A  
-                                u3401 0F64                                  u3321 0E82  
-                                u3241 0CDA                                  u4121 20AC  
-                                u4041 1D16                                  u2450 2764  
-                                u2290 2504                                  u2610 15A2  
-                                u2530 13BE                                  u2370 2FF6  
-                                u3090 2A34                                  u3410 0F82  
-                                u3330 0EAA                                  u3250 0D22  
-                                u4130 20E2                                  u4050 1D36  
-                                u3170 2286                                  u2451 2760  
+                                u3161 2A30                                  u3401 0F64  
+                                u3321 0E82                                  u3241 0CDA  
+                                u4121 20AC                                  u4041 1D16  
+                                u3081 2E74                                  u3090 3252  
+                                u2450 2764                                  u2290 2504  
+                                u2610 15A2                                  u2530 13BE  
+                                u2370 2FF6                                  u3154 2A1A  
+                                u3410 0F82                                  u3330 0EAA  
+                                u3250 0D22                                  u4130 20E2  
+                                u4050 1D36                                  u3170 2286  
+                                u3091 324E                                  u2451 2760  
                                 u2291 2500                                  u2611 159E  
                                 u2531 13BA                                  u2371 2FF0  
-                                u3091 2A30                                  u3411 0F7E  
+                                u3155 2A16                                  u3411 0F7E  
                                 u3331 0EA6                                  u3251 0D1E  
                                 u4131 20DE                                  u4051 1D32  
                                 u3171 2282                                  u2460 278A  
                                 u2620 15B4                                  u2540 13DA  
                                 u2380 2FF8                                  u2700 1730  
-                                u3084 2A1A                                  u3420 0FCA  
+                                u3148 2A0C                                  u3420 0FCA  
                                 u3340 0EC0                                  u3260 0D34  
                                 u3500 0916                                  u4060 1D68  
                                 u3180 22C8                                  u2461 2786  
                                 u2621 15B0                                  u2541 13D6  
-                                u3085 2A16                                  u3421 0FC6  
-                                u3341 0EBC                                  u3261 0D30  
-                                u3501 0912                                  u4061 1D64  
-                                u3181 22C4                                  u2470 27AA  
-                                u2630 15C4                                  u2550 1408  
-                                u2390 2D0A                                  u2710 1746  
-                                u3078 2A0C                                  u3430 0FFA  
+                                u3421 0FC6                                  u3341 0EBC  
+                                u3261 0D30                                  u3501 0912  
+                                u4061 1D64                                  u3181 22C4  
+                                u2470 27AA                                  u2630 15C4  
+                                u2550 1408                                  u2390 2D0A  
+                                u2710 1746                                  u3430 0FFA  
                                 u3350 0EDE                                  u3270 0D44  
                                 u3510 094C                                  u4070 1FFE  
                                 u3190 233A                                  u2471 27A6  
@@ -10247,8 +10247,8 @@ Symbol Table                                                                    
                                xtoa@i 003F                                 xtoa@n 0037  
                                xtoa@p 0033                                 xtoa@w 0035  
                                xtoa@x 0026                     SensorMovimiento@i 00B0  
-                     __end_of_toupper 2D38                        SensorLuz@i_950 0085  
-                      ?_LCD_String_xy 000A                          _toupper$1604 000D  
+                     __end_of_toupper 2D38                        SensorLuz@i_872 0085  
+                      ?_LCD_String_xy 000A                          _toupper$1609 000D  
              __end_of_LCD_Custom_Char 2E7A                       __initialization 2C16  
                         __end_of_ctoa 2828                          __end_of_main 2FC2  
                         __end_of_dtoa 162A                          __end_of_xtoa 1904  
@@ -10314,7 +10314,7 @@ Symbol Table                                                                    
               SensorTemperatura@F3718 0117                               _I2C_Ack 322E  
                              _ACKSTAT 007E2E                               ?_memset 0001  
                              ?_strcat 000D                               ?_strcpy 0005  
-                             ?_strlen 0001                SensorTemperatura@i_901 00B0  
+                             ?_strlen 0001                SensorTemperatura@i_823 00B0  
                            ?___xxtofl 0009                    __size_of_vfpfcnvrt 030A  
                              _SSPCON1 000FC6                               _SSPCON2 000FC5  
                              _SSPSTAT 000FC7                               _MSdelay 2DE8  
@@ -10384,7 +10384,7 @@ Symbol Table                                                                    
                  __end_of_LCD_Command 31E8                             ___flmul@a 001B  
                            ___flmul@b 0017                         __pcstackBANK0 0060  
                     ___aodiv@dividend 0001                     __size_of___xxtofl 01B4  
-                            ?_MSdelay 0001                             _dtoa$1493 002E  
+                            ?_MSdelay 0001                             _dtoa$1498 002E  
                           ?_SensorLuz 0001                              ?___aodiv 0001  
                             ?___aomod 0001                              ?___fldiv 0030  
                     ___aodiv@quotient 0013                              ?___flmul 0017  
@@ -10401,7 +10401,7 @@ Symbol Table                                                                    
                             MSdelay@j 0005                              _LCD_Char 31B0  
                             _LCD_Init 313A               __size_of_RTC_Read_Clock 0046  
                          _LCD_Command 31CC                             _vfpfcnvrt 103C  
-                           _xtoa$1504 002F                             _xtoa$1505 0031  
+                           _xtoa$1510 0031                             _xtoa$1509 002F  
                     __size_of_I2C_Ack 0014                            _ADCON0bits 000FC2  
                    ??_LCD_Custom_Char 000A                            vfpfcnvrt@c 005D  
                            copy_data0 2C2A                             copy_data1 2C4A  
@@ -10452,7 +10452,7 @@ Symbol Table                                                                    
                SensorMovimiento@F3730 012C                 SensorMovimiento@F3724 0154  
                SensorMovimiento@F3727 0140                       ___aomod@divisor 0009  
                          ??_vfpfcnvrt 0049                       ___aomod@counter 0011  
-               SensorMovimiento@i_933 00B4                 SensorMovimiento@i_928 00B2  
+               SensorMovimiento@i_850 00B2                 SensorMovimiento@i_855 00B4  
                             sprintf@f 0072                              sprintf@s 0066  
                             toupper@c 0007                __size_of_LCD_String_xy 008E  
                          _SSPCON2bits 000FC5                          ___aodiv@sign 0012  
