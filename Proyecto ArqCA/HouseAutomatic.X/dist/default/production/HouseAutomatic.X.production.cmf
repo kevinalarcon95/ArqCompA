@@ -74,7 +74,7 @@ idataBANK1 CODE 0 2A54 2A54 9B 1
 dataBANK0 BANK0 1 E2 E2 10 1
 dataBANK1 BANK1 1 100 100 9B 1
 config CONFIG 4 300000 300000 E 1
-$C:\Users\ASUS\AppData\Local\Temp\s51k.o
+$C:\Users\ASUS\AppData\Local\Temp\svp8.o
 idloc IDLOC 5 200000 200000 8 1
 init CODE 0 0 0 4 1
 config CONFIG 4 300000 300000 E 1
@@ -822,27 +822,27 @@ CA0 text10 CODE >205:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common
 1A76 text1 CODE >126:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
 1A78 text1 CODE >128:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
 1A8A text1 CODE >129:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
-1A98 text1 CODE >130:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
-1A9E text1 CODE >131:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
-1AA4 text1 CODE >133:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
-1AB6 text1 CODE >134:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
-1AC0 text1 CODE >135:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
-1AC0 text1 CODE >136:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
-1ACE text1 CODE >137:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
-1AE0 text1 CODE >138:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
-1B04 text1 CODE >140:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+1A94 text1 CODE >130:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+1A94 text1 CODE >131:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+1AA2 text1 CODE >132:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+1AB4 text1 CODE >133:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+1AD4 text1 CODE >135:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+1AE6 text1 CODE >136:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+1AF4 text1 CODE >137:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+1AFA text1 CODE >138:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+1B00 text1 CODE >140:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
 1B04 text1 CODE >141:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
 1B06 text1 CODE >142:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
 1B08 text1 CODE >144:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
 1B1A text1 CODE >145:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
-1B28 text1 CODE >146:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
-1B2E text1 CODE >147:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
-1B34 text1 CODE >149:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
-1B46 text1 CODE >150:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
-1B50 text1 CODE >151:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
-1B50 text1 CODE >152:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
-1B5E text1 CODE >153:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
-1B70 text1 CODE >154:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+1B24 text1 CODE >146:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+1B24 text1 CODE >147:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+1B32 text1 CODE >148:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+1B44 text1 CODE >149:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+1B64 text1 CODE >151:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+1B76 text1 CODE >152:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+1B84 text1 CODE >153:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+1B8A text1 CODE >154:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
 1B90 text1 CODE >157:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
 2F84 text0 CODE >58:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
 2F84 text0 CODE >60:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
@@ -862,54 +862,54 @@ CA0 text10 CODE >205:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common
 2FAE text0 CODE >79:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
 2FB2 text0 CODE >80:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
 2FB6 text0 CODE >81:C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
-2C16 cinit CODE >1726:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C16 cinit CODE >1728:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C16 cinit CODE >1731:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C16 cinit CODE >1828:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C18 cinit CODE >1829:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C1A cinit CODE >1830:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C1C cinit CODE >1831:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C1E cinit CODE >1832:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C20 cinit CODE >1833:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C22 cinit CODE >1834:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C26 cinit CODE >1835:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C2A cinit CODE >1836:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C2A cinit CODE >1837:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C2C cinit CODE >1838:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C30 cinit CODE >1839:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C32 cinit CODE >1840:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C34 cinit CODE >1841:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C36 cinit CODE >1845:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C38 cinit CODE >1846:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C3A cinit CODE >1847:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C3C cinit CODE >1848:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C3E cinit CODE >1849:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C40 cinit CODE >1850:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C42 cinit CODE >1851:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C46 cinit CODE >1852:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C4A cinit CODE >1853:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C4A cinit CODE >1854:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C4C cinit CODE >1855:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C50 cinit CODE >1856:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C52 cinit CODE >1857:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C54 cinit CODE >1858:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C56 cinit CODE >1862:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C5A cinit CODE >1863:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C5C cinit CODE >1864:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C5C cinit CODE >1865:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C5E cinit CODE >1866:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C60 cinit CODE >1867:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C62 cinit CODE >1870:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C66 cinit CODE >1871:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C68 cinit CODE >1872:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C68 cinit CODE >1873:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C6A cinit CODE >1874:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C6C cinit CODE >1875:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C6E cinit CODE >1881:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C6E cinit CODE >1884:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C70 cinit CODE >1885:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C72 cinit CODE >1886:C:\Users\ASUS\AppData\Local\Temp\s51k.s
-2C74 cinit CODE >1887:C:\Users\ASUS\AppData\Local\Temp\s51k.s
+2C16 cinit CODE >1726:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C16 cinit CODE >1728:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C16 cinit CODE >1731:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C16 cinit CODE >1828:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C18 cinit CODE >1829:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C1A cinit CODE >1830:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C1C cinit CODE >1831:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C1E cinit CODE >1832:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C20 cinit CODE >1833:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C22 cinit CODE >1834:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C26 cinit CODE >1835:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C2A cinit CODE >1836:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C2A cinit CODE >1837:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C2C cinit CODE >1838:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C30 cinit CODE >1839:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C32 cinit CODE >1840:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C34 cinit CODE >1841:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C36 cinit CODE >1845:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C38 cinit CODE >1846:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C3A cinit CODE >1847:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C3C cinit CODE >1848:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C3E cinit CODE >1849:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C40 cinit CODE >1850:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C42 cinit CODE >1851:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C46 cinit CODE >1852:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C4A cinit CODE >1853:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C4A cinit CODE >1854:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C4C cinit CODE >1855:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C50 cinit CODE >1856:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C52 cinit CODE >1857:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C54 cinit CODE >1858:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C56 cinit CODE >1862:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C5A cinit CODE >1863:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C5C cinit CODE >1864:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C5C cinit CODE >1865:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C5E cinit CODE >1866:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C60 cinit CODE >1867:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C62 cinit CODE >1870:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C66 cinit CODE >1871:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C68 cinit CODE >1872:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C68 cinit CODE >1873:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C6A cinit CODE >1874:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C6C cinit CODE >1875:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C6E cinit CODE >1881:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C6E cinit CODE >1884:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C70 cinit CODE >1885:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C72 cinit CODE >1886:C:\Users\ASUS\AppData\Local\Temp\svp8.s
+2C74 cinit CODE >1887:C:\Users\ASUS\AppData\Local\Temp\svp8.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -935,7 +935,7 @@ __HidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\HouseAutomatic.X.prod
 __HidataBANK1 0 0 ABS 0 idataBANK1 dist/default/production\HouseAutomatic.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\HouseAutomatic.X.production.o
 _LCD_Custom_Char 2E32 0 CODE 0 text4 dist/default/production\HouseAutomatic.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\ASUS\AppData\Local\Temp\s51k.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\ASUS\AppData\Local\Temp\svp8.o
 __size_of_I2C_Ack 0 0 ABS 0 - dist/default/production\HouseAutomatic.X.production.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\HouseAutomatic.X.production.o
 isalpha@c 1 0 COMRAM 1 cstackCOMRAM dist/default/production\HouseAutomatic.X.production.o
@@ -951,7 +951,7 @@ _ADON 7E10 0 ABS 0 - dist/default/production\HouseAutomatic.X.production.o
 _LATD F8C 0 ABS 0 - dist/default/production\HouseAutomatic.X.production.o
 _RCEN 7E2B 0 ABS 0 - dist/default/production\HouseAutomatic.X.production.o
 _RSEN 7E29 0 ABS 0 - dist/default/production\HouseAutomatic.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\ASUS\AppData\Local\Temp\s51k.o
+___sp 0 0 STACK 2 stack C:\Users\ASUS\AppData\Local\Temp\svp8.o
 _ctoa 2750 0 CODE 0 text30 dist/default/production\HouseAutomatic.X.production.o
 _dbuf 19B 0 BANK1 1 bssBANK1 dist/default/production\HouseAutomatic.X.production.o
 _dtoa 1346 0 CODE 0 text23 dist/default/production\HouseAutomatic.X.production.o
@@ -969,7 +969,7 @@ __size_of_I2C_Write 0 0 ABS 0 - dist/default/production\HouseAutomatic.X.product
 pad@i 18 0 COMRAM 1 cstackCOMRAM dist/default/production\HouseAutomatic.X.production.o
 pad@p 15 0 COMRAM 1 cstackCOMRAM dist/default/production\HouseAutomatic.X.production.o
 pad@w 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\HouseAutomatic.X.production.o
-start 0 0 CODE 0 init C:\Users\ASUS\AppData\Local\Temp\s51k.o
+start 0 0 CODE 0 init C:\Users\ASUS\AppData\Local\Temp\svp8.o
 ___aomod@counter 11 0 COMRAM 1 cstackCOMRAM dist/default/production\HouseAutomatic.X.production.o
 ___flmul@aexp 28 0 COMRAM 1 cstackCOMRAM dist/default/production\HouseAutomatic.X.production.o
 ___flmul@bexp 29 0 COMRAM 1 cstackCOMRAM dist/default/production\HouseAutomatic.X.production.o
@@ -1005,13 +1005,13 @@ __end_of_vfpfcnvrt 1346 0 CODE 0 text17 dist/default/production\HouseAutomatic.X
 __size_of_ADC_Init 0 0 ABS 0 - dist/default/production\HouseAutomatic.X.production.o
 __size_of_ADC_Read 0 0 ABS 0 - dist/default/production\HouseAutomatic.X.production.o
 __size_of_vfpfcnvrt 0 0 ABS 0 - dist/default/production\HouseAutomatic.X.production.o
-__accesstop 60 0 ABS 0 - C:\Users\ASUS\AppData\Local\Temp\s51k.o
+__accesstop 60 0 ABS 0 - C:\Users\ASUS\AppData\Local\Temp\svp8.o
 __end_of_LCD_Char 31CC 0 CODE 0 text43 dist/default/production\HouseAutomatic.X.production.o
 __end_of_LCD_Init 3168 0 CODE 0 text45 dist/default/production\HouseAutomatic.X.production.o
-intlevel0 0 0 CODE 0 text C:\Users\ASUS\AppData\Local\Temp\s51k.o
-intlevel1 0 0 CODE 0 text C:\Users\ASUS\AppData\Local\Temp\s51k.o
-intlevel2 0 0 CODE 0 text C:\Users\ASUS\AppData\Local\Temp\s51k.o
-intlevel3 0 0 CODE 0 text C:\Users\ASUS\AppData\Local\Temp\s51k.o
+intlevel0 0 0 CODE 0 text C:\Users\ASUS\AppData\Local\Temp\svp8.o
+intlevel1 0 0 CODE 0 text C:\Users\ASUS\AppData\Local\Temp\svp8.o
+intlevel2 0 0 CODE 0 text C:\Users\ASUS\AppData\Local\Temp\svp8.o
+intlevel3 0 0 CODE 0 text C:\Users\ASUS\AppData\Local\Temp\svp8.o
 strcat@dest D 0 COMRAM 1 cstackCOMRAM dist/default/production\HouseAutomatic.X.production.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\HouseAutomatic.X.production.o
 xtoa@c 41 0 COMRAM 1 cstackCOMRAM dist/default/production\HouseAutomatic.X.production.o
@@ -1031,8 +1031,8 @@ _ADCON1 FC1 0 ABS 0 - dist/default/production\HouseAutomatic.X.production.o
 _ADCON2 FC0 0 ABS 0 - dist/default/production\HouseAutomatic.X.production.o
 _ADRESH FC4 0 ABS 0 - dist/default/production\HouseAutomatic.X.production.o
 _ADRESL FC3 0 ABS 0 - dist/default/production\HouseAutomatic.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\ASUS\AppData\Local\Temp\s51k.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\ASUS\AppData\Local\Temp\s51k.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\ASUS\AppData\Local\Temp\svp8.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\ASUS\AppData\Local\Temp\svp8.o
 _LCD_String 2D38 0 CODE 0 text42 dist/default/production\HouseAutomatic.X.production.o
 ?_toupper 7 0 COMRAM 1 cstackCOMRAM dist/default/production\HouseAutomatic.X.production.o
 _I2C_Init 31E8 0 CODE 0 text48 dist/default/production\HouseAutomatic.X.production.o
@@ -1144,7 +1144,7 @@ __Htext9 0 0 ABS 0 text9 dist/default/production\HouseAutomatic.X.production.o
 __size_of___xxtofl 0 0 ABS 0 - dist/default/production\HouseAutomatic.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\HouseAutomatic.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\HouseAutomatic.X.production.o
-__smallconst 800 0 SMALLCONST 0 smallconst C:\Users\ASUS\AppData\Local\Temp\s51k.o
+__smallconst 800 0 SMALLCONST 0 smallconst C:\Users\ASUS\AppData\Local\Temp\svp8.o
 _LCD_String_xy 2B88 0 CODE 0 text41 dist/default/production\HouseAutomatic.X.production.o
 ___xxtofl@arg 13 0 COMRAM 1 cstackCOMRAM dist/default/production\HouseAutomatic.X.production.o
 ___xxtofl@exp 12 0 COMRAM 1 cstackCOMRAM dist/default/production\HouseAutomatic.X.production.o
@@ -1384,8 +1384,8 @@ _strlen 30A8 0 CODE 0 text25 dist/default/production\HouseAutomatic.X.production
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\HouseAutomatic.X.production.o
 ___fldiv@new_exp 41 0 COMRAM 1 cstackCOMRAM dist/default/production\HouseAutomatic.X.production.o
 __size_of_vfprintf 0 0 ABS 0 - dist/default/production\HouseAutomatic.X.production.o
-stackhi 7FF 0 ABS 0 - C:\Users\ASUS\AppData\Local\Temp\s51k.o
-stacklo 1BB 0 ABS 0 - C:\Users\ASUS\AppData\Local\Temp\s51k.o
+stackhi 7FF 0 ABS 0 - C:\Users\ASUS\AppData\Local\Temp\svp8.o
+stacklo 1BB 0 ABS 0 - C:\Users\ASUS\AppData\Local\Temp\svp8.o
 __Lintcode 0 0 CODE 0 intcode dist/default/production\HouseAutomatic.X.production.o
 __Lintret 0 0 ABS 0 intret dist/default/production\HouseAutomatic.X.production.o
 __Lirdata 0 0 CODE 0 irdata dist/default/production\HouseAutomatic.X.production.o
@@ -1413,7 +1413,7 @@ SensorTemperatura@F3715 100 0 BANK1 1 dataBANK1 dist/default/production\HouseAut
 SensorTemperatura@F3718 117 0 BANK1 1 dataBANK1 dist/default/production\HouseAutomatic.X.production.o
 end_of_initialization 2C6E 0 CODE 0 cinit dist/default/production\HouseAutomatic.X.production.o
 __end_of_MSdelay 2E32 0 CODE 0 text47 dist/default/production\HouseAutomatic.X.production.o
-SensorTemperatura@i_902 B0 0 BANK0 1 cstackBANK0 dist/default/production\HouseAutomatic.X.production.o
+SensorTemperatura@i_901 B0 0 BANK0 1 cstackBANK0 dist/default/production\HouseAutomatic.X.production.o
 __Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\HouseAutomatic.X.production.o
 __Hintentry 0 0 ABS 0 intentry dist/default/production\HouseAutomatic.X.production.o
 fputc@c 1 0 COMRAM 1 cstackCOMRAM dist/default/production\HouseAutomatic.X.production.o
@@ -1494,7 +1494,7 @@ __Ltext47 0 0 ABS 0 text47 dist/default/production\HouseAutomatic.X.production.o
 __Ltext48 0 0 ABS 0 text48 dist/default/production\HouseAutomatic.X.production.o
 __Ltext49 0 0 ABS 0 text49 dist/default/production\HouseAutomatic.X.production.o
 __end_of_SensorLuz 20E4 0 CODE 0 text8 dist/default/production\HouseAutomatic.X.production.o
-__ramtop 800 0 RAM 0 ramtop C:\Users\ASUS\AppData\Local\Temp\s51k.o
+__ramtop 800 0 RAM 0 ramtop C:\Users\ASUS\AppData\Local\Temp\svp8.o
 _sprintf 2D96 0 CODE 0 text15 dist/default/production\HouseAutomatic.X.production.o
 __size_of_RTC_Read_Clock 0 0 ABS 0 - dist/default/production\HouseAutomatic.X.production.o
 __size_of_SensorLuz 0 0 ABS 0 - dist/default/production\HouseAutomatic.X.production.o
