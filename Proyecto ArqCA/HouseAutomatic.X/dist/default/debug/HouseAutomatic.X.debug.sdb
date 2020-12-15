@@ -1,0 +1,273 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"19 D:\Descargas\HouseAutomatic.X\Controler.c
+[v _main main `(v  1 e 1 0 ]
+"49
+[v _SensorLuz SensorLuz `(v  1 e 1 0 ]
+"79
+[v _adc adc `(ui  1 e 2 0 ]
+"9 D:\Descargas\HouseAutomatic.X\LCD_20x4.c
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"31
+[v _LCD_Command LCD_Command `(v  1 e 1 0 ]
+"42
+[v _LCD_Char LCD_Char `(v  1 e 1 0 ]
+"54
+[v _LCD_String LCD_String `(v  1 e 1 0 ]
+"77
+[v _LCD_Custom_Char LCD_Custom_Char `(v  1 e 1 0 ]
+"90
+[v _MSdelay MSdelay `(v  1 e 1 0 ]
+"10 D:\Descargas\HouseAutomatic.X\PIC18F4550_ADC_Source_File.c
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+[s S165 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"2736 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[s S350 . 1 `uc 1 SPP0 1 0 :1:0 
+`uc 1 SPP1 1 0 :1:1 
+`uc 1 SPP2 1 0 :1:2 
+`uc 1 SPP3 1 0 :1:3 
+`uc 1 SPP4 1 0 :1:4 
+`uc 1 SPP5 1 0 :1:5 
+`uc 1 SPP6 1 0 :1:6 
+`uc 1 SPP7 1 0 :1:7 
+]
+[s S359 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S362 . 1 `S165 1 . 1 0 `S350 1 . 1 0 `S359 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES362  1 e 1 @3971 ]
+"3073
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"3427
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+[s S196 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+]
+"3457
+[s S204 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+]
+[u S212 . 1 `S196 1 . 1 0 `S204 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES212  1 e 1 @3986 ]
+"3625
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"4001
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S156 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"4033
+[u S174 . 1 `S156 1 . 1 0 `S165 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES174  1 e 1 @3989 ]
+"6510
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+[s S306 . 1 `uc 1 ADCS 1 0 :3:0 
+`uc 1 ACQT 1 0 :3:3 
+`uc 1 . 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"6531
+[s S311 . 1 `uc 1 ADCS0 1 0 :1:0 
+`uc 1 ADCS1 1 0 :1:1 
+`uc 1 ADCS2 1 0 :1:2 
+`uc 1 ACQT0 1 0 :1:3 
+`uc 1 ACQT1 1 0 :1:4 
+`uc 1 ACQT2 1 0 :1:5 
+]
+[u S318 . 1 `S306 1 . 1 0 `S311 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES318  1 e 1 @4032 ]
+"6581
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+[s S232 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 VCFG 1 0 :2:4 
+]
+"6606
+[s S235 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+]
+[s S242 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+`uc 1 VCFG01 1 0 :1:4 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S247 . 1 `S232 1 . 1 0 `S235 1 . 1 0 `S242 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES247  1 e 1 @4033 ]
+"6666
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S32 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"6710
+[s S35 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S39 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S46 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S49 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S52 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S55 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S58 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S61 . 1 `S32 1 . 1 0 `S35 1 . 1 0 `S39 1 . 1 0 `S46 1 . 1 0 `S49 1 . 1 0 `S52 1 . 1 0 `S55 1 . 1 0 `S58 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES61  1 e 1 @4034 ]
+"6792
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"6799
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"7986
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"8982
+[v _ADON ADON `VEb  1 e 0 @32272 ]
+"9753
+[v _GO GO `VEb  1 e 0 @32273 ]
+"9987
+[v _LATD0 LATD0 `VEb  1 e 0 @31840 ]
+"9990
+[v _LATD1 LATD1 `VEb  1 e 0 @31841 ]
+"10518
+[v _RW RW `VEb  1 e 0 @32314 ]
+"15 D:\Descargas\HouseAutomatic.X\Controler.c
+[v _character2 character2 `[8]uc  1 e 8 0 ]
+"16
+[v _character3 character3 `[8]uc  1 e 8 0 ]
+"19
+[v _main main `(v  1 e 1 0 ]
+{
+"47
+} 0
+"49
+[v _SensorLuz SensorLuz `(v  1 e 1 0 ]
+{
+"50
+[v SensorLuz@val val `ui  1 a 2 11 ]
+"77
+} 0
+"79
+[v _adc adc `(ui  1 e 2 0 ]
+{
+"80
+[v adc@adcval adcval `ui  1 a 2 2 ]
+"86
+} 0
+"77 D:\Descargas\HouseAutomatic.X\LCD_20x4.c
+[v _LCD_Custom_Char LCD_Custom_Char `(v  1 e 1 0 ]
+{
+[v LCD_Custom_Char@loc loc `uc  1 a 1 wreg ]
+"79
+[v LCD_Custom_Char@i i `uc  1 a 1 10 ]
+"77
+[v LCD_Custom_Char@loc loc `uc  1 a 1 wreg ]
+[v LCD_Custom_Char@msg msg `*.39uc  1 p 2 7 ]
+"80
+[v LCD_Custom_Char@loc loc `uc  1 a 1 9 ]
+"87
+} 0
+"42
+[v _LCD_Char LCD_Char `(v  1 e 1 0 ]
+{
+[v LCD_Char@char_data char_data `uc  1 a 1 wreg ]
+[v LCD_Char@char_data char_data `uc  1 a 1 wreg ]
+"44
+[v LCD_Char@char_data char_data `uc  1 a 1 6 ]
+"51
+} 0
+"9
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+"21
+} 0
+"31
+[v _LCD_Command LCD_Command `(v  1 e 1 0 ]
+{
+[v LCD_Command@cmd cmd `uc  1 a 1 wreg ]
+[v LCD_Command@cmd cmd `uc  1 a 1 wreg ]
+"33
+[v LCD_Command@cmd cmd `uc  1 a 1 6 ]
+"40
+} 0
+"90
+[v _MSdelay MSdelay `(v  1 e 1 0 ]
+{
+"92
+[v MSdelay@j j `ui  1 a 2 4 ]
+[v MSdelay@i i `ui  1 a 2 2 ]
+"90
+[v MSdelay@val val `ui  1 p 2 0 ]
+"95
+} 0
+"10 D:\Descargas\HouseAutomatic.X\PIC18F4550_ADC_Source_File.c
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+{
+"18
+} 0
