@@ -100,37 +100,41 @@ void SensorTemperatura() {
     sprintf(Temperature, "%d%cC ", (int) celsius, 0xdf);
     LCD_String_xy(2, 6, Temperature); 
 
-    //MSdelay(1000);
+    
     memset(Temperature, 0, 10);
 
     if (celsius >= 20 && celsius <= 25) {
         LED5 = 1;
         LED6 = 0;
-        char buffer_TX1[] = "Calefaccion encendida\r";
-        for (int i = 0; i < 40; i++) {
-            while (!TXSTAbits.TRMT) {
-            }
-            TXREG = buffer_TX1[i];
-        }
+        
         LCD_String_xy(2,13,"Cal: ");
         LCD_Custom_Char(0,character1);
         LCD_Command(0xc0|(17));
         LCD_Char(0);
         
+        char buffer_TX1[] = "Calefaccion encendida\r";
+        for (int i = 0; i < 25; i++) {
+            while (!TXSTAbits.TRMT) {
+            }
+            TXREG = buffer_TX1[i];
+        }
+        MSdelay(1000);
     } else {
         LED5 = 0;
         LED6 = 1;
-        char buffer_TX2[] = "Calefaccion apagada\r";
-        for (int i = 0; i < 40; i++) {
-            while (!TXSTAbits.TRMT) {
-            }
-            TXREG = buffer_TX2[i];
-        }
         
         LCD_String_xy(2,13,"Cal: ");
         LCD_Custom_Char(0,character2);
         LCD_Command(0xc0|(17));
         LCD_Char(0);
+        
+        char buffer_TX2[] = "Calefaccion apagada\r";
+        for (int i = 0; i < 21; i++) {
+            while (!TXSTAbits.TRMT) {
+            }
+            TXREG = buffer_TX2[i];
+        }
+        MSdelay(1000);
     }
 }
 
@@ -149,22 +153,24 @@ void SensorLuz() {
 
         LCD_String_xy(4, 0, "Cortina Arriba       ");
         LED = 1;
-        char buffer_TX3[] = "Se subio la cortina\r";
-        for (int i = 0; i < 20; i++) {
+        char buffer_TX3[] = "Cortina arriba\r";
+        for (int i = 0; i < 15; i++) {
             while (!TXSTAbits.TRMT) {
             }
             TXREG = buffer_TX3[i];
         }
+        MSdelay(1000);
 
     } else {
         LCD_String_xy(4, 0, "Cortina Abajo        ");
         LED = 0;
-        char buffer_TX4[] = "Se bajo la cortina\r";
-        for (int i = 0; i < 20; i++) {
+        char buffer_TX4[] = "Cortina abajo\r";
+        for (int i = 0; i < 15; i++) {
             while (!TXSTAbits.TRMT) {
             }
             TXREG = buffer_TX4[i];
         }
+        MSdelay(1000);
     }
 }
 
@@ -187,8 +193,8 @@ void SensorMovimiento() {
         LED2 = 1;
         strcpy(buf,"1:ON  ");
         //LCD_String_xy(3, 0, "1:ON ");
-        char buffer_TX5[] = "Se detecto presencia habitacion 1\r";
-        for (int i = 0; i < 40; i++) {
+        char buffer_TX5[] = "Presencia en la H1\r";
+        for (int i = 0; i < 20; i++) {
             while (!TXSTAbits.TRMT) {
             }
             TXREG = buffer_TX5[i];
@@ -204,8 +210,8 @@ void SensorMovimiento() {
         LED3 = 1;
         strcat(buf,"2:ON  ");
         //LCD_String_xy(3, 7, "2:ON ");
-        char buffer_TX6[] = "Se detecto presencia habitacion 2\r";
-        for (int i = 0; i < 40; i++) {
+        char buffer_TX6[] = "Presencia en la H2\r";
+        for (int i = 0; i < 20; i++) {
             while (!TXSTAbits.TRMT) {
             }
             TXREG = buffer_TX6[i];
@@ -221,8 +227,8 @@ void SensorMovimiento() {
         LED4 = 1;
         strcat(buf,"3:ON  ");
         //LCD_String_xy(3,13, "3:ON ");
-        char buffer_TX7[] = "Se detecto presencia habitacion 3\r";
-        for (int i = 0; i < 40; i++) {
+        char buffer_TX7[] = "Presencia en la H3\r";
+        for (int i = 0; i < 20; i++) {
             while (!TXSTAbits.TRMT) {
             }
             TXREG = buffer_TX7[i];
