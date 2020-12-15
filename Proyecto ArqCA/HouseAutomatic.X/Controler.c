@@ -117,8 +117,6 @@ void SensorTemperatura() {
     celsius = (celsius / 10.00);
     sprintf(Temperature, "%d%cC ", (int) celsius, 0xdf);
     LCD_String_xy(2, 6, Temperature); 
-
-    
     memset(Temperature, 0, 10);
 
     if (celsius >= 20 && celsius <= 25) {
