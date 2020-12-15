@@ -1,0 +1,205 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"9 D:\Descargas\LM_35.X\LCD_20x4.c
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"31
+[v _LCD_Command LCD_Command `(v  1 e 1 0 ]
+"42
+[v _LCD_Char LCD_Char `(v  1 e 1 0 ]
+"54
+[v _LCD_String LCD_String `(v  1 e 1 0 ]
+"64
+[v _LCD_String_xy LCD_String_xy `(v  1 e 1 0 ]
+"90
+[v _MSdelay MSdelay `(v  1 e 1 0 ]
+"10 D:\Descargas\LM_35.X\PIC18F4550_ADC_Source_File.c
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+"18 D:\Descargas\LM_35.X\Temperature_Display.c
+[v _main main `(v  1 e 1 0 ]
+"48
+[v _SensorLuz SensorLuz `(v  1 e 1 0 ]
+"66
+[v _adc adc `(ui  1 e 2 0 ]
+"3073 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"3427
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"3625
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"4001
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"6510
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"6581
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"6666
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S32 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"6710
+[s S35 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S39 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S46 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S49 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S52 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S55 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S58 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S61 . 1 `S32 1 . 1 0 `S35 1 . 1 0 `S39 1 . 1 0 `S46 1 . 1 0 `S49 1 . 1 0 `S52 1 . 1 0 `S55 1 . 1 0 `S58 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES61  1 e 1 @4034 ]
+"6792
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"6799
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"7986
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"8982
+[v _ADON ADON `VEb  1 e 0 @32272 ]
+"9753
+[v _GO GO `VEb  1 e 0 @32273 ]
+"9765
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @32273 ]
+"9987
+[v _LATD0 LATD0 `VEb  1 e 0 @31840 ]
+"9990
+[v _LATD1 LATD1 `VEb  1 e 0 @31841 ]
+"9993
+[v _LATD2 LATD2 `VEb  1 e 0 @31842 ]
+"10884
+[v _TRISA1 TRISA1 `VEb  1 e 0 @31889 ]
+"10947
+[v _TRISD2 TRISD2 `VEb  1 e 0 @31914 ]
+"18 D:\Descargas\LM_35.X\Temperature_Display.c
+[v _main main `(v  1 e 1 0 ]
+{
+"46
+} 0
+"48
+[v _SensorLuz SensorLuz `(v  1 e 1 0 ]
+{
+"49
+[v SensorLuz@val val `ui  1 a 2 13 ]
+"64
+} 0
+"66
+[v _adc adc `(ui  1 e 2 0 ]
+{
+"67
+[v adc@adcval adcval `ui  1 a 2 11 ]
+"73
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"30
+} 0
+"64 D:\Descargas\LM_35.X\LCD_20x4.c
+[v _LCD_String_xy LCD_String_xy `(v  1 e 1 0 ]
+{
+[v LCD_String_xy@row row `uc  1 a 1 wreg ]
+[v LCD_String_xy@row row `uc  1 a 1 wreg ]
+[v LCD_String_xy@pos pos `uc  1 p 1 9 ]
+[v LCD_String_xy@str str `*.32Cuc  1 p 2 10 ]
+"66
+[v LCD_String_xy@row row `uc  1 a 1 12 ]
+"75
+} 0
+"54
+[v _LCD_String LCD_String `(v  1 e 1 0 ]
+{
+[v LCD_String@msg msg `*.32Cuc  1 p 2 7 ]
+"62
+} 0
+"42
+[v _LCD_Char LCD_Char `(v  1 e 1 0 ]
+{
+[v LCD_Char@char_data char_data `uc  1 a 1 wreg ]
+[v LCD_Char@char_data char_data `uc  1 a 1 wreg ]
+"44
+[v LCD_Char@char_data char_data `uc  1 a 1 6 ]
+"51
+} 0
+"9
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+"21
+} 0
+"31
+[v _LCD_Command LCD_Command `(v  1 e 1 0 ]
+{
+[v LCD_Command@cmd cmd `uc  1 a 1 wreg ]
+[v LCD_Command@cmd cmd `uc  1 a 1 wreg ]
+"33
+[v LCD_Command@cmd cmd `uc  1 a 1 6 ]
+"40
+} 0
+"90
+[v _MSdelay MSdelay `(v  1 e 1 0 ]
+{
+"92
+[v MSdelay@j j `ui  1 a 2 4 ]
+[v MSdelay@i i `ui  1 a 2 2 ]
+"90
+[v MSdelay@val val `ui  1 p 2 0 ]
+"95
+} 0
+"10 D:\Descargas\LM_35.X\PIC18F4550_ADC_Source_File.c
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+{
+"18
+} 0
