@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=C:\Program Files\Microchip\xc8\v2.31\pic\dat\en_msgs.txt -cn \
   -h+dist/default/production\HouseAutomatic.X.production.sym \
   --cmf=dist/default/production\HouseAutomatic.X.production.cmf -z \
-  -Q18F4550 -oC:\Users\ASUS\AppData\Local\Temp\s5hk.2 \
+  -Q18F4550 -oC:\Users\ASUS\AppData\Local\Temp\sa5g.2 \
   --defsym=__MPLAB_BUILD=1 \
   -Mdist/default/production/HouseAutomatic.X.production.map -E1 \
   -ver=XC8 Compiler --acfsm=1493 -ASTACK=01BBh-07FFh -pstack=STACK \
@@ -23,7 +23,7 @@ Linker command line:
   -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
   -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
   -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
-  C:\Users\ASUS\AppData\Local\Temp\s5hk.o \
+  C:\Users\ASUS\AppData\Local\Temp\sa5g.o \
   dist/default/production\HouseAutomatic.X.production.o 
 
 Object code version is 3.11
@@ -33,7 +33,7 @@ Machine type is 18F4550
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\ASUS\AppData\Local\Temp\s5hk.o
+C:\Users\ASUS\AppData\Local\Temp\sa5g.o
                 idloc                            200000   200000        8        0       5
                 config                           300000   300000        E        0       4
                 init                                  0        0        4        0       0
@@ -298,7 +298,7 @@ SensorLuz@F3738                       dataBANK1    00018C
 SensorLuz@buffer_TX3                  cstackBANK0  000060
 SensorLuz@buffer_TX4                  cstackBANK0  000070
 SensorLuz@i                           cstackBANK0  000083
-SensorLuz@i_950                       cstackBANK0  000085
+SensorLuz@i_872                       cstackBANK0  000085
 SensorLuz@val                         cstackBANK0  00007F
 SensorMovimiento@F3722                dataBANK1    000168
 SensorMovimiento@F3724                dataBANK1    000154
@@ -309,8 +309,8 @@ SensorMovimiento@buffer_TX5           cstackBANK0  000060
 SensorMovimiento@buffer_TX6           cstackBANK0  000074
 SensorMovimiento@buffer_TX7           cstackBANK0  000088
 SensorMovimiento@i                    cstackBANK0  0000B0
-SensorMovimiento@i_928                cstackBANK0  0000B2
-SensorMovimiento@i_933                cstackBANK0  0000B4
+SensorMovimiento@i_850                cstackBANK0  0000B2
+SensorMovimiento@i_855                cstackBANK0  0000B4
 SensorTemperatura@F3715               dataBANK1    000100
 SensorTemperatura@F3718               dataBANK1    000117
 SensorTemperatura@Temperature         cstackBANK0  0000A4
@@ -318,7 +318,7 @@ SensorTemperatura@buffer_TX1          cstackBANK0  000078
 SensorTemperatura@buffer_TX2          cstackBANK0  00008F
 SensorTemperatura@celsius             cstackBANK0  0000B2
 SensorTemperatura@i                   cstackBANK0  0000AE
-SensorTemperatura@i_901               cstackBANK0  0000B0
+SensorTemperatura@i_823               cstackBANK0  0000B0
 _ACKDT                                (abs)        007E2D
 _ACKEN                                (abs)        007E2C
 _ACKSTAT                              (abs)        007E2E
@@ -845,7 +845,7 @@ _character2                           dataBANK0    0000E2
 _ctoa                                 text30       002750
 _dbuf                                 bssBANK1     00019B
 _dtoa                                 text23       001346
-_dtoa$1493                            cstackCOMRAM 00002E
+_dtoa$1498                            cstackCOMRAM 00002E
 _flags                                bssBANK0     0000BC
 _fputc                                text31       002828
 _fputs                                text26       002EC0
@@ -869,13 +869,13 @@ _strcat                               text6        003168
 _strcpy                               text7        002F04
 _strlen                               text25       0030A8
 _toupper                              text19       002CDA
-_toupper$1604                         cstackCOMRAM 00000D
+_toupper$1609                         cstackCOMRAM 00000D
 _vfpfcnvrt                            text17       00103C
 _vfprintf                             text16       002C78
 _width                                bssBANK0     0000B8
 _xtoa                                 text18       00162A
-_xtoa$1504                            cstackCOMRAM 00002F
-_xtoa$1505                            cstackCOMRAM 000031
+_xtoa$1509                            cstackCOMRAM 00002F
+_xtoa$1510                            cstackCOMRAM 000031
 abs@a                                 cstackCOMRAM 000013
 ctoa@c                                cstackCOMRAM 00000C
 ctoa@fp                               cstackCOMRAM 00000A
@@ -953,7 +953,7 @@ FUNCTION INFORMATION:
 
  *************** function _main *****************
  Defined at:
-		line 58 in file "Controler.c"
+		line 58 in file "Controlador.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -988,7 +988,7 @@ Total ram usage:        0 bytes
 
  *************** function _SensorTemperatura *****************
  Defined at:
-		line 109 in file "Controler.c"
+		line 109 in file "Controlador.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1132,7 +1132,7 @@ Total ram usage:        4 bytes
 
  *************** function _SensorMovimiento *****************
  Defined at:
-		line 162 in file "Controler.c"
+		line 162 in file "Controlador.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1242,7 +1242,7 @@ Total ram usage:        8 bytes
 
  *************** function _SensorLuz *****************
  Defined at:
-		line 229 in file "Controler.c"
+		line 229 in file "Controlador.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1418,7 +1418,7 @@ Total ram usage:       25 bytes
 
  *************** function _ADC_Read *****************
  Defined at:
-		line 32 in file "PIC18F4550_ADC_Source_File.c"
+		line 32 in file "PIC18F4550_ADC.c"
  Parameters:    Size  Location     Type
   channel         2    0[COMRAM] int 
  Auto vars:     Size  Location     Type
@@ -1448,7 +1448,7 @@ Total ram usage:        8 bytes
 
  *************** function _RTC *****************
  Defined at:
-		line 89 in file "Controler.c"
+		line 89 in file "Controlador.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -2090,7 +2090,7 @@ Total ram usage:        0 bytes
 
  *************** function _RTC_Read_Clock *****************
  Defined at:
-		line 260 in file "Controler.c"
+		line 260 in file "Controlador.c"
  Parameters:    Size  Location     Type
   read_clock_a    1    wreg     unsigned char 
  Auto vars:     Size  Location     Type
@@ -2599,7 +2599,7 @@ Total ram usage:        0 bytes
 
  *************** function _ADC_Init *****************
  Defined at:
-		line 22 in file "PIC18F4550_ADC_Source_File.c"
+		line 22 in file "PIC18F4550_ADC.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -2630,6 +2630,16 @@ Total ram usage:        0 bytes
 MODULE INFORMATION
 
 Module		Function		Class		Link	Load	Size
+Controlador.c
+		_SensorTemperatura		CODE           	1904	0000	654
+		_SensorMovimiento		CODE           	1B92	0000	516
+		_main          		CODE           	2F84	0000	62
+		_SensorLuz     		CODE           	1F4A	0000	410
+		_RTC           		CODE           	2AF0	0000	152
+		_RTC_Read_Clock		CODE           	2E7A	0000	70
+
+Controlador.c estimated size: 1864
+
 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strcat.c
 		_strcat        		CODE           	3168	0000	38
 
@@ -2674,6 +2684,12 @@ C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\memset.c
 		_memset        		CODE           	226C	0000	374
 
 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\memset.c estimated size: 374
+
+PIC18F4550_ADC.c
+		_ADC_Read      		CODE           	29B8	0000	156
+		_ADC_Init      		CODE           	3202	0000	24
+
+PIC18F4550_ADC.c estimated size: 180
 
 LCD_20x4.c
 		_LCD_String    		CODE           	2D38	0000	94
@@ -2729,16 +2745,6 @@ C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcmul.c
 
 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcmul.c estimated size: 1066
 
-Controler.c
-		_SensorTemperatura		CODE           	1904	0000	654
-		_SensorMovimiento		CODE           	1B92	0000	516
-		_main          		CODE           	2F84	0000	62
-		_SensorLuz     		CODE           	1F4A	0000	410
-		_RTC           		CODE           	2AF0	0000	152
-		_RTC_Read_Clock		CODE           	2E7A	0000	70
-
-Controler.c estimated size: 1864
-
 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
 		_vfpfcnvrt     		CODE           	103C	0000	778
 		_pad           		CODE           	28F2	0000	198
@@ -2778,10 +2784,4 @@ C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\isalpha.c
 		_isalpha       		CODE           	2FC2	0000	60
 
 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\isalpha.c estimated size: 60
-
-PIC18F4550_ADC_Source_File.c
-		_ADC_Read      		CODE           	29B8	0000	156
-		_ADC_Init      		CODE           	3202	0000	24
-
-PIC18F4550_ADC_Source_File.c estimated size: 180
 
