@@ -1,6 +1,5 @@
 ___aodiv@counter 11 0 COMRAM 1
 sprintf@f 72 0 BANK0 1
-_toupper$1604 D 0 COMRAM 1
 _GO 7E11 0 ABS 0
 ___fldiv@rem 3C 0 COMRAM 1
 __S0 327A 0 ABS 0
@@ -52,6 +51,7 @@ sprintf@s 66 0 BANK0 1
 SensorMovimiento@buf 9C 0 BANK0 1
 ___fltol@f1 1 0 COMRAM 1
 _LATC0 7C58 0 ABS 0
+_xtoa$1510 31 0 COMRAM 1
 _LATC1 7C59 0 ABS 0
 _LATB2 7C52 0 ABS 0
 _LATC2 7C5A 0 ABS 0
@@ -83,21 +83,19 @@ __Lconfig 0 0 CONFIG 4
 SensorMovimiento@F3730 12C 0 BANK1 1
 SensorMovimiento@F3722 168 0 BANK1 1
 SensorMovimiento@F3724 154 0 BANK1 1
-_xtoa$1504 2F 0 COMRAM 1
 SensorMovimiento@F3727 140 0 BANK1 1
 ?___aomod 1 0 COMRAM 1
+SensorMovimiento@i_850 B2 0 BANK0 1
 ctoa@c C 0 COMRAM 1
-SensorMovimiento@i_933 B4 0 BANK0 1
 xtoa@c 41 0 COMRAM 1
 dtoa@d 1E 0 COMRAM 1
 xtoa@d 1E 0 COMRAM 1
-SensorMovimiento@i_928 B2 0 BANK0 1
+SensorMovimiento@i_855 B4 0 BANK0 1
 dtoa@i 3E 0 COMRAM 1
 xtoa@i 3F 0 COMRAM 1
 SensorMovimiento@buffer_TX5 60 0 BANK0 1
 ctoa@l E 0 COMRAM 1
 dtoa@n 36 0 COMRAM 1
-_xtoa$1505 31 0 COMRAM 1
 xtoa@n 37 0 COMRAM 1
 dtoa@p 30 0 COMRAM 1
 xtoa@p 33 0 COMRAM 1
@@ -137,7 +135,6 @@ SensorMovimiento@buffer_TX6 74 0 BANK0 1
 ?_sprintf 66 0 BANK0 1
 _hours C4 0 BANK0 1
 _vfprintf 2C78 0 CODE 0
-_dtoa$1493 2E 0 COMRAM 1
 _fputs 2EC0 0 CODE 0
 _I2C_Init 31E8 0 CODE 0
 _ADC_Init 3202 0 CODE 0
@@ -156,6 +153,7 @@ _ADCON2 FC0 0 ABS 0
 SensorMovimiento@buffer_TX7 88 0 BANK0 1
 __end_of_vfpfcnvrt 1346 0 CODE 0
 ?___fltol 1 0 COMRAM 1
+_xtoa$1509 2F 0 COMRAM 1
 __end_of_putch 327A 0 CODE 0
 LCD_Custom_Char@loc A 0 COMRAM 1
 LCD_Custom_Char@msg 8 0 COMRAM 1
@@ -199,6 +197,7 @@ _OSCCON FD3 0 ABS 0
 __Habs1 0 0 ABS 0
 __Labs1 0 0 ABS 0
 _ADRESL FC3 0 ABS 0
+_dtoa$1498 2E 0 COMRAM 1
 __size_of_fputc 0 0 ABS 0
 strcat@src F 0 COMRAM 1
 __HnvFARRAM 0 0 FARRAM 0
@@ -340,6 +339,7 @@ ___flmul@grs 24 0 COMRAM 1
 __Htext2 0 0 ABS 0
 __Ltext2 0 0 ABS 0
 __ptext1 1904 0 CODE 0
+_toupper$1609 D 0 COMRAM 1
 __Htext3 0 0 ABS 0
 __Ltext3 0 0 ABS 0
 __ptext2 226C 0 CODE 0
@@ -386,8 +386,8 @@ __size_of_SensorMovimiento 0 0 ABS 0
 strcpy@d B 0 COMRAM 1
 SensorTemperatura@F3715 100 0 BANK1 1
 SensorTemperatura@F3718 117 0 BANK1 1
-SensorTemperatura@i_901 B0 0 BANK0 1
 _I2C_Ack 322E 0 CODE 0
+SensorTemperatura@i_823 B0 0 BANK0 1
 _SSPSTATbits FC7 0 ABS 0
 memset@k 9 0 COMRAM 1
 __end_of_I2C_Stop 3256 0 CODE 0
@@ -561,6 +561,7 @@ __Ltext35 0 0 ABS 0
 __Ltext16 0 0 ABS 0
 __ptext25 30A8 0 CODE 0
 __ptext44 3242 0 CODE 0
+SensorLuz@i_872 85 0 BANK0 1
 __Htext45 0 0 ABS 0
 __Htext26 0 0 ABS 0
 __Ltext45 0 0 ABS 0
@@ -627,7 +628,6 @@ vfpfcnvrt@fmt 45 0 COMRAM 1
 memset@dest 1 0 COMRAM 1
 LCD_String_xy@pos A 0 COMRAM 1
 strcpy@dest 5 0 COMRAM 1
-SensorLuz@i_950 85 0 BANK0 1
 __smallconst 800 0 SMALLCONST 0
 I2C_Write@data 1 0 COMRAM 1
 __end_of_strcat 318E 0 CODE 0
@@ -703,7 +703,7 @@ text14 2AF0 3279 CODE 2AF0 0
 %locals
 dist/default/production\HouseAutomatic.X.production.o
 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
-C:\Users\ASUS\AppData\Local\Temp\s5hk.s
+C:\Users\ASUS\AppData\Local\Temp\sa5g.s
 1726 2C16 0 CODE 0
 1728 2C16 0 CODE 0
 1731 2C16 0 CODE 0
@@ -752,7 +752,7 @@ C:\Users\ASUS\AppData\Local\Temp\s5hk.s
 1885 2C70 0 CODE 0
 1886 2C72 0 CODE 0
 1887 2C74 0 CODE 0
-Controler.c
+Controlador.c
 58 2F84 0 CODE 0
 60 2F84 0 CODE 0
 61 2F88 0 CODE 0
@@ -771,7 +771,7 @@ Controler.c
 79 2FAE 0 CODE 0
 80 2FB2 0 CODE 0
 81 2FB6 0 CODE 0
-Controler.c
+Controlador.c
 109 1904 0 CODE 0
 112 1904 0 CODE 0
 113 1906 0 CODE 0
@@ -855,7 +855,7 @@ LCD_20x4.c
 101 2E50 0 CODE 0
 102 2E54 0 CODE 0
 105 2E78 0 CODE 0
-Controler.c
+Controlador.c
 162 1B92 0 CODE 0
 163 1B92 0 CODE 0
 164 1B96 0 CODE 0
@@ -913,7 +913,7 @@ C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strcpy.c
 6 2F0C 0 CODE 0
 7 2F14 0 CODE 0
 9 2F42 0 CODE 0
-Controler.c
+Controlador.c
 229 1F4A 0 CODE 0
 232 1F4A 0 CODE 0
 233 1F50 0 CODE 0
@@ -1154,7 +1154,7 @@ C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcdiv.c
 180 102E 0 CODE 0
 182 1030 0 CODE 0
 185 103A 0 CODE 0
-PIC18F4550_ADC_Source_File.c
+PIC18F4550_ADC.c
 32 29B8 0 CODE 0
 35 29B8 0 CODE 0
 37 29D0 0 CODE 0
@@ -1162,7 +1162,7 @@ PIC18F4550_ADC_Source_File.c
 39 2A34 0 CODE 0
 40 2A4A 0 CODE 0
 41 2A52 0 CODE 0
-Controler.c
+Controlador.c
 89 2AF0 0 CODE 0
 90 2AF0 0 CODE 0
 91 2AF6 0 CODE 0
@@ -1401,7 +1401,7 @@ C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\putch.c
 7 3278 0 CODE 0
 9 3278 0 CODE 0
-Controler.c
+Controlador.c
 260 2E7A 0 CODE 0
 261 2E7C 0 CODE 0
 262 2E82 0 CODE 0
@@ -1532,7 +1532,7 @@ LCD_20x4.c
 54 31FC 0 CODE 0
 55 31FE 0 CODE 0
 56 3200 0 CODE 0
-PIC18F4550_ADC_Source_File.c
+PIC18F4550_ADC.c
 22 3202 0 CODE 0
 24 3202 0 CODE 0
 25 3204 0 CODE 0
