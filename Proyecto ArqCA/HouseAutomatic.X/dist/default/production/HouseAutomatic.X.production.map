@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=C:\Program Files\Microchip\xc8\v2.31\pic\dat\en_msgs.txt -cn \
   -h+dist/default/production\HouseAutomatic.X.production.sym \
   --cmf=dist/default/production\HouseAutomatic.X.production.cmf -z \
-  -Q18F4550 -oC:\Users\ASUS\AppData\Local\Temp\s51k.2 \
+  -Q18F4550 -oC:\Users\ASUS\AppData\Local\Temp\s5hk.2 \
   --defsym=__MPLAB_BUILD=1 \
   -Mdist/default/production/HouseAutomatic.X.production.map -E1 \
   -ver=XC8 Compiler --acfsm=1493 -ASTACK=01BBh-07FFh -pstack=STACK \
@@ -23,7 +23,7 @@ Linker command line:
   -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
   -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
   -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
-  C:\Users\ASUS\AppData\Local\Temp\s51k.o \
+  C:\Users\ASUS\AppData\Local\Temp\s5hk.o \
   dist/default/production\HouseAutomatic.X.production.o 
 
 Object code version is 3.11
@@ -33,7 +33,7 @@ Machine type is 18F4550
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\ASUS\AppData\Local\Temp\s51k.o
+C:\Users\ASUS\AppData\Local\Temp\s5hk.o
                 idloc                            200000   200000        8        0       5
                 config                           300000   300000        E        0       4
                 init                                  0        0        4        0       0
@@ -318,7 +318,7 @@ SensorTemperatura@buffer_TX1          cstackBANK0  000078
 SensorTemperatura@buffer_TX2          cstackBANK0  00008F
 SensorTemperatura@celsius             cstackBANK0  0000B2
 SensorTemperatura@i                   cstackBANK0  0000AE
-SensorTemperatura@i_902               cstackBANK0  0000B0
+SensorTemperatura@i_901               cstackBANK0  0000B0
 _ACKDT                                (abs)        007E2D
 _ACKEN                                (abs)        007E2C
 _ACKSTAT                              (abs)        007E2E
@@ -1132,7 +1132,7 @@ Total ram usage:        4 bytes
 
  *************** function _SensorMovimiento *****************
  Defined at:
-		line 164 in file "Controler.c"
+		line 162 in file "Controler.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1242,7 +1242,7 @@ Total ram usage:        8 bytes
 
  *************** function _SensorLuz *****************
  Defined at:
-		line 231 in file "Controler.c"
+		line 229 in file "Controler.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -2090,7 +2090,7 @@ Total ram usage:        0 bytes
 
  *************** function _RTC_Read_Clock *****************
  Defined at:
-		line 262 in file "Controler.c"
+		line 260 in file "Controler.c"
  Parameters:    Size  Location     Type
   read_clock_a    1    wreg     unsigned char 
  Auto vars:     Size  Location     Type
