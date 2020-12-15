@@ -281,9 +281,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 "9957
 [; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 9957: extern volatile __bit LATB3 __attribute__((address(0x7C53)));
 [v _LATB3 `Vb ~T0 @X0 0 e@31827 ]
-"5402
-[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5402: extern volatile unsigned char TXREG __attribute__((address(0xFAD)));
-[v _TXREG `Vuc ~T0 @X0 0 e@4013 ]
 "52 ./LCD_20x4_Header_File.h
 [; ;./LCD_20x4_Header_File.h: 52: void LCD_Custom_Char(unsigned char loc,unsigned char *msg);
 [v _LCD_Custom_Char `(v ~T0 @X0 0 ef2`uc`*uc ]
@@ -293,6 +290,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 "48
 [; ;./LCD_20x4_Header_File.h: 48: void LCD_Char(char x);
 [v _LCD_Char `(v ~T0 @X0 0 ef1`uc ]
+"5402 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5402: extern volatile unsigned char TXREG __attribute__((address(0xFAD)));
+[v _TXREG `Vuc ~T0 @X0 0 e@4013 ]
+"50 ./LCD_20x4_Header_File.h
+[; ;./LCD_20x4_Header_File.h: 50: void MSdelay(unsigned int );
+[v _MSdelay `(v ~T0 @X0 0 ef1`ui ]
 "2832 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
 [; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2832:     struct {
 [s S124 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 ]
@@ -1427,11 +1430,10 @@ Version 4.0 HI-TECH Software Intermediate Code
 ..
 ]
 "55
-[; ;Controler.c: 55: unsigned char character2[8] = {0x00, 0x00, 0x04, 0x04, 0x04, 0x1F, 0x0E, 0x04};
+[; ;Controler.c: 55: unsigned char character2[8] = {0x00, 0x04, 0x04, 0x04, 0x1F, 0x0E, 0x04, 0x00};
 [v _character2 `uc ~T0 @X0 -> 8 `i e ]
 [i _character2
 :U ..
--> -> 0 `i `uc
 -> -> 0 `i `uc
 -> -> 4 `i `uc
 -> -> 4 `i `uc
@@ -1439,6 +1441,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> 31 `i `uc
 -> -> 14 `i `uc
 -> -> 4 `i `uc
+-> -> 0 `i `uc
 ..
 ]
 [v $root$_main `(v ~T0 @X0 0 e ]
@@ -1559,11 +1562,23 @@ Version 4.0 HI-TECH Software Intermediate Code
 "108
 [; ;Controler.c: 108:         LATB3 = 0;
 [e = _LATB3 -> -> 0 `i `b ]
+"110
+[; ;Controler.c: 110:         LCD_String_xy(2,13,"Cal: ");
+[e ( _LCD_String_xy (3 , , -> -> 2 `i `uc -> -> 13 `i `uc :s 3C ]
+"111
+[; ;Controler.c: 111:         LCD_Custom_Char(0,character1);
+[e ( _LCD_Custom_Char (2 , -> -> 0 `i `uc &U _character1 ]
+"112
+[; ;Controler.c: 112:         LCD_Command(0xc0|(17));
+[e ( _LCD_Command (1 -> | -> 192 `i -> 17 `i `uc ]
+"113
+[; ;Controler.c: 113:         LCD_Char(0);
+[e ( _LCD_Char (1 -> -> 0 `i `uc ]
 [v F3714 `uc ~T0 @X0 -> 23 `i s ]
 [i F3714
 :U ..
-"109
-[; ;Controler.c: 109:         char buffer_TX1[] = "Calefaccion encendida\r";
+"115
+[; ;Controler.c: 115:         char buffer_TX1[] = "Calefaccion encendida\r";
 -> 67 `c
 -> 97 `c
 -> 108 `c
@@ -1591,67 +1606,70 @@ Version 4.0 HI-TECH Software Intermediate Code
 ]
 [v _buffer_TX1 `uc ~T0 @X0 -> 23 `i a ]
 [e = _buffer_TX1 F3714 ]
-"110
-[; ;Controler.c: 110:         for (int i = 0; i < 40; i++) {
+"116
+[; ;Controler.c: 116:         for (int i = 0; i < 25; i++) {
 {
 [v _i `i ~T0 @X0 1 a ]
 [e = _i -> 0 `i ]
-[e $ < _i -> 40 `i 424  ]
+[e $ < _i -> 25 `i 424  ]
 [e $U 425  ]
 [e :U 424 ]
 {
-"111
-[; ;Controler.c: 111:             while (!TXSTAbits.TRMT) {
+"117
+[; ;Controler.c: 117:             while (!TXSTAbits.TRMT) {
 [e $U 427  ]
 [e :U 428 ]
 {
-"112
-[; ;Controler.c: 112:             }
+"118
+[; ;Controler.c: 118:             }
 }
 [e :U 427 ]
-"111
-[; ;Controler.c: 111:             while (!TXSTAbits.TRMT) {
+"117
+[; ;Controler.c: 117:             while (!TXSTAbits.TRMT) {
 [e $ ! != -> . . _TXSTAbits 0 1 `i -> 0 `i 428  ]
 [e :U 429 ]
-"113
-[; ;Controler.c: 113:             TXREG = buffer_TX1[i];
+"119
+[; ;Controler.c: 119:             TXREG = buffer_TX1[i];
 [e = _TXREG -> *U + &U _buffer_TX1 * -> -> _i `ui `ux -> -> # *U &U _buffer_TX1 `ui `ux `uc ]
-"114
-[; ;Controler.c: 114:         }
+"120
+[; ;Controler.c: 120:         }
 }
 [e ++ _i -> 1 `i ]
-[e $ < _i -> 40 `i 424  ]
+[e $ < _i -> 25 `i 424  ]
 [e :U 425 ]
 }
-"115
-[; ;Controler.c: 115:         LCD_String_xy(2,13,"Cal: ");
-[e ( _LCD_String_xy (3 , , -> -> 2 `i `uc -> -> 13 `i `uc :s 3C ]
-"116
-[; ;Controler.c: 116:         LCD_Custom_Char(0,character1);
-[e ( _LCD_Custom_Char (2 , -> -> 0 `i `uc &U _character1 ]
-"117
-[; ;Controler.c: 117:         LCD_Command(0xc0|(17));
-[e ( _LCD_Command (1 -> | -> 192 `i -> 17 `i `uc ]
-"118
-[; ;Controler.c: 118:         LCD_Char(0);
-[e ( _LCD_Char (1 -> -> 0 `i `uc ]
-"120
-[; ;Controler.c: 120:     } else {
+"121
+[; ;Controler.c: 121:         MSdelay(1000);
+[e ( _MSdelay (1 -> -> 1000 `i `ui ]
+"122
+[; ;Controler.c: 122:     } else {
 }
 [e $U 430  ]
 [e :U 423 ]
 {
-"121
-[; ;Controler.c: 121:         LATB2 = 0;
+"123
+[; ;Controler.c: 123:         LATB2 = 0;
 [e = _LATB2 -> -> 0 `i `b ]
-"122
-[; ;Controler.c: 122:         LATB3 = 1;
+"124
+[; ;Controler.c: 124:         LATB3 = 1;
 [e = _LATB3 -> -> 1 `i `b ]
+"126
+[; ;Controler.c: 126:         LCD_String_xy(2,13,"Cal: ");
+[e ( _LCD_String_xy (3 , , -> -> 2 `i `uc -> -> 13 `i `uc :s 4C ]
+"127
+[; ;Controler.c: 127:         LCD_Custom_Char(0,character2);
+[e ( _LCD_Custom_Char (2 , -> -> 0 `i `uc &U _character2 ]
+"128
+[; ;Controler.c: 128:         LCD_Command(0xc0|(17));
+[e ( _LCD_Command (1 -> | -> 192 `i -> 17 `i `uc ]
+"129
+[; ;Controler.c: 129:         LCD_Char(0);
+[e ( _LCD_Char (1 -> -> 0 `i `uc ]
 [v F3717 `uc ~T0 @X0 -> 21 `i s ]
 [i F3717
 :U ..
-"123
-[; ;Controler.c: 123:         char buffer_TX2[] = "Calefaccion apagada\r";
+"131
+[; ;Controler.c: 131:         char buffer_TX2[] = "Calefaccion apagada\r";
 -> 67 `c
 -> 97 `c
 -> 108 `c
@@ -1677,291 +1695,267 @@ Version 4.0 HI-TECH Software Intermediate Code
 ]
 [v _buffer_TX2 `uc ~T0 @X0 -> 21 `i a ]
 [e = _buffer_TX2 F3717 ]
-"124
-[; ;Controler.c: 124:         for (int i = 0; i < 40; i++) {
+"132
+[; ;Controler.c: 132:         for (int i = 0; i < 21; i++) {
 {
 [v _i `i ~T0 @X0 1 a ]
 [e = _i -> 0 `i ]
-[e $ < _i -> 40 `i 431  ]
+[e $ < _i -> 21 `i 431  ]
 [e $U 432  ]
 [e :U 431 ]
 {
-"125
-[; ;Controler.c: 125:             while (!TXSTAbits.TRMT) {
+"133
+[; ;Controler.c: 133:             while (!TXSTAbits.TRMT) {
 [e $U 434  ]
 [e :U 435 ]
 {
-"126
-[; ;Controler.c: 126:             }
+"134
+[; ;Controler.c: 134:             }
 }
 [e :U 434 ]
-"125
-[; ;Controler.c: 125:             while (!TXSTAbits.TRMT) {
+"133
+[; ;Controler.c: 133:             while (!TXSTAbits.TRMT) {
 [e $ ! != -> . . _TXSTAbits 0 1 `i -> 0 `i 435  ]
 [e :U 436 ]
-"127
-[; ;Controler.c: 127:             TXREG = buffer_TX2[i];
+"135
+[; ;Controler.c: 135:             TXREG = buffer_TX2[i];
 [e = _TXREG -> *U + &U _buffer_TX2 * -> -> _i `ui `ux -> -> # *U &U _buffer_TX2 `ui `ux `uc ]
-"128
-[; ;Controler.c: 128:         }
+"136
+[; ;Controler.c: 136:         }
 }
 [e ++ _i -> 1 `i ]
-[e $ < _i -> 40 `i 431  ]
+[e $ < _i -> 21 `i 431  ]
 [e :U 432 ]
 }
-"130
-[; ;Controler.c: 130:         LCD_String_xy(2,13,"Cal: ");
-[e ( _LCD_String_xy (3 , , -> -> 2 `i `uc -> -> 13 `i `uc :s 4C ]
-"131
-[; ;Controler.c: 131:         LCD_Custom_Char(0,character2);
-[e ( _LCD_Custom_Char (2 , -> -> 0 `i `uc &U _character2 ]
-"132
-[; ;Controler.c: 132:         LCD_Command(0xc0|(17));
-[e ( _LCD_Command (1 -> | -> 192 `i -> 17 `i `uc ]
-"133
-[; ;Controler.c: 133:         LCD_Char(0);
-[e ( _LCD_Char (1 -> -> 0 `i `uc ]
-"134
-[; ;Controler.c: 134:     }
+"137
+[; ;Controler.c: 137:         MSdelay(1000);
+[e ( _MSdelay (1 -> -> 1000 `i `ui ]
+"138
+[; ;Controler.c: 138:     }
 }
 [e :U 430 ]
-"135
-[; ;Controler.c: 135: }
+"139
+[; ;Controler.c: 139: }
 [e :UE 422 ]
 }
-"142
-[; ;Controler.c: 142: void SensorLuz() {
+"146
+[; ;Controler.c: 146: void SensorLuz() {
 [v _SensorLuz `(v ~T0 @X0 1 ef ]
 {
 [e :U _SensorLuz ]
 [f ]
-"144
-[; ;Controler.c: 144:     float val;
-[v _val `f ~T0 @X0 1 a ]
-"145
-[; ;Controler.c: 145:     LCD_Command(0x40);
-[e ( _LCD_Command (1 -> -> 64 `i `uc ]
-"146
-[; ;Controler.c: 146:     val = (ADC_Read(1)*5.0) / 1023.0;
-[e = _val -> / * -> ( _ADC_Read (1 -> 1 `i `d .5.0 .1023.0 `f ]
 "148
-[; ;Controler.c: 148:     if (val > 3) {
+[; ;Controler.c: 148:     float val;
+[v _val `f ~T0 @X0 1 a ]
+"149
+[; ;Controler.c: 149:     LCD_Command(0x40);
+[e ( _LCD_Command (1 -> -> 64 `i `uc ]
+"150
+[; ;Controler.c: 150:     val = (ADC_Read(1)*5.0) / 1023.0;
+[e = _val -> / * -> ( _ADC_Read (1 -> 1 `i `d .5.0 .1023.0 `f ]
+"152
+[; ;Controler.c: 152:     if (val > 3) {
 [e $ ! > _val -> -> 3 `i `f 438  ]
 {
-"150
-[; ;Controler.c: 150:         LCD_String_xy(4, 0, "Cortina Arriba       ");
+"154
+[; ;Controler.c: 154:         LCD_String_xy(4, 0, "Cortina Arriba       ");
 [e ( _LCD_String_xy (3 , , -> -> 4 `i `uc -> -> 0 `i `uc :s 5C ]
-"151
-[; ;Controler.c: 151:         PORTEbits.RE0 = 1;
+"155
+[; ;Controler.c: 155:         PORTEbits.RE0 = 1;
 [e = . . _PORTEbits 0 0 -> -> 1 `i `uc ]
-[v F3722 `uc ~T0 @X0 -> 21 `i s ]
+[v F3722 `uc ~T0 @X0 -> 16 `i s ]
 [i F3722
 :U ..
-"152
-[; ;Controler.c: 152:         char buffer_TX3[] = "Se subio la cortina\r";
--> 83 `c
--> 101 `c
--> 32 `c
--> 115 `c
--> 117 `c
--> 98 `c
--> 105 `c
--> 111 `c
--> 32 `c
--> 108 `c
--> 97 `c
--> 32 `c
--> 99 `c
+"156
+[; ;Controler.c: 156:         char buffer_TX3[] = "Cortina arriba\r";
+-> 67 `c
 -> 111 `c
 -> 114 `c
 -> 116 `c
 -> 105 `c
 -> 110 `c
 -> 97 `c
+-> 32 `c
+-> 97 `c
+-> 114 `c
+-> 114 `c
+-> 105 `c
+-> 98 `c
+-> 97 `c
 -> 13 `c
 -> 0 `c
 ..
 ]
-[v _buffer_TX3 `uc ~T0 @X0 -> 21 `i a ]
+[v _buffer_TX3 `uc ~T0 @X0 -> 16 `i a ]
 [e = _buffer_TX3 F3722 ]
-"153
-[; ;Controler.c: 153:         for (int i = 0; i < 20; i++) {
+"157
+[; ;Controler.c: 157:         for (int i = 0; i < 15; i++) {
 {
 [v _i `i ~T0 @X0 1 a ]
 [e = _i -> 0 `i ]
-[e $ < _i -> 20 `i 439  ]
+[e $ < _i -> 15 `i 439  ]
 [e $U 440  ]
 [e :U 439 ]
 {
-"154
-[; ;Controler.c: 154:             while (!TXSTAbits.TRMT) {
+"158
+[; ;Controler.c: 158:             while (!TXSTAbits.TRMT) {
 [e $U 442  ]
 [e :U 443 ]
 {
-"155
-[; ;Controler.c: 155:             }
+"159
+[; ;Controler.c: 159:             }
 }
 [e :U 442 ]
-"154
-[; ;Controler.c: 154:             while (!TXSTAbits.TRMT) {
+"158
+[; ;Controler.c: 158:             while (!TXSTAbits.TRMT) {
 [e $ ! != -> . . _TXSTAbits 0 1 `i -> 0 `i 443  ]
 [e :U 444 ]
-"156
-[; ;Controler.c: 156:             TXREG = buffer_TX3[i];
+"160
+[; ;Controler.c: 160:             TXREG = buffer_TX3[i];
 [e = _TXREG -> *U + &U _buffer_TX3 * -> -> _i `ui `ux -> -> # *U &U _buffer_TX3 `ui `ux `uc ]
-"157
-[; ;Controler.c: 157:         }
+"161
+[; ;Controler.c: 161:         }
 }
 [e ++ _i -> 1 `i ]
-[e $ < _i -> 20 `i 439  ]
+[e $ < _i -> 15 `i 439  ]
 [e :U 440 ]
 }
-"159
-[; ;Controler.c: 159:     } else {
+"162
+[; ;Controler.c: 162:         MSdelay(1000);
+[e ( _MSdelay (1 -> -> 1000 `i `ui ]
+"164
+[; ;Controler.c: 164:     } else {
 }
 [e $U 445  ]
 [e :U 438 ]
 {
-"160
-[; ;Controler.c: 160:         LCD_String_xy(4, 0, "Cortina Abajo        ");
+"165
+[; ;Controler.c: 165:         LCD_String_xy(4, 0, "Cortina Abajo        ");
 [e ( _LCD_String_xy (3 , , -> -> 4 `i `uc -> -> 0 `i `uc :s 6C ]
-"161
-[; ;Controler.c: 161:         PORTEbits.RE0 = 0;
+"166
+[; ;Controler.c: 166:         PORTEbits.RE0 = 0;
 [e = . . _PORTEbits 0 0 -> -> 0 `i `uc ]
-[v F3725 `uc ~T0 @X0 -> 20 `i s ]
+[v F3725 `uc ~T0 @X0 -> 15 `i s ]
 [i F3725
 :U ..
-"162
-[; ;Controler.c: 162:         char buffer_TX4[] = "Se bajo la cortina\r";
--> 83 `c
--> 101 `c
--> 32 `c
--> 98 `c
--> 97 `c
--> 106 `c
--> 111 `c
--> 32 `c
--> 108 `c
--> 97 `c
--> 32 `c
--> 99 `c
+"167
+[; ;Controler.c: 167:         char buffer_TX4[] = "Cortina abajo\r";
+-> 67 `c
 -> 111 `c
 -> 114 `c
 -> 116 `c
 -> 105 `c
 -> 110 `c
 -> 97 `c
+-> 32 `c
+-> 97 `c
+-> 98 `c
+-> 97 `c
+-> 106 `c
+-> 111 `c
 -> 13 `c
 -> 0 `c
 ..
 ]
-[v _buffer_TX4 `uc ~T0 @X0 -> 20 `i a ]
+[v _buffer_TX4 `uc ~T0 @X0 -> 15 `i a ]
 [e = _buffer_TX4 F3725 ]
-"163
-[; ;Controler.c: 163:         for (int i = 0; i < 20; i++) {
+"168
+[; ;Controler.c: 168:         for (int i = 0; i < 15; i++) {
 {
 [v _i `i ~T0 @X0 1 a ]
 [e = _i -> 0 `i ]
-[e $ < _i -> 20 `i 446  ]
+[e $ < _i -> 15 `i 446  ]
 [e $U 447  ]
 [e :U 446 ]
 {
-"164
-[; ;Controler.c: 164:             while (!TXSTAbits.TRMT) {
+"169
+[; ;Controler.c: 169:             while (!TXSTAbits.TRMT) {
 [e $U 449  ]
 [e :U 450 ]
 {
-"165
-[; ;Controler.c: 165:             }
+"170
+[; ;Controler.c: 170:             }
 }
 [e :U 449 ]
-"164
-[; ;Controler.c: 164:             while (!TXSTAbits.TRMT) {
+"169
+[; ;Controler.c: 169:             while (!TXSTAbits.TRMT) {
 [e $ ! != -> . . _TXSTAbits 0 1 `i -> 0 `i 450  ]
 [e :U 451 ]
-"166
-[; ;Controler.c: 166:             TXREG = buffer_TX4[i];
+"171
+[; ;Controler.c: 171:             TXREG = buffer_TX4[i];
 [e = _TXREG -> *U + &U _buffer_TX4 * -> -> _i `ui `ux -> -> # *U &U _buffer_TX4 `ui `ux `uc ]
-"167
-[; ;Controler.c: 167:         }
+"172
+[; ;Controler.c: 172:         }
 }
 [e ++ _i -> 1 `i ]
-[e $ < _i -> 20 `i 446  ]
+[e $ < _i -> 15 `i 446  ]
 [e :U 447 ]
 }
-"168
-[; ;Controler.c: 168:     }
+"173
+[; ;Controler.c: 173:         MSdelay(1000);
+[e ( _MSdelay (1 -> -> 1000 `i `ui ]
+"174
+[; ;Controler.c: 174:     }
 }
 [e :U 445 ]
-"169
-[; ;Controler.c: 169: }
+"175
+[; ;Controler.c: 175: }
 [e :UE 437 ]
 }
-"173
-[; ;Controler.c: 173: void SensorMovimiento() {
+"182
+[; ;Controler.c: 182: void SensorMovimiento() {
 [v _SensorMovimiento `(v ~T0 @X0 1 ef ]
 {
 [e :U _SensorMovimiento ]
 [f ]
-"174
-[; ;Controler.c: 174:     ADCON1 = 0x0F;
+"183
+[; ;Controler.c: 183:     ADCON1 = 0x0F;
 [e = _ADCON1 -> -> 15 `i `uc ]
-"175
-[; ;Controler.c: 175:     TRISAbits.RA2 = 1;
+"184
+[; ;Controler.c: 184:     TRISAbits.RA2 = 1;
 [e = . . _TRISAbits 1 2 -> -> 1 `i `uc ]
-"176
-[; ;Controler.c: 176:     TRISAbits.RA3 = 1;
+"185
+[; ;Controler.c: 185:     TRISAbits.RA3 = 1;
 [e = . . _TRISAbits 1 3 -> -> 1 `i `uc ]
-"177
-[; ;Controler.c: 177:     TRISAbits.RA4 = 1;
+"186
+[; ;Controler.c: 186:     TRISAbits.RA4 = 1;
 [e = . . _TRISAbits 1 4 -> -> 1 `i `uc ]
-"178
-[; ;Controler.c: 178:     TRISCbits.RC0 = 0;
+"187
+[; ;Controler.c: 187:     TRISCbits.RC0 = 0;
 [e = . . _TRISCbits 1 0 -> -> 0 `i `uc ]
-"179
-[; ;Controler.c: 179:     TRISCbits.RC1 = 0;
+"188
+[; ;Controler.c: 188:     TRISCbits.RC1 = 0;
 [e = . . _TRISCbits 1 1 -> -> 0 `i `uc ]
-"180
-[; ;Controler.c: 180:     TRISCbits.RC2 = 0;
+"189
+[; ;Controler.c: 189:     TRISCbits.RC2 = 0;
 [e = . . _TRISCbits 1 2 -> -> 0 `i `uc ]
 [v F3729 `uc ~T0 @X0 -> 20 `i s ]
 [i F3729
 :U ..
-"181
-[; ;Controler.c: 181:     char buf[20] = "0";
+"190
+[; ;Controler.c: 190:     char buf[20] = "0";
 -> 48 `c
 -> 0 `c
 ..
 ]
 [v _buf `uc ~T0 @X0 -> 20 `i a ]
 [e = _buf F3729 ]
-"183
-[; ;Controler.c: 183:     if (PORTAbits.RA2) {
+"192
+[; ;Controler.c: 192:     if (PORTAbits.RA2) {
 [e $ ! != -> . . _PORTAbits 0 2 `i -> 0 `i 453  ]
 {
-"184
-[; ;Controler.c: 184:         LATC0 = 1;
+"193
+[; ;Controler.c: 193:         LATC0 = 1;
 [e = _LATC0 -> -> 1 `i `b ]
-"185
-[; ;Controler.c: 185:         strcpy(buf,"1:ON  ");
+"194
+[; ;Controler.c: 194:         strcpy(buf,"1:ON  ");
 [e ( _strcpy (2 , &U _buf :s 7C ]
-[v F3731 `uc ~T0 @X0 -> 35 `i s ]
+[v F3731 `uc ~T0 @X0 -> 20 `i s ]
 [i F3731
 :U ..
-"187
-[; ;Controler.c: 187:         char buffer_TX5[] = "Se detecto presencia habitacion 1\r";
--> 83 `c
--> 101 `c
--> 32 `c
--> 100 `c
--> 101 `c
--> 116 `c
--> 101 `c
--> 99 `c
--> 116 `c
--> 111 `c
--> 32 `c
--> 112 `c
+"196
+[; ;Controler.c: 196:         char buffer_TX5[] = "Presencia en la H1\r";
+-> 80 `c
 -> 114 `c
 -> 101 `c
 -> 115 `c
@@ -1971,99 +1965,84 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> 105 `c
 -> 97 `c
 -> 32 `c
--> 104 `c
--> 97 `c
--> 98 `c
--> 105 `c
--> 116 `c
--> 97 `c
--> 99 `c
--> 105 `c
--> 111 `c
+-> 101 `c
 -> 110 `c
 -> 32 `c
+-> 108 `c
+-> 97 `c
+-> 32 `c
+-> 72 `c
 -> 49 `c
 -> 13 `c
 -> 0 `c
 ..
 ]
-[v _buffer_TX5 `uc ~T0 @X0 -> 35 `i a ]
+[v _buffer_TX5 `uc ~T0 @X0 -> 20 `i a ]
 [e = _buffer_TX5 F3731 ]
-"188
-[; ;Controler.c: 188:         for (int i = 0; i < 40; i++) {
+"197
+[; ;Controler.c: 197:         for (int i = 0; i < 20; i++) {
 {
 [v _i `i ~T0 @X0 1 a ]
 [e = _i -> 0 `i ]
-[e $ < _i -> 40 `i 454  ]
+[e $ < _i -> 20 `i 454  ]
 [e $U 455  ]
 [e :U 454 ]
 {
-"189
-[; ;Controler.c: 189:             while (!TXSTAbits.TRMT) {
+"198
+[; ;Controler.c: 198:             while (!TXSTAbits.TRMT) {
 [e $U 457  ]
 [e :U 458 ]
 {
-"190
-[; ;Controler.c: 190:             }
+"199
+[; ;Controler.c: 199:             }
 }
 [e :U 457 ]
-"189
-[; ;Controler.c: 189:             while (!TXSTAbits.TRMT) {
+"198
+[; ;Controler.c: 198:             while (!TXSTAbits.TRMT) {
 [e $ ! != -> . . _TXSTAbits 0 1 `i -> 0 `i 458  ]
 [e :U 459 ]
-"191
-[; ;Controler.c: 191:             TXREG = buffer_TX5[i];
+"200
+[; ;Controler.c: 200:             TXREG = buffer_TX5[i];
 [e = _TXREG -> *U + &U _buffer_TX5 * -> -> _i `ui `ux -> -> # *U &U _buffer_TX5 `ui `ux `uc ]
-"192
-[; ;Controler.c: 192:         }
+"201
+[; ;Controler.c: 201:         }
 }
 [e ++ _i -> 1 `i ]
-[e $ < _i -> 40 `i 454  ]
+[e $ < _i -> 20 `i 454  ]
 [e :U 455 ]
 }
-"194
-[; ;Controler.c: 194:     } else {
+"203
+[; ;Controler.c: 203:     } else {
 }
 [e $U 460  ]
 [e :U 453 ]
 {
-"195
-[; ;Controler.c: 195:         LATC0 = 0;
+"204
+[; ;Controler.c: 204:         LATC0 = 0;
 [e = _LATC0 -> -> 0 `i `b ]
-"196
-[; ;Controler.c: 196:         strcpy(buf,"1:OFF ");
+"205
+[; ;Controler.c: 205:         strcpy(buf,"1:OFF ");
 [e ( _strcpy (2 , &U _buf :s 8C ]
-"198
-[; ;Controler.c: 198:     }
+"207
+[; ;Controler.c: 207:     }
 }
 [e :U 460 ]
-"200
-[; ;Controler.c: 200:     if (PORTAbits.RA3) {
+"209
+[; ;Controler.c: 209:     if (PORTAbits.RA3) {
 [e $ ! != -> . . _PORTAbits 0 3 `i -> 0 `i 461  ]
 {
-"201
-[; ;Controler.c: 201:         LATC1 = 1;
+"210
+[; ;Controler.c: 210:         LATC1 = 1;
 [e = _LATC1 -> -> 1 `i `b ]
-"202
-[; ;Controler.c: 202:         strcat(buf,"2:ON  ");
+"211
+[; ;Controler.c: 211:         strcat(buf,"2:ON  ");
 [e ( _strcat (2 , &U _buf :s 9C ]
-[v F3734 `uc ~T0 @X0 -> 35 `i s ]
+[v F3734 `uc ~T0 @X0 -> 20 `i s ]
 [i F3734
 :U ..
-"204
-[; ;Controler.c: 204:         char buffer_TX6[] = "Se detecto presencia habitacion 2\r";
--> 83 `c
--> 101 `c
--> 32 `c
--> 100 `c
--> 101 `c
--> 116 `c
--> 101 `c
--> 99 `c
--> 116 `c
--> 111 `c
--> 32 `c
--> 112 `c
+"213
+[; ;Controler.c: 213:         char buffer_TX6[] = "Presencia en la H2\r";
+-> 80 `c
 -> 114 `c
 -> 101 `c
 -> 115 `c
@@ -2073,99 +2052,84 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> 105 `c
 -> 97 `c
 -> 32 `c
--> 104 `c
--> 97 `c
--> 98 `c
--> 105 `c
--> 116 `c
--> 97 `c
--> 99 `c
--> 105 `c
--> 111 `c
+-> 101 `c
 -> 110 `c
 -> 32 `c
+-> 108 `c
+-> 97 `c
+-> 32 `c
+-> 72 `c
 -> 50 `c
 -> 13 `c
 -> 0 `c
 ..
 ]
-[v _buffer_TX6 `uc ~T0 @X0 -> 35 `i a ]
+[v _buffer_TX6 `uc ~T0 @X0 -> 20 `i a ]
 [e = _buffer_TX6 F3734 ]
-"205
-[; ;Controler.c: 205:         for (int i = 0; i < 40; i++) {
+"214
+[; ;Controler.c: 214:         for (int i = 0; i < 20; i++) {
 {
 [v _i `i ~T0 @X0 1 a ]
 [e = _i -> 0 `i ]
-[e $ < _i -> 40 `i 462  ]
+[e $ < _i -> 20 `i 462  ]
 [e $U 463  ]
 [e :U 462 ]
 {
-"206
-[; ;Controler.c: 206:             while (!TXSTAbits.TRMT) {
+"215
+[; ;Controler.c: 215:             while (!TXSTAbits.TRMT) {
 [e $U 465  ]
 [e :U 466 ]
 {
-"207
-[; ;Controler.c: 207:             }
+"216
+[; ;Controler.c: 216:             }
 }
 [e :U 465 ]
-"206
-[; ;Controler.c: 206:             while (!TXSTAbits.TRMT) {
+"215
+[; ;Controler.c: 215:             while (!TXSTAbits.TRMT) {
 [e $ ! != -> . . _TXSTAbits 0 1 `i -> 0 `i 466  ]
 [e :U 467 ]
-"208
-[; ;Controler.c: 208:             TXREG = buffer_TX6[i];
+"217
+[; ;Controler.c: 217:             TXREG = buffer_TX6[i];
 [e = _TXREG -> *U + &U _buffer_TX6 * -> -> _i `ui `ux -> -> # *U &U _buffer_TX6 `ui `ux `uc ]
-"209
-[; ;Controler.c: 209:         }
+"218
+[; ;Controler.c: 218:         }
 }
 [e ++ _i -> 1 `i ]
-[e $ < _i -> 40 `i 462  ]
+[e $ < _i -> 20 `i 462  ]
 [e :U 463 ]
 }
-"211
-[; ;Controler.c: 211:     } else {
+"220
+[; ;Controler.c: 220:     } else {
 }
 [e $U 468  ]
 [e :U 461 ]
 {
-"212
-[; ;Controler.c: 212:         LATC1 = 0;
+"221
+[; ;Controler.c: 221:         LATC1 = 0;
 [e = _LATC1 -> -> 0 `i `b ]
-"213
-[; ;Controler.c: 213:         strcat(buf,"2:OFF ");
+"222
+[; ;Controler.c: 222:         strcat(buf,"2:OFF ");
 [e ( _strcat (2 , &U _buf :s 10C ]
-"215
-[; ;Controler.c: 215:     }
+"224
+[; ;Controler.c: 224:     }
 }
 [e :U 468 ]
-"217
-[; ;Controler.c: 217:     if (PORTAbits.RA4) {
+"226
+[; ;Controler.c: 226:     if (PORTAbits.RA4) {
 [e $ ! != -> . . _PORTAbits 0 4 `i -> 0 `i 469  ]
 {
-"218
-[; ;Controler.c: 218:         LATC2 = 1;
+"227
+[; ;Controler.c: 227:         LATC2 = 1;
 [e = _LATC2 -> -> 1 `i `b ]
-"219
-[; ;Controler.c: 219:         strcat(buf,"3:ON  ");
+"228
+[; ;Controler.c: 228:         strcat(buf,"3:ON  ");
 [e ( _strcat (2 , &U _buf :s 11C ]
-[v F3737 `uc ~T0 @X0 -> 35 `i s ]
+[v F3737 `uc ~T0 @X0 -> 20 `i s ]
 [i F3737
 :U ..
-"221
-[; ;Controler.c: 221:         char buffer_TX7[] = "Se detecto presencia habitacion 3\r";
--> 83 `c
--> 101 `c
--> 32 `c
--> 100 `c
--> 101 `c
--> 116 `c
--> 101 `c
--> 99 `c
--> 116 `c
--> 111 `c
--> 32 `c
--> 112 `c
+"230
+[; ;Controler.c: 230:         char buffer_TX7[] = "Presencia en la H3\r";
+-> 80 `c
 -> 114 `c
 -> 101 `c
 -> 115 `c
@@ -2175,143 +2139,139 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> 105 `c
 -> 97 `c
 -> 32 `c
--> 104 `c
--> 97 `c
--> 98 `c
--> 105 `c
--> 116 `c
--> 97 `c
--> 99 `c
--> 105 `c
--> 111 `c
+-> 101 `c
 -> 110 `c
 -> 32 `c
+-> 108 `c
+-> 97 `c
+-> 32 `c
+-> 72 `c
 -> 51 `c
 -> 13 `c
 -> 0 `c
 ..
 ]
-[v _buffer_TX7 `uc ~T0 @X0 -> 35 `i a ]
+[v _buffer_TX7 `uc ~T0 @X0 -> 20 `i a ]
 [e = _buffer_TX7 F3737 ]
-"222
-[; ;Controler.c: 222:         for (int i = 0; i < 40; i++) {
+"231
+[; ;Controler.c: 231:         for (int i = 0; i < 20; i++) {
 {
 [v _i `i ~T0 @X0 1 a ]
 [e = _i -> 0 `i ]
-[e $ < _i -> 40 `i 470  ]
+[e $ < _i -> 20 `i 470  ]
 [e $U 471  ]
 [e :U 470 ]
 {
-"223
-[; ;Controler.c: 223:             while (!TXSTAbits.TRMT) {
+"232
+[; ;Controler.c: 232:             while (!TXSTAbits.TRMT) {
 [e $U 473  ]
 [e :U 474 ]
 {
-"224
-[; ;Controler.c: 224:             }
+"233
+[; ;Controler.c: 233:             }
 }
 [e :U 473 ]
-"223
-[; ;Controler.c: 223:             while (!TXSTAbits.TRMT) {
+"232
+[; ;Controler.c: 232:             while (!TXSTAbits.TRMT) {
 [e $ ! != -> . . _TXSTAbits 0 1 `i -> 0 `i 474  ]
 [e :U 475 ]
-"225
-[; ;Controler.c: 225:             TXREG = buffer_TX7[i];
+"234
+[; ;Controler.c: 234:             TXREG = buffer_TX7[i];
 [e = _TXREG -> *U + &U _buffer_TX7 * -> -> _i `ui `ux -> -> # *U &U _buffer_TX7 `ui `ux `uc ]
-"226
-[; ;Controler.c: 226:         }
+"235
+[; ;Controler.c: 235:         }
 }
 [e ++ _i -> 1 `i ]
-[e $ < _i -> 40 `i 470  ]
+[e $ < _i -> 20 `i 470  ]
 [e :U 471 ]
 }
-"227
-[; ;Controler.c: 227:     } else {
+"236
+[; ;Controler.c: 236:     } else {
 }
 [e $U 476  ]
 [e :U 469 ]
 {
-"228
-[; ;Controler.c: 228:         LATC2 = 0;
+"237
+[; ;Controler.c: 237:         LATC2 = 0;
 [e = _LATC2 -> -> 0 `i `b ]
-"229
-[; ;Controler.c: 229:         strcat(buf,"3:OFF ");
+"238
+[; ;Controler.c: 238:         strcat(buf,"3:OFF ");
 [e ( _strcat (2 , &U _buf :s 12C ]
-"231
-[; ;Controler.c: 231:     }
+"240
+[; ;Controler.c: 240:     }
 }
 [e :U 476 ]
-"232
-[; ;Controler.c: 232:     LCD_String_xy(3,0,buf);
+"241
+[; ;Controler.c: 241:     LCD_String_xy(3,0,buf);
 [e ( _LCD_String_xy (3 , , -> -> 3 `i `uc -> -> 0 `i `uc -> &U _buf `*Cuc ]
-"233
-[; ;Controler.c: 233: }
+"242
+[; ;Controler.c: 242: }
 [e :UE 452 ]
 }
-"235
-[; ;Controler.c: 235: void RTC_Read_Clock(char read_clock_address) {
+"244
+[; ;Controler.c: 244: void RTC_Read_Clock(char read_clock_address) {
 [v _RTC_Read_Clock `(v ~T0 @X0 1 ef1`uc ]
 {
 [e :U _RTC_Read_Clock ]
 [v _read_clock_address `uc ~T0 @X0 1 r1 ]
 [f ]
-"236
-[; ;Controler.c: 236:     I2C_Start(0xD0);
+"245
+[; ;Controler.c: 245:     I2C_Start(0xD0);
 [e ( _I2C_Start (1 -> -> 208 `i `uc ]
-"237
-[; ;Controler.c: 237:     I2C_Write(read_clock_address);
+"246
+[; ;Controler.c: 246:     I2C_Write(read_clock_address);
 [e ( _I2C_Write (1 -> _read_clock_address `uc ]
-"238
-[; ;Controler.c: 238:     I2C_Repeated_Start(0xD1);
+"247
+[; ;Controler.c: 247:     I2C_Repeated_Start(0xD1);
 [e ( _I2C_Repeated_Start (1 -> -> 209 `i `uc ]
-"239
-[; ;Controler.c: 239:     sec = I2C_Read(0);
+"248
+[; ;Controler.c: 248:     sec = I2C_Read(0);
 [e = _sec -> ( _I2C_Read (1 -> -> 0 `i `uc `i ]
-"240
-[; ;Controler.c: 240:     min = I2C_Read(0);
+"249
+[; ;Controler.c: 249:     min = I2C_Read(0);
 [e = _min -> ( _I2C_Read (1 -> -> 0 `i `uc `i ]
-"241
-[; ;Controler.c: 241:     hour = I2C_Read(1);
+"250
+[; ;Controler.c: 250:     hour = I2C_Read(1);
 [e = _hour -> ( _I2C_Read (1 -> -> 1 `i `uc `i ]
-"242
-[; ;Controler.c: 242: }
+"251
+[; ;Controler.c: 251: }
 [e :UE 477 ]
 }
-"248
-[; ;Controler.c: 248: void RTC() {
+"257
+[; ;Controler.c: 257: void RTC() {
 [v _RTC `(v ~T0 @X0 1 ef ]
 {
 [e :U _RTC ]
 [f ]
-"249
-[; ;Controler.c: 249:     RTC_Read_Clock(0);
-[e ( _RTC_Read_Clock (1 -> -> 0 `i `uc ]
-"250
-[; ;Controler.c: 250:     I2C_Stop();
-[e ( _I2C_Stop ..  ]
-"253
-[; ;Controler.c: 253:     hour = hour & (0x1f);
-[e = _hour & _hour -> 31 `i ]
-"254
-[; ;Controler.c: 254:     sprintf(secs, "%x ", sec);
-[e ( _sprintf (1 , (. , &U _secs :s 13C _sec ]
-"255
-[; ;Controler.c: 255:     sprintf(mins, "%x:", min);
-[e ( _sprintf (1 , (. , &U _mins :s 14C _min ]
-"256
-[; ;Controler.c: 256:     sprintf(hours, "Tim:%x:", hour);
-[e ( _sprintf (1 , (. , &U _hours :s 15C _hour ]
-"257
-[; ;Controler.c: 257:     LCD_String_xy(0, 0, hours);
-[e ( _LCD_String_xy (3 , , -> -> 0 `i `uc -> -> 0 `i `uc -> &U _hours `*Cuc ]
 "258
-[; ;Controler.c: 258:     LCD_String(mins);
-[e ( _LCD_String (1 -> &U _mins `*Cuc ]
+[; ;Controler.c: 258:     RTC_Read_Clock(0);
+[e ( _RTC_Read_Clock (1 -> -> 0 `i `uc ]
 "259
-[; ;Controler.c: 259:     LCD_String(secs);
+[; ;Controler.c: 259:     I2C_Stop();
+[e ( _I2C_Stop ..  ]
+"262
+[; ;Controler.c: 262:     hour = hour & (0x1f);
+[e = _hour & _hour -> 31 `i ]
+"263
+[; ;Controler.c: 263:     sprintf(secs, "%x ", sec);
+[e ( _sprintf (1 , (. , &U _secs :s 13C _sec ]
+"264
+[; ;Controler.c: 264:     sprintf(mins, "%x:", min);
+[e ( _sprintf (1 , (. , &U _mins :s 14C _min ]
+"265
+[; ;Controler.c: 265:     sprintf(hours, "Tim:%x:", hour);
+[e ( _sprintf (1 , (. , &U _hours :s 15C _hour ]
+"266
+[; ;Controler.c: 266:     LCD_String_xy(0, 0, hours);
+[e ( _LCD_String_xy (3 , , -> -> 0 `i `uc -> -> 0 `i `uc -> &U _hours `*Cuc ]
+"267
+[; ;Controler.c: 267:     LCD_String(mins);
+[e ( _LCD_String (1 -> &U _mins `*Cuc ]
+"268
+[; ;Controler.c: 268:     LCD_String(secs);
 [e ( _LCD_String (1 -> &U _secs `*Cuc ]
-"260
-[; ;Controler.c: 260: }
+"269
+[; ;Controler.c: 269: }
 [e :UE 478 ]
 }
 [p f _sprintf 13107328 ]
