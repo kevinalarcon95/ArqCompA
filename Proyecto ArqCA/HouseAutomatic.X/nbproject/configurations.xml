@@ -16,9 +16,9 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>PIC18F4550_ADC_Source_File.c</itemPath>
       <itemPath>LCD_20x4.c</itemPath>
-      <itemPath>Controler.c</itemPath>
+      <itemPath>Controlador.c</itemPath>
+      <itemPath>PIC18F4550_ADC.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
