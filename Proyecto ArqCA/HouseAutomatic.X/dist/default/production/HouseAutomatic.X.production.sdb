@@ -93,7 +93,7 @@
 [v ___omul __omul `(uo  1 e 8 0 ]
 "10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\xxtofl.c
 [v ___xxtofl __xxtofl `(d  1 e 4 0 ]
-"58 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+"58 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controlador.c
 [v _main main `(v  1 e 1 0 ]
 "89
 [v _RTC RTC `(v  1 e 1 0 ]
@@ -119,11 +119,11 @@
 [v _LCD_Custom_Char LCD_Custom_Char `(v  1 e 1 0 ]
 "108
 [v _MSdelay MSdelay `(v  1 e 1 0 ]
-"22 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\PIC18F4550_ADC_Source_File.c
+"22 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\PIC18F4550_ADC.c
 [v _ADC_Init ADC_Init `(v  1 e 1 0 ]
 "32
 [v _ADC_Read ADC_Read `(i  1 e 2 0 ]
-[s S626 . 1 `uc 1 RA0 1 0 :1:0 
+[s S550 . 1 `uc 1 RA0 1 0 :1:0 
 `uc 1 RA1 1 0 :1:1 
 `uc 1 RA2 1 0 :1:2 
 `uc 1 RA3 1 0 :1:3 
@@ -132,7 +132,7 @@
 `uc 1 RA6 1 0 :1:6 
 ]
 "2353 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
-[s S662 . 1 `uc 1 AN0 1 0 :1:0 
+[s S586 . 1 `uc 1 AN0 1 0 :1:0 
 `uc 1 AN1 1 0 :1:1 
 `uc 1 AN2 1 0 :1:2 
 `uc 1 AN3 1 0 :1:3 
@@ -140,20 +140,20 @@
 `uc 1 AN4 1 0 :1:5 
 `uc 1 OSC2 1 0 :1:6 
 ]
-[s S670 . 1 `uc 1 . 1 0 :2:0 
+[s S594 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 VREFM 1 0 :1:2 
 `uc 1 VREFP 1 0 :1:3 
 `uc 1 . 1 0 :1:4 
 `uc 1 LVDIN 1 0 :1:5 
 ]
-[s S676 . 1 `uc 1 . 1 0 :5:0 
+[s S600 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 HLVDIN 1 0 :1:5 
 ]
-[s S679 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+[s S603 . 1 `uc 1 ULPWUIN 1 0 :1:0 
 ]
-[u S681 . 1 `S626 1 . 1 0 `S662 1 . 1 0 `S670 1 . 1 0 `S676 1 . 1 0 `S679 1 . 1 0 ]
-[v _PORTAbits PORTAbits `VES681  1 e 1 @3968 ]
-[s S730 . 1 `uc 1 RE0 1 0 :1:0 
+[u S605 . 1 `S550 1 . 1 0 `S586 1 . 1 0 `S594 1 . 1 0 `S600 1 . 1 0 `S603 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES605  1 e 1 @3968 ]
+[s S654 . 1 `uc 1 RE0 1 0 :1:0 
 `uc 1 RE1 1 0 :1:1 
 `uc 1 RE2 1 0 :1:2 
 `uc 1 RE3 1 0 :1:3 
@@ -161,36 +161,36 @@
 `uc 1 RDPU 1 0 :1:7 
 ]
 "2868
-[s S737 . 1 `uc 1 CK1SPP 1 0 :1:0 
+[s S661 . 1 `uc 1 CK1SPP 1 0 :1:0 
 `uc 1 CK2SPP 1 0 :1:1 
 `uc 1 OESPP 1 0 :1:2 
 ]
-[s S741 . 1 `uc 1 PD2 1 0 :1:0 
+[s S665 . 1 `uc 1 PD2 1 0 :1:0 
 `uc 1 PC2 1 0 :1:1 
 `uc 1 CCP10 1 0 :1:2 
 `uc 1 CCP9E 1 0 :1:3 
 `uc 1 . 1 0 :3:4 
 `uc 1 CCP2E 1 0 :1:7 
 ]
-[s S748 . 1 `uc 1 RDE 1 0 :1:0 
+[s S672 . 1 `uc 1 RDE 1 0 :1:0 
 `uc 1 WRE 1 0 :1:1 
 `uc 1 CS 1 0 :1:2 
 `uc 1 PC3E 1 0 :1:3 
 `uc 1 . 1 0 :3:4 
 `uc 1 PA2E 1 0 :1:7 
 ]
-[s S755 . 1 `uc 1 . 1 0 :2:0 
+[s S679 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 PB2 1 0 :1:2 
 `uc 1 . 1 0 :4:3 
 `uc 1 RE7 1 0 :1:7 
 ]
-[u S760 . 1 `S730 1 . 1 0 `S737 1 . 1 0 `S741 1 . 1 0 `S748 1 . 1 0 `S755 1 . 1 0 ]
-[v _PORTEbits PORTEbits `VES760  1 e 1 @3972 ]
+[u S684 . 1 `S654 1 . 1 0 `S661 1 . 1 0 `S665 1 . 1 0 `S672 1 . 1 0 `S679 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES684  1 e 1 @3972 ]
 "3263
 [v _LATD LATD `VEuc  1 e 1 @3980 ]
 "3427
 [v _TRISA TRISA `VEuc  1 e 1 @3986 ]
-[s S618 . 1 `uc 1 TRISA0 1 0 :1:0 
+[s S542 . 1 `uc 1 TRISA0 1 0 :1:0 
 `uc 1 TRISA1 1 0 :1:1 
 `uc 1 TRISA2 1 0 :1:2 
 `uc 1 TRISA3 1 0 :1:3 
@@ -199,9 +199,9 @@
 `uc 1 TRISA6 1 0 :1:6 
 ]
 "3457
-[u S634 . 1 `S618 1 . 1 0 `S626 1 . 1 0 ]
-[v _TRISAbits TRISAbits `VES634  1 e 1 @3986 ]
-[s S564 . 1 `uc 1 TRISB0 1 0 :1:0 
+[u S558 . 1 `S542 1 . 1 0 `S550 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES558  1 e 1 @3986 ]
+[s S484 . 1 `uc 1 TRISB0 1 0 :1:0 
 `uc 1 TRISB1 1 0 :1:1 
 `uc 1 TRISB2 1 0 :1:2 
 `uc 1 TRISB3 1 0 :1:3 
@@ -211,7 +211,7 @@
 `uc 1 TRISB7 1 0 :1:7 
 ]
 "3657
-[s S573 . 1 `uc 1 RB0 1 0 :1:0 
+[s S493 . 1 `uc 1 RB0 1 0 :1:0 
 `uc 1 RB1 1 0 :1:1 
 `uc 1 RB2 1 0 :1:2 
 `uc 1 RB3 1 0 :1:3 
@@ -220,9 +220,9 @@
 `uc 1 RB6 1 0 :1:6 
 `uc 1 RB7 1 0 :1:7 
 ]
-[u S582 . 1 `S564 1 . 1 0 `S573 1 . 1 0 ]
-[v _TRISBbits TRISBbits `VES582  1 e 1 @3987 ]
-[s S350 . 1 `uc 1 TRISC0 1 0 :1:0 
+[u S502 . 1 `S484 1 . 1 0 `S493 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES502  1 e 1 @3987 ]
+[s S270 . 1 `uc 1 TRISC0 1 0 :1:0 
 `uc 1 TRISC1 1 0 :1:1 
 `uc 1 TRISC2 1 0 :1:2 
 `uc 1 . 1 0 :3:3 
@@ -230,20 +230,20 @@
 `uc 1 TRISC7 1 0 :1:7 
 ]
 "3875
-[s S357 . 1 `uc 1 RC0 1 0 :1:0 
+[s S277 . 1 `uc 1 RC0 1 0 :1:0 
 `uc 1 RC1 1 0 :1:1 
 `uc 1 RC2 1 0 :1:2 
 `uc 1 . 1 0 :3:3 
 `uc 1 RC6 1 0 :1:6 
 `uc 1 RC7 1 0 :1:7 
 ]
-[u S364 . 1 `S350 1 . 1 0 `S357 1 . 1 0 ]
-[v _TRISCbits TRISCbits `VES364  1 e 1 @3988 ]
+[u S284 . 1 `S270 1 . 1 0 `S277 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES284  1 e 1 @3988 ]
 "4001
 [v _TRISD TRISD `VEuc  1 e 1 @3989 ]
 "4223
 [v _TRISE TRISE `VEuc  1 e 1 @3990 ]
-[s S480 . 1 `uc 1 RX9D 1 0 :1:0 
+[s S400 . 1 `uc 1 RX9D 1 0 :1:0 
 `uc 1 OERR 1 0 :1:1 
 `uc 1 FERR 1 0 :1:2 
 `uc 1 ADDEN 1 0 :1:3 
@@ -253,23 +253,23 @@
 `uc 1 SPEN 1 0 :1:7 
 ]
 "4977
-[s S489 . 1 `uc 1 . 1 0 :3:0 
+[s S409 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 ADEN 1 0 :1:3 
 ]
-[s S492 . 1 `uc 1 . 1 0 :5:0 
+[s S412 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 SRENA 1 0 :1:5 
 ]
-[s S495 . 1 `uc 1 . 1 0 :6:0 
+[s S415 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 RC8_9 1 0 :1:6 
 ]
-[s S498 . 1 `uc 1 . 1 0 :6:0 
+[s S418 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 RC9 1 0 :1:6 
 ]
-[s S501 . 1 `uc 1 RCD8 1 0 :1:0 
+[s S421 . 1 `uc 1 RCD8 1 0 :1:0 
 ]
-[u S503 . 1 `S480 1 . 1 0 `S489 1 . 1 0 `S492 1 . 1 0 `S495 1 . 1 0 `S498 1 . 1 0 `S501 1 . 1 0 ]
-[v _RCSTAbits RCSTAbits `VES503  1 e 1 @4011 ]
-[s S382 . 1 `uc 1 TX9D 1 0 :1:0 
+[u S423 . 1 `S400 1 . 1 0 `S409 1 . 1 0 `S412 1 . 1 0 `S415 1 . 1 0 `S418 1 . 1 0 `S421 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES423  1 e 1 @4011 ]
+[s S302 . 1 `uc 1 TX9D 1 0 :1:0 
 `uc 1 TRMT 1 0 :1:1 
 `uc 1 BRGH 1 0 :1:2 
 `uc 1 SENDB 1 0 :1:3 
@@ -279,7 +279,7 @@
 `uc 1 CSRC 1 0 :1:7 
 ]
 "5185
-[s S391 . 1 `uc 1 TX9D1 1 0 :1:0 
+[s S311 . 1 `uc 1 TX9D1 1 0 :1:0 
 `uc 1 TRMT1 1 0 :1:1 
 `uc 1 BRGH1 1 0 :1:2 
 `uc 1 SENDB1 1 0 :1:3 
@@ -288,18 +288,18 @@
 `uc 1 TX91 1 0 :1:6 
 `uc 1 CSRC1 1 0 :1:7 
 ]
-[s S400 . 1 `uc 1 . 1 0 :6:0 
+[s S320 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 TX8_9 1 0 :1:6 
 ]
-[s S403 . 1 `uc 1 TXD8 1 0 :1:0 
+[s S323 . 1 `uc 1 TXD8 1 0 :1:0 
 ]
-[u S405 . 1 `S382 1 . 1 0 `S391 1 . 1 0 `S400 1 . 1 0 `S403 1 . 1 0 ]
-[v _TXSTAbits TXSTAbits `VES405  1 e 1 @4012 ]
+[u S325 . 1 `S302 1 . 1 0 `S311 1 . 1 0 `S320 1 . 1 0 `S323 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES325  1 e 1 @4012 ]
 "5402
 [v _TXREG TXREG `VEuc  1 e 1 @4013 ]
 "5426
 [v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
-[s S434 . 1 `uc 1 ABDEN 1 0 :1:0 
+[s S354 . 1 `uc 1 ABDEN 1 0 :1:0 
 `uc 1 WUE 1 0 :1:1 
 `uc 1 . 1 0 :1:2 
 `uc 1 BRG16 1 0 :1:3 
@@ -309,64 +309,64 @@
 `uc 1 ABDOVF 1 0 :1:7 
 ]
 "6098
-[s S443 . 1 `uc 1 . 1 0 :4:0 
+[s S363 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 SCKP 1 0 :1:4 
 `uc 1 . 1 0 :1:5 
 `uc 1 RCMT 1 0 :1:6 
 ]
-[s S448 . 1 `uc 1 . 1 0 :5:0 
+[s S368 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 RXCKP 1 0 :1:5 
 ]
-[s S451 . 1 `uc 1 . 1 0 :1:0 
+[s S371 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 W4E 1 0 :1:1 
 ]
-[u S454 . 1 `S434 1 . 1 0 `S443 1 . 1 0 `S448 1 . 1 0 `S451 1 . 1 0 ]
-[v _BAUDCONbits BAUDCONbits `VES454  1 e 1 @4024 ]
+[u S374 . 1 `S354 1 . 1 0 `S363 1 . 1 0 `S368 1 . 1 0 `S371 1 . 1 0 ]
+[v _BAUDCONbits BAUDCONbits `VES374  1 e 1 @4024 ]
 "6510
 [v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
 "6581
 [v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
 "6666
 [v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
-[s S32 . 1 `uc 1 . 1 0 :1:0 
+[s S886 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GO_NOT_DONE 1 0 :1:1 
 ]
 "6710
-[s S35 . 1 `uc 1 ADON 1 0 :1:0 
+[s S889 . 1 `uc 1 ADON 1 0 :1:0 
 `uc 1 GO_nDONE 1 0 :1:1 
 `uc 1 CHS 1 0 :4:2 
 ]
-[s S39 . 1 `uc 1 . 1 0 :1:0 
+[s S893 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GO_DONE 1 0 :1:1 
 `uc 1 CHS0 1 0 :1:2 
 `uc 1 CHS1 1 0 :1:3 
 `uc 1 CHS2 1 0 :1:4 
 `uc 1 CHS3 1 0 :1:5 
 ]
-[s S46 . 1 `uc 1 . 1 0 :1:0 
+[s S900 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 DONE 1 0 :1:1 
 ]
-[s S49 . 1 `uc 1 . 1 0 :1:0 
+[s S903 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GO 1 0 :1:1 
 ]
-[s S52 . 1 `uc 1 . 1 0 :1:0 
+[s S906 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 NOT_DONE 1 0 :1:1 
 ]
-[s S55 . 1 `uc 1 . 1 0 :1:0 
+[s S909 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 nDONE 1 0 :1:1 
 ]
-[s S58 . 1 `uc 1 . 1 0 :1:0 
+[s S912 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 GODONE 1 0 :1:1 
 ]
-[u S61 . 1 `S32 1 . 1 0 `S35 1 . 1 0 `S39 1 . 1 0 `S46 1 . 1 0 `S49 1 . 1 0 `S52 1 . 1 0 `S55 1 . 1 0 `S58 1 . 1 0 ]
-[v _ADCON0bits ADCON0bits `VES61  1 e 1 @4034 ]
+[u S915 . 1 `S886 1 . 1 0 `S889 1 . 1 0 `S893 1 . 1 0 `S900 1 . 1 0 `S903 1 . 1 0 `S906 1 . 1 0 `S909 1 . 1 0 `S912 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES915  1 e 1 @4034 ]
 "6792
 [v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
 "6799
 [v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
 "6806
 [v _SSPCON2 SSPCON2 `VEuc  1 e 1 @4037 ]
-[s S311 . 1 `uc 1 SEN 1 0 :1:0 
+[s S228 . 1 `uc 1 SEN 1 0 :1:0 
 `uc 1 RSEN 1 0 :1:1 
 `uc 1 PEN 1 0 :1:2 
 `uc 1 RCEN 1 0 :1:3 
@@ -376,20 +376,20 @@
 `uc 1 GCEN 1 0 :1:7 
 ]
 "6823
-[u S320 . 1 `S311 1 . 1 0 ]
-[v _SSPCON2bits SSPCON2bits `VES320  1 e 1 @4037 ]
+[u S237 . 1 `S228 1 . 1 0 ]
+[v _SSPCON2bits SSPCON2bits `VES237  1 e 1 @4037 ]
 "6868
 [v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
 "6938
 [v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
-[s S149 . 1 `uc 1 . 1 0 :2:0 
+[s S66 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 R_NOT_W 1 0 :1:2 
 ]
 "7021
-[s S152 . 1 `uc 1 . 1 0 :5:0 
+[s S69 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 D_NOT_A 1 0 :1:5 
 ]
-[s S155 . 1 `uc 1 BF 1 0 :1:0 
+[s S72 . 1 `uc 1 BF 1 0 :1:0 
 `uc 1 UA 1 0 :1:1 
 `uc 1 R_nW 1 0 :1:2 
 `uc 1 S 1 0 :1:3 
@@ -398,56 +398,56 @@
 `uc 1 CKE 1 0 :1:6 
 `uc 1 SMP 1 0 :1:7 
 ]
-[s S164 . 1 `uc 1 . 1 0 :2:0 
+[s S81 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 R_W 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
 `uc 1 D_A 1 0 :1:5 
 ]
-[s S169 . 1 `uc 1 . 1 0 :2:0 
+[s S86 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 I2C_READ 1 0 :1:2 
 `uc 1 I2C_START 1 0 :1:3 
 `uc 1 I2C_STOP 1 0 :1:4 
 `uc 1 I2C_DAT 1 0 :1:5 
 ]
-[s S175 . 1 `uc 1 . 1 0 :2:0 
+[s S92 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 nW 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
 `uc 1 nA 1 0 :1:5 
 ]
-[s S180 . 1 `uc 1 . 1 0 :2:0 
+[s S97 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 NOT_WRITE 1 0 :1:2 
 ]
-[s S183 . 1 `uc 1 . 1 0 :5:0 
+[s S100 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 NOT_ADDRESS 1 0 :1:5 
 ]
-[s S186 . 1 `uc 1 . 1 0 :2:0 
+[s S103 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 nWRITE 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
 `uc 1 nADDRESS 1 0 :1:5 
 ]
-[s S191 . 1 `uc 1 . 1 0 :2:0 
+[s S108 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 READ_WRITE 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
 `uc 1 DATA_ADDRESS 1 0 :1:5 
 ]
-[s S196 . 1 `uc 1 . 1 0 :2:0 
+[s S113 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 R 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
 `uc 1 D 1 0 :1:5 
 ]
-[s S201 . 1 `uc 1 . 1 0 :2:0 
+[s S118 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 RW 1 0 :1:2 
 `uc 1 START 1 0 :1:3 
 `uc 1 STOP 1 0 :1:4 
 `uc 1 DA 1 0 :1:5 
 ]
-[s S207 . 1 `uc 1 . 1 0 :2:0 
+[s S124 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 NOT_W 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
 `uc 1 NOT_A 1 0 :1:5 
 ]
-[u S212 . 1 `S149 1 . 1 0 `S152 1 . 1 0 `S155 1 . 1 0 `S164 1 . 1 0 `S169 1 . 1 0 `S175 1 . 1 0 `S180 1 . 1 0 `S183 1 . 1 0 `S186 1 . 1 0 `S191 1 . 1 0 `S196 1 . 1 0 `S201 1 . 1 0 `S207 1 . 1 0 ]
-[v _SSPSTATbits SSPSTATbits `VES212  1 e 1 @4039 ]
+[u S129 . 1 `S66 1 . 1 0 `S69 1 . 1 0 `S72 1 . 1 0 `S81 1 . 1 0 `S86 1 . 1 0 `S92 1 . 1 0 `S97 1 . 1 0 `S100 1 . 1 0 `S103 1 . 1 0 `S108 1 . 1 0 `S113 1 . 1 0 `S118 1 . 1 0 `S124 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES129  1 e 1 @4039 ]
 "7186
 [v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
 "7193
@@ -500,7 +500,7 @@
 [v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
 "69
 [v _nout nout `i  1 s 2 nout ]
-"50 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+"50 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controlador.c
 [v _sec sec `i  1 e 2 0 ]
 [v _min min `i  1 e 2 0 ]
 [v _hour hour `i  1 e 2 0 ]
@@ -521,7 +521,7 @@
 [v _SensorTemperatura SensorTemperatura `(v  1 e 1 0 ]
 {
 "143
-[v SensorTemperatura@i_901 i `i  1 a 2 80 ]
+[v SensorTemperatura@i_823 i `i  1 a 2 80 ]
 "127
 [v SensorTemperatura@i i `i  1 a 2 78 ]
 "142
@@ -574,13 +574,13 @@
 [v LCD_Custom_Char@loc loc `uc  1 a 1 9 ]
 "105
 } 0
-"162 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+"162 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controlador.c
 [v _SensorMovimiento SensorMovimiento `(v  1 e 1 0 ]
 {
 "211
-[v SensorMovimiento@i_933 i `i  1 a 2 84 ]
+[v SensorMovimiento@i_855 i `i  1 a 2 84 ]
 "194
-[v SensorMovimiento@i_928 i `i  1 a 2 82 ]
+[v SensorMovimiento@i_850 i `i  1 a 2 82 ]
 "177
 [v SensorMovimiento@i i `i  1 a 2 80 ]
 "210
@@ -620,11 +620,11 @@
 [v strcpy@src src `*.25Cuc  1 p 2 6 ]
 "9
 } 0
-"229 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+"229 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controlador.c
 [v _SensorLuz SensorLuz `(v  1 e 1 0 ]
 {
 "251
-[v SensorLuz@i_950 i `i  1 a 2 37 ]
+[v SensorLuz@i_872 i `i  1 a 2 37 ]
 "240
 [v SensorLuz@i i `i  1 a 2 35 ]
 "250
@@ -657,17 +657,17 @@
 "8 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcmul.c
 [v ___flmul __flmul `(d  1 e 4 0 ]
 {
-[s S1258 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+[s S1263 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
 "13
-[s S1263 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
-[u S1266 . 4 `l 1 i 4 0 `d 1 f 4 0 `S1258 1 fAsBytes 4 0 `S1263 1 fAsWords 4 0 ]
-[v ___flmul@prod prod `S1266  1 a 4 41 ]
+[s S1268 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S1271 . 4 `l 1 i 4 0 `d 1 f 4 0 `S1263 1 fAsBytes 4 0 `S1268 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S1271  1 a 4 41 ]
 "12
 [v ___flmul@grs grs `ul  1 a 4 35 ]
-[s S1334 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+[s S1339 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
 "14
-[u S1337 . 2 `s 1 i 2 0 `us 1 n 2 0 `S1334 1 nAsBytes 2 0 ]
-[v ___flmul@temp temp `S1337  1 a 2 45 ]
+[u S1342 . 2 `s 1 i 2 0 `us 1 n 2 0 `S1339 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S1342  1 a 2 45 ]
 "10
 [v ___flmul@bexp bexp `uc  1 a 1 40 ]
 "11
@@ -706,7 +706,7 @@
 [v ___fldiv@a a `d  1 p 4 51 ]
 "185
 } 0
-"32 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\PIC18F4550_ADC_Source_File.c
+"32 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\PIC18F4550_ADC.c
 [v _ADC_Read ADC_Read `(i  1 e 2 0 ]
 {
 "34
@@ -715,7 +715,7 @@
 [v ADC_Read@channel channel `i  1 p 2 0 ]
 "41
 } 0
-"89 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+"89 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controlador.c
 [v _RTC RTC `(v  1 e 1 0 ]
 {
 "101
@@ -723,9 +723,9 @@
 "9 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_sprintf.c
 [v _sprintf sprintf `(i  1 e 2 0 ]
 {
-[s S1400 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[s S1405 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
 "13
-[v sprintf@f f `S1400  1 a 6 18 ]
+[v sprintf@f f `S1405  1 a 6 18 ]
 "12
 [v sprintf@ap ap `[1]*.39v  1 a 2 16 ]
 "9
@@ -738,9 +738,9 @@
 {
 "1393
 [v vfprintf@cfmt cfmt `*.25uc  1 a 2 93 ]
-[s S1426 _IO_FILE 0 ]
+[s S1431 _IO_FILE 0 ]
 "1390
-[v vfprintf@fp fp `*.39S1426  1 p 2 0 ]
+[v vfprintf@fp fp `*.39S1431  1 p 2 0 ]
 [v vfprintf@fmt fmt `*.25Cuc  1 p 2 2 ]
 [v vfprintf@ap ap `*.39*.39v  1 p 2 4 ]
 "1404
@@ -754,9 +754,9 @@
 [v vfpfcnvrt@ll ll `o  1 a 8 76 ]
 "694
 [v vfpfcnvrt@c c `uc  1 a 1 92 ]
-[s S1426 _IO_FILE 0 ]
+[s S1431 _IO_FILE 0 ]
 "692
-[v vfpfcnvrt@fp fp `*.39S1426  1 p 2 66 ]
+[v vfpfcnvrt@fp fp `*.39S1431  1 p 2 66 ]
 [v vfpfcnvrt@fmt fmt `*.39*.25uc  1 p 2 68 ]
 [v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 70 ]
 "1387
@@ -771,9 +771,9 @@
 [v xtoa@i i `i  1 a 2 62 ]
 [v xtoa@w w `i  1 a 2 52 ]
 [v xtoa@p p `i  1 a 2 50 ]
-[s S1426 _IO_FILE 0 ]
+[s S1431 _IO_FILE 0 ]
 "645
-[v xtoa@fp fp `*.39S1426  1 p 2 27 ]
+[v xtoa@fp fp `*.39S1431  1 p 2 27 ]
 [v xtoa@d d `uo  1 p 8 29 ]
 [v xtoa@x x `uc  1 p 1 37 ]
 "687
@@ -812,9 +812,9 @@
 [v dtoa@s s `i  1 a 2 51 ]
 [v dtoa@w w `i  1 a 2 49 ]
 [v dtoa@p p `i  1 a 2 47 ]
-[s S1426 _IO_FILE 0 ]
+[s S1431 _IO_FILE 0 ]
 "287
-[v dtoa@fp fp `*.39S1426  1 p 2 27 ]
+[v dtoa@fp fp `*.39S1431  1 p 2 27 ]
 [v dtoa@d d `o  1 p 8 29 ]
 "328
 } 0
@@ -824,9 +824,9 @@
 "74
 [v pad@w w `i  1 a 2 25 ]
 [v pad@i i `i  1 a 2 23 ]
-[s S1426 _IO_FILE 0 ]
+[s S1431 _IO_FILE 0 ]
 "72
-[v pad@fp fp `*.39S1426  1 p 2 16 ]
+[v pad@fp fp `*.39S1431  1 p 2 16 ]
 [v pad@buf buf `*.39uc  1 p 2 18 ]
 [v pad@p p `i  1 p 2 20 ]
 "95
@@ -849,8 +849,8 @@
 [v fputs@c c `uc  1 a 1 13 ]
 "8
 [v fputs@s s `*.39Cuc  1 p 2 9 ]
-[s S1400 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
-[v fputs@fp fp `*.39S1400  1 p 2 11 ]
+[s S1405 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputs@fp fp `*.39S1405  1 p 2 11 ]
 "19
 } 0
 "1 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\abs.c
@@ -889,9 +889,9 @@
 "261
 [v ctoa@w w `i  1 a 2 15 ]
 [v ctoa@l l `i  1 a 2 13 ]
-[s S1426 _IO_FILE 0 ]
+[s S1431 _IO_FILE 0 ]
 "259
-[v ctoa@fp fp `*.39S1426  1 p 2 9 ]
+[v ctoa@fp fp `*.39S1431  1 p 2 9 ]
 [v ctoa@c c `uc  1 p 1 11 ]
 "283
 } 0
@@ -899,8 +899,8 @@
 [v _fputc fputc `(i  1 e 2 0 ]
 {
 [v fputc@c c `i  1 p 2 0 ]
-[s S1400 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
-[v fputc@fp fp `*.39S1400  1 p 2 2 ]
+[s S1405 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputc@fp fp `*.39S1405  1 p 2 2 ]
 "24
 } 0
 "7 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\putch.c
@@ -908,7 +908,7 @@
 {
 "9
 } 0
-"260 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controler.c
+"260 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\Controlador.c
 [v _RTC_Read_Clock RTC_Read_Clock `(v  1 e 1 0 ]
 {
 [v RTC_Read_Clock@read_clock_address read_clock_address `uc  1 a 1 wreg ]
@@ -1027,7 +1027,7 @@
 {
 "56
 } 0
-"22 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\PIC18F4550_ADC_Source_File.c
+"22 C:\Users\ASUS\Documents\GitHub\ArqCompA\Proyecto ArqCA\HouseAutomatic.X\PIC18F4550_ADC.c
 [v _ADC_Init ADC_Init `(v  1 e 1 0 ]
 {
 "30
