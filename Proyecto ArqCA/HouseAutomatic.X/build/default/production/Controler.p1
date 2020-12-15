@@ -287,6 +287,9 @@ Version 4.0 HI-TECH Software Intermediate Code
 "9957
 [; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 9957: extern volatile __bit LATB3 __attribute__((address(0x7C53)));
 [v _LATB3 `Vb ~T0 @X0 0 e@31827 ]
+"5402
+[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5402: extern volatile unsigned char TXREG __attribute__((address(0xFAD)));
+[v _TXREG `Vuc ~T0 @X0 0 e@4013 ]
 "52 ./LCD_20x4_Header_File.h
 [; ;./LCD_20x4_Header_File.h: 52: void LCD_Custom_Char(unsigned char loc,unsigned char *msg);
 [v _LCD_Custom_Char `(v ~T0 @X0 0 ef2`uc`*uc ]
@@ -296,10 +299,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 "48
 [; ;./LCD_20x4_Header_File.h: 48: void LCD_Char(char x);
 [v _LCD_Char `(v ~T0 @X0 0 ef1`uc ]
-"5402 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
-[; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 5402: extern volatile unsigned char TXREG __attribute__((address(0xFAD)));
-[v _TXREG `Vuc ~T0 @X0 0 e@4013 ]
-"3438
+"3438 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
 [; ;C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 3438:     struct {
 [s S145 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S145 . TRISA0 TRISA1 TRISA2 TRISA3 TRISA4 TRISA5 TRISA6 ]
@@ -1599,23 +1599,11 @@ Version 4.0 HI-TECH Software Intermediate Code
 "126
 [; ;Controler.c: 126:         LATB3 = 0;
 [e = _LATB3 -> -> 0 `i `b ]
-"128
-[; ;Controler.c: 128:         LCD_String_xy(2,13,"Cal: ");
-[e ( _LCD_String_xy (3 , , -> -> 2 `i `uc -> -> 13 `i `uc :s 6C ]
-"129
-[; ;Controler.c: 129:         LCD_Custom_Char(0,character1);
-[e ( _LCD_Custom_Char (2 , -> -> 0 `i `uc &U _character1 ]
-"130
-[; ;Controler.c: 130:         LCD_Command(0xc0|(17));
-[e ( _LCD_Command (1 -> | -> 192 `i -> 17 `i `uc ]
-"131
-[; ;Controler.c: 131:         LCD_Char(0);
-[e ( _LCD_Char (1 -> -> 0 `i `uc ]
 [v F3715 `uc ~T0 @X0 -> 23 `i s ]
 [i F3715
 :U ..
-"133
-[; ;Controler.c: 133:         char buffer_TX1[] = "Calefaccion encendida\r";
+"128
+[; ;Controler.c: 128:         char buffer_TX1[] = "Calefaccion encendida\r";
 -> 67 `c
 -> 97 `c
 -> 108 `c
@@ -1643,8 +1631,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 ]
 [v _buffer_TX1 `uc ~T0 @X0 -> 23 `i a ]
 [e = _buffer_TX1 F3715 ]
-"134
-[; ;Controler.c: 134:         for (int i = 0; i < 25; i++) {
+"129
+[; ;Controler.c: 129:         for (int i = 0; i < 25; i++) {
 {
 [v _i `i ~T0 @X0 1 a ]
 [e = _i -> 0 `i ]
@@ -1652,29 +1640,41 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e $U 426  ]
 [e :U 425 ]
 {
-"135
-[; ;Controler.c: 135:             while (!TXSTAbits.TRMT) {
+"130
+[; ;Controler.c: 130:             while (!TXSTAbits.TRMT) {
 [e $U 428  ]
 [e :U 429 ]
 {
-"136
-[; ;Controler.c: 136:             }
+"131
+[; ;Controler.c: 131:             }
 }
 [e :U 428 ]
-"135
-[; ;Controler.c: 135:             while (!TXSTAbits.TRMT) {
+"130
+[; ;Controler.c: 130:             while (!TXSTAbits.TRMT) {
 [e $ ! != -> . . _TXSTAbits 0 1 `i -> 0 `i 429  ]
 [e :U 430 ]
-"137
-[; ;Controler.c: 137:             TXREG = buffer_TX1[i];
+"132
+[; ;Controler.c: 132:             TXREG = buffer_TX1[i];
 [e = _TXREG -> *U + &U _buffer_TX1 * -> -> _i `ui `ux -> -> # *U &U _buffer_TX1 `ui `ux `uc ]
-"138
-[; ;Controler.c: 138:         }
+"133
+[; ;Controler.c: 133:         }
 }
 [e ++ _i -> 1 `i ]
 [e $ < _i -> 25 `i 425  ]
 [e :U 426 ]
 }
+"135
+[; ;Controler.c: 135:         LCD_String_xy(2,13,"Cal: ");
+[e ( _LCD_String_xy (3 , , -> -> 2 `i `uc -> -> 13 `i `uc :s 6C ]
+"136
+[; ;Controler.c: 136:         LCD_Custom_Char(0,character1);
+[e ( _LCD_Custom_Char (2 , -> -> 0 `i `uc &U _character1 ]
+"137
+[; ;Controler.c: 137:         LCD_Command(0xc0|(17));
+[e ( _LCD_Command (1 -> | -> 192 `i -> 17 `i `uc ]
+"138
+[; ;Controler.c: 138:         LCD_Char(0);
+[e ( _LCD_Char (1 -> -> 0 `i `uc ]
 "140
 [; ;Controler.c: 140:     } else {
 }
@@ -1687,23 +1687,11 @@ Version 4.0 HI-TECH Software Intermediate Code
 "142
 [; ;Controler.c: 142:         LATB3 = 1;
 [e = _LATB3 -> -> 1 `i `b ]
-"144
-[; ;Controler.c: 144:         LCD_String_xy(2,13,"Cal: ");
-[e ( _LCD_String_xy (3 , , -> -> 2 `i `uc -> -> 13 `i `uc :s 7C ]
-"145
-[; ;Controler.c: 145:         LCD_Custom_Char(0,character2);
-[e ( _LCD_Custom_Char (2 , -> -> 0 `i `uc &U _character2 ]
-"146
-[; ;Controler.c: 146:         LCD_Command(0xc0|(17));
-[e ( _LCD_Command (1 -> | -> 192 `i -> 17 `i `uc ]
-"147
-[; ;Controler.c: 147:         LCD_Char(0);
-[e ( _LCD_Char (1 -> -> 0 `i `uc ]
 [v F3718 `uc ~T0 @X0 -> 21 `i s ]
 [i F3718
 :U ..
-"149
-[; ;Controler.c: 149:         char buffer_TX2[] = "Calefaccion apagada\r";
+"144
+[; ;Controler.c: 144:         char buffer_TX2[] = "Calefaccion apagada\r";
 -> 67 `c
 -> 97 `c
 -> 108 `c
@@ -1729,8 +1717,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 ]
 [v _buffer_TX2 `uc ~T0 @X0 -> 21 `i a ]
 [e = _buffer_TX2 F3718 ]
-"150
-[; ;Controler.c: 150:         for (int i = 0; i < 21; i++) {
+"145
+[; ;Controler.c: 145:         for (int i = 0; i < 21; i++) {
 {
 [v _i `i ~T0 @X0 1 a ]
 [e = _i -> 0 `i ]
@@ -1738,29 +1726,41 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e $U 433  ]
 [e :U 432 ]
 {
-"151
-[; ;Controler.c: 151:             while (!TXSTAbits.TRMT) {
+"146
+[; ;Controler.c: 146:             while (!TXSTAbits.TRMT) {
 [e $U 435  ]
 [e :U 436 ]
 {
-"152
-[; ;Controler.c: 152:             }
+"147
+[; ;Controler.c: 147:             }
 }
 [e :U 435 ]
-"151
-[; ;Controler.c: 151:             while (!TXSTAbits.TRMT) {
+"146
+[; ;Controler.c: 146:             while (!TXSTAbits.TRMT) {
 [e $ ! != -> . . _TXSTAbits 0 1 `i -> 0 `i 436  ]
 [e :U 437 ]
-"153
-[; ;Controler.c: 153:             TXREG = buffer_TX2[i];
+"148
+[; ;Controler.c: 148:             TXREG = buffer_TX2[i];
 [e = _TXREG -> *U + &U _buffer_TX2 * -> -> _i `ui `ux -> -> # *U &U _buffer_TX2 `ui `ux `uc ]
-"154
-[; ;Controler.c: 154:         }
+"149
+[; ;Controler.c: 149:         }
 }
 [e ++ _i -> 1 `i ]
 [e $ < _i -> 21 `i 432  ]
 [e :U 433 ]
 }
+"151
+[; ;Controler.c: 151:         LCD_String_xy(2,13,"Cal: ");
+[e ( _LCD_String_xy (3 , , -> -> 2 `i `uc -> -> 13 `i `uc :s 7C ]
+"152
+[; ;Controler.c: 152:         LCD_Custom_Char(0,character2);
+[e ( _LCD_Custom_Char (2 , -> -> 0 `i `uc &U _character2 ]
+"153
+[; ;Controler.c: 153:         LCD_Command(0xc0|(17));
+[e ( _LCD_Command (1 -> | -> 192 `i -> 17 `i `uc ]
+"154
+[; ;Controler.c: 154:         LCD_Char(0);
+[e ( _LCD_Char (1 -> -> 0 `i `uc ]
 "156
 [; ;Controler.c: 156:     }
 }
