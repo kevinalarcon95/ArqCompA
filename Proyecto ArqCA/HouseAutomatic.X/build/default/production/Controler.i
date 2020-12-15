@@ -6106,7 +6106,7 @@ int sec, min, hour;
 char secs[10], mins[10], hours[10];
 
 
-unsigned char character1[8] = {0x00, 0x00, 0x04, 0x0E, 0x1F, 0x04, 0x04, 0x04};
+unsigned char character1[8] = {0x04, 0x0E, 0x1F, 0x04, 0x04, 0x04, 0x00, 0x00};
 unsigned char character2[8] = {0x00, 0x04, 0x04, 0x04, 0x1F, 0x0E, 0x04, 0x00};
 
 
@@ -6135,6 +6135,24 @@ void main() {
         SensorMovimiento();
         SensorLuz();
     }
+}
+
+
+
+
+
+void RTC() {
+    RTC_Read_Clock(0);
+    I2C_Stop();
+
+
+    hour = hour & (0x1f);
+    sprintf(secs, "%x ", sec);
+    sprintf(mins, "%x:", min);
+    sprintf(hours, "Tim:%x:", hour);
+    LCD_String_xy(0, 0, hours);
+    LCD_String(mins);
+    LCD_String(secs);
 }
 
 
@@ -6173,7 +6191,7 @@ void SensorTemperatura() {
             }
             TXREG = buffer_TX1[i];
         }
-        MSdelay(1000);
+
     } else {
         LATB2 = 0;
         LATB3 = 1;
@@ -6189,43 +6207,7 @@ void SensorTemperatura() {
             }
             TXREG = buffer_TX2[i];
         }
-        MSdelay(1000);
-    }
-}
 
-
-
-
-
-
-void SensorLuz() {
-
-    float val;
-    LCD_Command(0x40);
-    val = (ADC_Read(1)*5.0) / 1023.0;
-
-    if (val > 3) {
-
-        LCD_String_xy(4, 0, "Cortina Arriba       ");
-        PORTEbits.RE0 = 1;
-        char buffer_TX3[] = "Cortina arriba\r";
-        for (int i = 0; i < 15; i++) {
-            while (!TXSTAbits.TRMT) {
-            }
-            TXREG = buffer_TX3[i];
-        }
-        MSdelay(1000);
-
-    } else {
-        LCD_String_xy(4, 0, "Cortina Abajo        ");
-        PORTEbits.RE0 = 0;
-        char buffer_TX4[] = "Cortina abajo\r";
-        for (int i = 0; i < 15; i++) {
-            while (!TXSTAbits.TRMT) {
-            }
-            TXREG = buffer_TX4[i];
-        }
-        MSdelay(1000);
     }
 }
 
@@ -6296,6 +6278,42 @@ void SensorMovimiento() {
     LCD_String_xy(3,0,buf);
 }
 
+
+
+
+
+
+void SensorLuz() {
+
+    float val;
+    LCD_Command(0x40);
+    val = (ADC_Read(1)*5.0) / 1023.0;
+
+    if (val > 3) {
+
+        LCD_String_xy(4, 0, "Cortina Arriba       ");
+        PORTEbits.RE0 = 1;
+        char buffer_TX3[] = "Cortina arriba\r";
+        for (int i = 0; i < 15; i++) {
+            while (!TXSTAbits.TRMT) {
+            }
+            TXREG = buffer_TX3[i];
+        }
+
+
+    } else {
+        LCD_String_xy(4, 0, "Cortina Abajo        ");
+        PORTEbits.RE0 = 0;
+        char buffer_TX4[] = "Cortina abajo\r";
+        for (int i = 0; i < 15; i++) {
+            while (!TXSTAbits.TRMT) {
+            }
+            TXREG = buffer_TX4[i];
+        }
+
+    }
+}
+
 void RTC_Read_Clock(char read_clock_address) {
     I2C_Start(0xD0);
     I2C_Write(read_clock_address);
@@ -6303,22 +6321,4 @@ void RTC_Read_Clock(char read_clock_address) {
     sec = I2C_Read(0);
     min = I2C_Read(0);
     hour = I2C_Read(1);
-}
-
-
-
-
-
-void RTC() {
-    RTC_Read_Clock(0);
-    I2C_Stop();
-
-
-    hour = hour & (0x1f);
-    sprintf(secs, "%x ", sec);
-    sprintf(mins, "%x:", min);
-    sprintf(hours, "Tim:%x:", hour);
-    LCD_String_xy(0, 0, hours);
-    LCD_String(mins);
-    LCD_String(secs);
 }
