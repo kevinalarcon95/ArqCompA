@@ -169,6 +169,9 @@ void SensorLuz() {
 }
 
 /*
+ * Procedimiento que enciende automaticamende
+ * los led  si hay presencia, en caso de que no
+ * los apaga
  */
 void SensorMovimiento() {
     ADCON1    = 0x0F; 
