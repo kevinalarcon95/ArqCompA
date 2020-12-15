@@ -124,27 +124,22 @@ void SensorTemperatura() {
     if (celsius >= 20 && celsius <= 25) {
         LED5 = 1;
         LED6 = 0;
-        
-        LCD_String_xy(2,13,"Cal: ");
-        LCD_Custom_Char(0,character1);
-        LCD_Command(0xc0|(17));
-        LCD_Char(0);
-        
+
         char buffer_TX1[] = "Calefaccion encendida\r";
         for (int i = 0; i < 25; i++) {
             while (!TXSTAbits.TRMT) {
             }
             TXREG = buffer_TX1[i];
         }
+        
+        LCD_String_xy(2,13,"Cal: ");
+        LCD_Custom_Char(0,character1);
+        LCD_Command(0xc0|(17));
+        LCD_Char(0);
         //MSdelay(1000);
     } else {
         LED5 = 0;
         LED6 = 1;
-        
-        LCD_String_xy(2,13,"Cal: ");
-        LCD_Custom_Char(0,character2);
-        LCD_Command(0xc0|(17));
-        LCD_Char(0);
         
         char buffer_TX2[] = "Calefaccion apagada\r";
         for (int i = 0; i < 21; i++) {
@@ -152,6 +147,11 @@ void SensorTemperatura() {
             }
             TXREG = buffer_TX2[i];
         }
+        
+        LCD_String_xy(2,13,"Cal: ");
+        LCD_Custom_Char(0,character2);
+        LCD_Command(0xc0|(17));
+        LCD_Char(0);
         //MSdelay(1000);
     }
 }
